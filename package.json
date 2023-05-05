@@ -1,0 +1,22 @@
+{
+  "name": "vexils",
+  "version": "1.0.0",
+  "description": "Country flags icons",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "night-owl --watch --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lokesh.dhakar/quantize": "^1.3.0",
+    "color": "^4.2.3",
+    "color-diff": "^1.3.0",
+    "night-owl": "^0.5.3",
+    "node-fetch": "^3.3.1",
+    "pretty": "^2.0.0",
+    "svgo": "^3.0.2"
+  }
+}

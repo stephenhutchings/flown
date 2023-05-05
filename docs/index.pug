@@ -1,0 +1,42 @@
+article
+  p Original palette
+  img(width=500 class="palette" src="./assets/img/palette/all.svg")
+
+  p Quantized palette (16 colors)
+  img(width=500 class="palette" src="./assets/img/palette/16.svg")
+
+  p Quantized palette (16 colors, weighted, sRGB)
+  img(width=500 class="palette" src="./assets/img/palette/weighted-16.svg")
+
+  p Quantized palette (16 colors, weighted, LUV)
+  img(width=500 class="palette" src="./assets/img/palette/weighted-16-LUV.svg")
+
+  p Quantized palette (24 colors)
+  img(width=500 class="palette" src="./assets/img/palette/24.svg")
+
+  p Quantized palette (24 colors, weighted, sRGB)
+  img(width=500 class="palette" src="./assets/img/palette/weighted-24.svg")
+
+  p Quantized palette (24 colors, weighted, LUV)
+  img(width=500 class="palette" src="./assets/img/palette/weighted-24-LUV.svg")
+
+  p Custom palette (24 colors)
+  img(width=500 class="palette" src="./assets/img/palette/custom-24.svg")
+
+.grid
+  each flag in flags
+    section
+      .head
+        h2= flag.name
+        span.emoji= flag.emoji
+
+      figure.compare
+        each type in ["original", "recolored"]
+          a(href=`./assets/img/${type}/${flag.slug}.svg`)
+            img.flag(src=`./assets/img/${type}/${flag.slug}.svg`)
+
+      .info
+        code= flag.a2
+        code= flag.a3
+        span= flag.size
+        a(href=flag.info target="_blank") Wikipedia
