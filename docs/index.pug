@@ -37,6 +37,11 @@ article
 
       .info
         code= flag.a2
-        code= flag.a3
-        span= flag.size
+
+        if flag.a3
+          code= flag.a3
+
+        if flag.size
+          span= flag.size
+
         a(href=flag.info target="_blank") Wikipedia
