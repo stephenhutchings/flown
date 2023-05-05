@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1020" height="600">
+  <path fill="#003188" d="M0 0h1020v600H0z"/>
+  <path fill="#faf6f5" d="M0 300h1020v150H0z"/>
+  <path fill="#c40f38" d="M0 350h1020v50H0z"/>
+  <g fill="#ffdc0f" transform="matrix(2 0 0 2 382.5 375)">
+    <g id="d">
+      <g id="c" transform="translate(0 -75)">
+        <g id="b">
+          <path id="a" d="M0-15V0h7.5" transform="rotate(18 0 -15)"/>
+          <use xlink:href="#a" width="100%" height="100%" transform="scale(-1 1)"/>
+        </g>
+        <use xlink:href="#b" width="100%" height="100%" transform="rotate(72)"/>
+        <use xlink:href="#b" width="100%" height="100%" transform="rotate(144)"/>
+        <use xlink:href="#b" width="100%" height="100%" transform="rotate(-144)"/>
+        <use xlink:href="#b" width="100%" height="100%" transform="rotate(-72)"/>
+      </g>
+      <use xlink:href="#c" width="100%" height="100%" y="150"/>
+    </g>
+    <use xlink:href="#d" width="100%" height="100%" transform="rotate(72)"/>
+    <use xlink:href="#d" width="100%" height="100%" transform="rotate(144)"/>
+    <use xlink:href="#d" width="100%" height="100%" transform="rotate(-144)"/>
+    <use xlink:href="#d" width="100%" height="100%" transform="rotate(-72)"/>
+  </g>
+</svg>
