@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "night-owl --watch --serve"
+    "start": "night-owl --watch --serve",
+    "build": "night-owl --build"
   },
   "keywords": [],
   "author": "",
