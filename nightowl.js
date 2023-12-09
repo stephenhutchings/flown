@@ -1,7 +1,27 @@
 import { marked } from "marked"
 import { markedSmartypants } from "marked-smartypants"
 
+import posthtml from "posthtml"
+import baseUrl from "posthtml-base-url"
+
 marked.use(markedSmartypants())
+
+const transform = process.env.NIGHTOWL_MODE === "build" && [
+  (content, filename) => {
+    if (filename.endsWith(".html")) {
+      return posthtml([
+        baseUrl({
+          url: "/flown",
+          allTags: true,
+        }),
+      ])
+        .process(content)
+        .then((result) => result.html)
+    } else {
+      return content
+    }
+  },
+]
 
 export default {
   src: "docs",
@@ -31,6 +51,7 @@ export default {
       dist: "dist/assets/img/flags/redrawn",
     },
   ],
+  transform,
   compilers: {
     pug: {
       options: {
