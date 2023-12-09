@@ -1010,10 +1010,10 @@
     ],
     "size": {
       "source": 5325,
-      "output": 4152,
-      "compression": 78
+      "output": 4194,
+      "compression": 78.8
     },
-    "elementCount": 78,
+    "elementCount": 41,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas"
   },
@@ -6574,6 +6574,7 @@
     "slug": "lk",
     "ratio": "1:2",
     "colors": [
+      2,
       8,
       10,
       16,
@@ -6581,8 +6582,8 @@
     ],
     "size": {
       "source": 15392,
-      "output": 21367,
-      "compression": 138.8
+      "output": 21382,
+      "compression": 138.9
     },
     "elementCount": 6,
     "subregion": "Southern Asia",
