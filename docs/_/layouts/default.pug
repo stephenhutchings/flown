@@ -6,11 +6,11 @@ html(lang="en-GB")
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     )
 
-    link(rel="stylesheet" href="/assets/app.css")
-    link(rel="shortcut icon" href="/assets/favicon.png")
-
     if process.env.NIGHTOWL_MODE === "build"
       base(href="https://stephenhutchings.github.io/flown/")
+
+    link(rel="stylesheet" href="/assets/app.css")
+    link(rel="shortcut icon" href="/assets/favicon.png")
 
   body(class=`page-${meta.url.split("/")[1] || "home"}`)
     header
