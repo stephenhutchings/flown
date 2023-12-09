@@ -1,0 +1,1 @@
+(()=>{var t=e=>{let r=document.querySelector(e.currentTarget.hash);r&&e.currentTarget.dataset.noscroll===void 0&&e.currentTarget.hash&&e.currentTarget.pathname===window.location.pathname&&!e.metaKey&&(e.preventDefault(),r.scrollIntoView({behavior:"smooth"}))};Array.from(document.querySelectorAll("a[href*='#']")).forEach(e=>e.addEventListener("click",t));})();

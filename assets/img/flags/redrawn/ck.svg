@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720"
+  fill="#fff">
+  <path d="m0 0h1200v720H0Z" fill="#012169" />
+  <path
+    d="m600 34l-154 96h154v100h-154l154 96v34h-67l-183-117v117h-100v-117l-188 117H0v-34l154-96H0v-100h154L0 34V0h67l183 117V0h100v117L538 0h62Z" />
+  <path
+    d="M174 130 0 22V0l212 130ZM330 0h-60v150H0v60h270v150h60V210h270v-60H330Zm270 0h-38L350 130h38L600 0ZM0 360h38l212-130h-38Zm388-130 212 130v-22L426 230Z"
+    fill="#c8102e" />
+
+  <g transform="translate(900 360)">
+    <g id="d">
+      <path id="c" d="M0-249 26-168-43-218H43L-26-168Z" />
+      <use xlink:href="#c" transform="rotate(24)" />
+      <use xlink:href="#c" transform="rotate(48)" />
+    </g>
+    <use xlink:href="#d" transform="rotate(72)" />
+    <use xlink:href="#d" transform="rotate(144)" />
+    <use xlink:href="#d" transform="rotate(216)" />
+    <use xlink:href="#d" transform="rotate(288)" />
+  </g>
+</svg>

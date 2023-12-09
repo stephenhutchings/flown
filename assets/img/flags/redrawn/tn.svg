@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path fill="#e70013" d="m0 0h1200v720H0Z" />
+  <circle fill="#fff" cx="600" cy="360" r="200" />
+  <path fill="#e70013"
+    d="M720 272A150 150 0 1 0 720 448A120 120 0 1 1 720 272M550 360l163-53-101 139v-171l101 139-163-53Z" />
+</svg>

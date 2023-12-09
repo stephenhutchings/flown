@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720">
+  <path d="m0 0h1200v720H0V0Z" fill="#00993e" />
+  <path d="m0 103h1200v102.8H0v-102.8Zm0 205.6h1200v102.8H0v-102.8Zm0 205.6h1200v102.8H0v-102.8Z" fill="#fff" />
+  <path d="m0 0h500v308.6H0V0Z" fill="#c8312a" />
+  <g fill="#fff">
+
+    <path
+      d="m226 268l-4-17c-7-9-13-30-13-46 0-13 3-59 3-70 0-4 2-6 5-6s5 2 5 6l1 43 4-1v-60c0-4 2-7 6-7s6 3 6 7v56l4-1 1-61c0-5 2-8 6-8s6 3 6 8l1 60h4v-52c0-4 2-7 6-7s6 3 6 7l2 53 5 31h2l8-13c6-10 14-19 21-19 2 0 4 1 4 3s-1 4-3 6c-7 7-9 21-11 27-2 7-6 17-13 26-6 8-18 18-19 21l-2 14h-41Z" />
+    <path id="a" d="M250 41l13 40 -33-25h40l-33 25Z" />
+    <use xlink:href="#a" transform="translate(-74 16)" />
+    <use xlink:href="#a" transform="translate(-136 62)" />
+    <use xlink:href="#a" transform="translate(-172 128)" />
+    <use xlink:href="#a" transform="translate(172 128)" />
+    <use xlink:href="#a" transform="translate(136 62)" />
+    <use xlink:href="#a" transform="translate(74 16)" />
+  </g>
+</svg>

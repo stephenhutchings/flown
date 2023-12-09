@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path d="m0 0h1200v720H0V0Z" fill="#ce1126" />
+  <path d="m0 0v360h600V0H0Z" fill="#002b7f" />
+  <path
+    d="m336 226l14-44 15 44-37-27h45Zm46-63l21-66 21 66-55-41h69Zm-105-65l23-69 23 69-60-43h74Zm-100 83l22-70 23 70-59-43h73Zm95 150l28-87 28 87-74-54h92Z"
+    fill="#fff" />
+</svg>
