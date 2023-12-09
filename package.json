@@ -1,6 +1,6 @@
 {
-  "name": "wip",
-  "version": "1.0.0",
+  "name": "flown",
+  "version": "0.0.0",
   "description": "Country flags icons",
   "main": "index.js",
   "type": "module",
