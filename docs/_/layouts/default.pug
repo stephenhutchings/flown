@@ -1,0 +1,25 @@
+html(lang="en-GB")
+  head
+    meta(charset="utf-8")
+    meta(
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    )
+
+    link(rel="stylesheet" href="/assets/app.css")
+    link(rel="shortcut icon" href="/assets/favicon.png")
+
+  body(class=`page-${meta.url.split("/")[1] || "home"}`)
+    header
+      nav.fx.gap.pb2
+        a(href="/") flown
+        a(href="/about/") about
+        a(href="/size/") size
+
+        a.misa(href=links.npm[1])= links.npm[0]
+        a(href=links.git[1])= links.git[0]
+
+    block body
+      != content
+
+    script(src="/assets/app.js")

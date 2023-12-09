@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="325" height="216">
+<title>Flag of the Front National de Liberation de la Martinique</title>
+
+	<rect id="black_stripe" width="325" height="216" y="0" x="0" fill="#000000"/>
+	<rect id="green_stripe" width="325" height="108" y="0" x="0" fill="#058b08"/>
+	<polygon points="0,0 161,108 0,216" fill="#ea0000"/>
+</svg>

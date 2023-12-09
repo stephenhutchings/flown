@@ -1,0 +1,32 @@
+.quicklook dl
+  flex-flow: wrap column
+
+.quicklook dt,
+.quicklook dd
+  border-top-width: 1px
+
+.quicklook dd
+  font-size: 4rem
+  line-height: 1
+  text-align: right
+  margin-left: -1rem
+
+.jumpto .nano
+  margin-top: 0.125rem
+
+.colors
+  border-top-width: 1px
+
+  h2
+    flex-basis: 10%
+
+@media (max-width: $screen-md-max)
+  .quicklook dl > *
+    width: auto
+
+@media (max-width: $screen-sm-max)
+  .quicklook dd
+    font-size: 2.5rem
+
+  .colors
+    display: block

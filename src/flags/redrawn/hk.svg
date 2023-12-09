@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720"
+  fill="#ee1c25">
+  <path d="M0 0h1200v720H0z" />
+  <g id="a">
+    <path fill="#fff"
+      d="m653 139c-25 9-33 32-19 53 19 30 10 66-22 82-34 17-41 54-17 83-38-29-46.5-80.5-20.5-117.5l-3.5-2.5c-28 39-18 93 21 123-58-24-87-91-63-150 20-50 71-79 124-71Z" />
+    <path d="m602 210.46l-34.73 15.15 37 8.16-25.14-28.35 3.67 37.71" />
+  </g>
+  <g id="b">
+    <use xlink:href="#a" transform="rotate(72 600 360)" />
+    <use xlink:href="#a" transform="rotate(216 600 360)" />
+  </g>
+  <use xlink:href="#b" transform="rotate(72 600 360)" />
+</svg>

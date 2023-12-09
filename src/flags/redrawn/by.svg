@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720">
+  <path d="m0 0h1200v720H0Z" fill="#c23129" />
+  <path d="m162 480h1038v240H162Z" fill="#2d7939" />
+  <g id="b">
+    <path id="a"
+      d="m42 311h6v-9h7v-12h4v-10h5v-11h7v-15h-9v-14h-9v-8h-17v12h10v10h-7v13h-7v12h-10v-12h-7v-13h-4v-10h-5v22h7v16h-7v19h7v7h5v11h7v12h10v-11h7Zm-17 33h-7v-6h-5v-12h-7v35h24v-6h-5ZM13 35h6v-13h8v-11h7V0H6v5h7v14h-7v27h7Zm17 27h6v12h6v9h6v-9h7v-12h6v-16h-6v-12h-7v-10h-6v10h-6v12h-6Zm11-16h8v15h-8Zm37 26h-7v13h-8v10h-7v12h-6v10h-10v-10h-6v-12h-7v-10h-8v-13h-6v-10h-7v22h7v15h-7v33h7v-11h7v-11h8v11h8v11h6v14h-6v12h-8v11h-8v-11h-7v-12h-7v27h7v16h-7v35h7v-14h5v-10h4v-11h6v-11h6v-8h7v-12h9v12h7v8h6v11h6v11h6v10h4v9h6v-29h-5v-21h5v-23h-7v12h-8v11h-8v-11h-7v-12h-7v-14h7v-11h7v-11h8v11h8v11h7v-25h-5v-21h5v-24h-7Zm2-46V0h-24v11h6v11h9v13h7v11h7v-20Zm-59 106v14h6v-14Zm57 161h-2v11h-7v11h-5v8h-3v8h-8v9h-11v21h13v-8h6v8h18v-7h-4v-7h-6v-20h6v8h5v12h5v-27h-5v-14h5v-24h-7Zm-9-147v-14h-6v14Z"
+      fill="#fff" />
+    <use xlink:href="#a" transform="matrix(-1 0 0 1 168 0)" />
+  </g>
+  <use xlink:href="#b" transform="matrix(1 0 0 -1 0 720)" />
+</svg>

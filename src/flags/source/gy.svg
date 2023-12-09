@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 100 60">
+	<title>Flag of Guyana</title>
+	<defs>
+		<clipPath id="w">
+			<path d="m0 0 100 30L0 60z"/>
+		</clipPath>
+		<clipPath id="b">
+			<path d="m0 0 50 30L0 60z"/>
+		</clipPath>
+	</defs>
+	<path fill="#009e49" d="m0 0h100v60H0z"/>
+	<path clip-path="url(#w)" fill="#fcd116" stroke="#fff" stroke-width="4" d="m0 0 100 30L0 60"/>
+	<path clip-path="url(#b)" fill="#ce1126" stroke="#000" stroke-width="6" d="m0 0 50 30L0 60"/>
+</svg>

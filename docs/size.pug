@@ -1,0 +1,18 @@
+extends /_/layouts/default
+
+block body
+  .flags
+    ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
+      each flag in flags.sort((a, b) => b.size.output - a.size.output)
+        li.flag(class=[
+          flag.size.output > 10000 ? "large" : ""
+        ])
+          a(href=`/flags/${flag.slug}`)
+            figure
+              img.flag(
+                src=`/assets/img/flags/recolored/${flag.slug}.svg`
+              )
+
+            .fx.mb1.aic
+              h3.nano= flag.name
+              code.code.nano.misa= flag.a2

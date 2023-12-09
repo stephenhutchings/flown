@@ -1,0 +1,22 @@
+extends /_/layouts/default
+
+include /_/mixins/color
+include /_/mixins/flag
+
+block body
+  .pb2
+    +color(locals)
+      p.pb2
+        | There are #{list.length} flags that use this colour.
+
+  ul.gr6.md-gr4.sm-gr2.gap
+    each id in list
+      - const flag = flags[id]
+      if flag
+        li
+          a(href=`/flags/${flag.slug}`)
+            +flag(flag.slug)
+
+            .fx.mb1.aic
+              h3.nano= flag.name
+              code.code.nano.misa= flag.a2

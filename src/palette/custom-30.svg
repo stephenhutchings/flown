@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 10">
+  <path d="m0,0h10v10H0V0Z" fill="#faf6f5" />
+  <path d="m10,0h10v10h-10V0Z" fill="#dad8d8" />
+  <path d="m20,0h10v10h-10V0Z" fill="#bababa" />
+  <path d="m30,0h10v10h-10V0Z" fill="#888" />
+  <path d="m40,0h10v10h-10V0Z" fill="#6c401f" />
+  <path d="m50,0h10v10h-10V0Z" fill="#9d7a51" />
+  <path d="m60,0h10v10h-10V0Z" fill="#d5b274" />
+  <path d="m70,0h10v10h-10V0Z" fill="#cb8500" />
+  <path d="m80,0h10v10h-10V0Z" fill="#f76230" />
+  <path d="m90,0h10v10h-10V0Z" fill="#fd8b32" />
+  <path d="m100,0h10v10h-10V0Z" fill="#ffb81c" />
+  <path d="m110,0h10v10h-10V0Z" fill="#ffdc0f" />
+  <path d="m120,0h10v10h-10V0Z" fill="#24a34e" />
+  <path d="m130,0h10v10h-10V0Z" fill="#0b7536" />
+  <path d="m140,0h10v10h-10V0Z" fill="#00906d" />
+  <path d="m150,0h10v10h-10V0Z" fill="#057d58" />
+  <path d="m160,0h10v10h-10V0Z" fill="#0a6a42" />
+  <path d="m170,0h10v10h-10V0Z" fill="#0a1a1d" />
+  <path d="m180,0h10v10h-10V0Z" fill="#0096aa" />
+  <path d="m190,0h10v10h-10V0Z" fill="#29b9cc" />
+  <path d="m200,0h10v10h-10V0Z" fill="#60c0e2" />
+  <path d="m210,0h10v10h-10V0Z" fill="#47a3d8" />
+  <path d="m220,0h10v10h-10V0Z" fill="#2d86cf" />
+  <path d="m230,0h10v10h-10V0Z" fill="#1469c5" />
+  <path d="m240,0h10v10h-10V0Z" fill="#0a48b4" />
+  <path d="m260,0h10v10h-10V0Z" fill="#003396" />
+  <path d="m250,0h10v10h-10V0Z" fill="#012778" />
+  <path d="m270,0h10v10h-10V0Z" fill="#ea0334" />
+  <path d="m280,0h10v10h-10V0Z" fill="#c40f38" />
+  <path d="m290,0h10v10h-10V0Z" fill="#96153d" />
+</svg>

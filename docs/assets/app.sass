@@ -1,0 +1,153 @@
+$screen-md-max: 64rem
+$screen-sm-max: 36rem
+
+:root
+  --clr-muted: #678
+
+@import "sass/_code"
+@import "sass/_margin"
+@import "sass/_padding"
+@import "sass/_flex"
+@import "sass/_grid"
+@import "sass/_home"
+
+body
+  font-family: system-ui, sans-serif
+  max-width: 1200px
+  margin: auto
+  padding: 1rem
+  background: #121e25
+  color: #dde
+
+h1, h2, h3, h4
+  color: #fff
+
+*
+  margin: 0
+  border: 0px solid #567
+
+section
+  &.large
+    border-color: red
+
+ol, ul
+  list-style: none
+  padding: 0
+
+a
+  color: inherit
+  text-decoration-thickness: 1px
+  text-underline-offset: 2px
+
+  &:hover
+    color: #fff
+
+img
+  max-width: 100%
+
+img, svg
+  display: block
+
+article
+  margin-bottom: 1rem
+  line-height: 1.5
+  max-width: 48rem
+  font-size: 1.125rem
+
+  figure, p, ul, ol
+    margin-block-end: 2rem
+
+  figure img
+    width: 100%
+    height: auto
+
+  figcaption
+    opacity: 0.8
+    font-size: 85%
+    margin-block-start: 1rem
+
+  ol, ul
+    margin-inline-start: 1.5rem
+
+  ul
+    list-style: disc
+
+  ol
+    list-style: decimal
+
+pre,
+code
+  margin: 0
+  font-family: Menlo, monospace
+
+img
+  object-fit: contain
+
+.nano
+  font-size: 0.8rem
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  font-weight: 600
+
+.code
+  background: #678
+  padding: 0.25rem
+  border-radius: 0.125rem
+  line-height: 1.2
+
+.mt
+  color: #678
+
+.head
+  display: flex
+  flex-grow: 1
+
+  .emoji
+    font-size: 40px
+    margin-inline-start: auto
+    margin-block: -0.5rem
+
+.info
+  font-size: 80%
+  display: flex
+  gap: 0.5rem
+  align-items: center
+
+  :last-child
+    margin-inline-start: auto
+
+.flag
+  position: relative
+  box-shadow: inset 0 0 0 0.3px #121e25, 0 0 0 1px #121e25
+  border-radius: 2px
+  overflow: hidden
+
+  img
+    background: magenta
+    z-index: -1
+    aspect-ratio: 5 / 3
+
+.color
+  text-decoration: none
+  border-radius: 2px
+
+  &.edge
+    box-shadow: inset 0 0 0 1px #345
+
+  &.dk
+    color: #fffc
+
+  &.lt
+    color: #121e25cc
+
+.gap
+  gap: 1rem
+
+header
+  position: sticky
+  top: 0
+  background: #121e25
+  border-bottom: 1px solid #fff3
+  background-clip: padding-box
+  z-index: 1
+  margin-block-end: -1px

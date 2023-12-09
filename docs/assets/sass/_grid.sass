@@ -1,0 +1,31 @@
+=grid($size)
+  %#{$size}gr
+    display: grid
+
+  .#{$size}gr12
+    grid-template-columns: repeat(12, 1fr)
+    @extend %#{$size}gr
+
+  .#{$size}gr8
+    grid-template-columns: repeat(8, 1fr)
+    @extend %#{$size}gr
+
+  .#{$size}gr6
+    grid-template-columns: repeat(6, 1fr)
+    @extend %#{$size}gr
+
+  .#{$size}gr4
+    grid-template-columns: repeat(4, 1fr)
+    @extend %#{$size}gr
+
+  .#{$size}gr2
+    grid-template-columns: repeat(2, 1fr)
+    @extend %#{$size}gr
+
++grid("")
+
+@media (max-width: $screen-md-max)
+  +grid("md-")
+
+@media (max-width: $screen-sm-max)
+  +grid("sm-")

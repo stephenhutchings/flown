@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path fill="#d01c1f" d="m0 0h1200v720H0Z" />
+  <path fill="#00a95c" d="m0 144h1200v432H0Z" />
+  <path fill="gold" d="M330 240a264 264 0 1 0 540 0 284 284 0 0 1-540 0m270-25 45 138-117-86h144l-117 86Z" />
+</svg>

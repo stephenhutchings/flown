@@ -32,7 +32,7 @@ const pretty = (svg) =>
     ],
   }).data
 
-const src = "src/wiki/svg"
+const src = "src/flags/wiki/svg"
 
 const files = (await fs.readdir(src, { withFileTypes: true }))
   .map((file) => path.join(src, file.name))
@@ -42,7 +42,7 @@ const svgs = await Promise.all(files.map((svg) => fs.readFile(svg, "utf8")))
 
 const optimizeSource = () => {
   files.forEach((file, i) => {
-    fs.writeFile("src/clean/" + path.basename(file), pretty(svgs[i]))
+    fs.writeFile("src/flags/redrawn" + path.basename(file), pretty(svgs[i]))
   })
 }
 

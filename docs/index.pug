@@ -1,47 +1,72 @@
-article
-  p Original palette
-  img(width=500 class="palette" src="./assets/img/palette/all.svg")
+---
+layout: /_/layouts/default
+---
 
-  p Quantized palette (16 colors)
-  img(width=500 class="palette" src="./assets/img/palette/16.svg")
+include /_/mixins/color
+include /_/mixins/flag
 
-  p Quantized palette (16 colors, weighted, sRGB)
-  img(width=500 class="palette" src="./assets/img/palette/weighted-16.svg")
+article.intro.mb3
+  :md
+    `flown` is a collection of world flags. The library includes SVG files designed for use in digital applications where quality and visual consistency is important.
+    
+    Each flag in the set is modified to use a standardised colour palette and consistent (but unofficial) aspect ratio. Detailed elements, such as emblems, are simplified to limit file sizes to fit within strict budgets. Where necessary, these elements are redrawn to improve quality. You can read more about the [approach and rationale behind these modifications](/about/).
 
-  p Quantized palette (16 colors, weighted, LUV)
-  img(width=500 class="palette" src="./assets/img/palette/weighted-16-LUV.svg")
+    Suggestions to improve the collection are encouraged. If you find an issue with any of the flags, please create a bug report.
 
-  p Quantized palette (24 colors)
-  img(width=500 class="palette" src="./assets/img/palette/24.svg")
+.quicklook.mb1
+  dl.gr6.md-gr4.sm-gr2.gap
+    dt.pb2.nano Flags
+    dd.pb1= flags.length
 
-  p Quantized palette (24 colors, weighted, sRGB)
-  img(width=500 class="palette" src="./assets/img/palette/weighted-24.svg")
+    dt.pb2.nano Colours
+    dd.pb1= palette.length
 
-  p Quantized palette (24 colors, weighted, LUV)
-  img(width=500 class="palette" src="./assets/img/palette/weighted-24-LUV.svg")
+    dt.pb2.nano Aspect Ratio
+    dd.pb1 
+      | 5
+      span.mt :
+      | 3
 
-  p Custom palette (24 colors)
-  img(width=500 class="palette" src="./assets/img/palette/custom-24.svg")
+    - const source = flags.reduce((m, f) => m + f.size.source, 0)
+    - const output = flags.reduce((m, f) => m + f.size.output, 0)
+    dt.pb2.nano Compression
+    dd.pb1
+      = (100 * (1 - output / source)).toFixed(1)
+      span.mt %
 
-.grid
-  each flag in flags
-    section
-      .head
-        h2= flag.name
-        span.emoji= flag.emoji
+    dt.pb2.nano Average Size
+    dd.pb1
+      = (output / flags.length / 1024).toFixed(1)
+      span.mt kB
 
-      figure.compare
-        each type in ["original", "recolored"]
-          a(href=`./assets/img/${type}/${flag.slug}.svg`)
-            img.flag(src=`./assets/img/${type}/${flag.slug}.svg`)
+.colors.fx.mb1.pb2.gap
+  h2.pb1.nano Colour Palette
 
-      .info
-        code= flag.a2
+  ul.pb1.gr8.md-gr4.fxg.gap
+    each color in palette
+      li
+        +color(color)
 
-        if flag.a3
-          code= flag.a3
+.jumpto.fx.gap
+  h2.nano Regions
+  nav.fx.fxw.gap
+    each region in regions
+      a(href=`#${region.slug}`)
+        = region.name
 
-        if flag.size
-          span= flag.size
+.flags
+  each region in regions
+    h2.mb2(id=region.slug)
+      = region.name
 
-        a(href=flag.info target="_blank") Wikipedia
+    ul.gr6.md-gr4.sm-gr2.gap
+      each flag in region.list
+        li(class=[
+          flag.size.output > 10000 ? "large" : ""
+        ])
+          a(href=`/flags/${flag.slug}`)
+            +flag(flag.slug)
+
+            .fx.mb1.aic
+              h3.nano= flag.name
+              code.code.nano.misa= flag.a2 || "—"

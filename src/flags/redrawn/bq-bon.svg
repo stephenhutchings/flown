@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path d="m0 0h1200v720H0Z" fill="#fff" />
+  <path d="m1200 0v720H0Z" fill="#003087" />
+  <path d="m0 300V0h500Z" fill="gold" />
+  <g transform="translate(340 306)" fill="#101820">
+    <path d="m0-180 104 180-104 180-104-180Zm180 180L0 104-180 0l180-104Z" />
+    <circle r="156" />
+    <circle r="135" fill="#fff" />
+    <path d="m0 90-78-135h156Zm0-180 78 135H-78Z" fill="#d50032" />
+  </g>
+</svg>

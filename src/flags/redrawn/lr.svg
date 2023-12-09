@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path fill="#bf0a30" d="m0 0h1200v720H0Z" />
+  <path fill="#002868" d="m0 0h327v327H0Z" />
+  <path fill="#fff"
+    d="m0 589v66h1200v-66Zm0-131v66h1200v-66Zm0-131v66h1200v-66Zm327-131v66h873v-66Zm0-131v66h873v-66Zm-163 0l57 178-151-110h187l-151 110Z" />
+</svg>

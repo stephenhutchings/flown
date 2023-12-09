@@ -1,0 +1,7 @@
+mixin flag(slug, type)
+  figure.flag
+    img(
+      width=1200
+      loading="lazy"
+      src=`/assets/img/flags/${type || "recolored"}/${slug}.svg`
+    )

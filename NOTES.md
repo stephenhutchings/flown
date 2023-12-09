@@ -1,4 +1,4 @@
-# Critera
+# Criteria
 
 - Proportion: is 5:3 allowed?
 - Color: is color specified?

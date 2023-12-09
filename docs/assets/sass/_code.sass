@@ -1,0 +1,116 @@
+code
+  font-family: Menlo, monospace
+  letter-spacing: 0
+
+pre code
+  font-weight: normal
+  color: var(--clr-ink)
+  background: #234
+  display: block
+  padding: 1rem
+  white-space: pre
+  font-size: 88%
+  overflow: auto
+  width: 0
+  min-width: 100%
+  box-sizing: border-box
+
+code[data-filename]
+  &::before
+    content: "-- " attr(data-filename)
+    color: var(--clr-muted)
+    display: block
+    font-size: var(--font-small)
+    margin-block-end: 0.5rem
+
+@media (max-width: 600px)
+  :root
+    --size-header: 5rem
+
+  article
+    pre,
+    .code-help
+      margin-inline: -0.5rem
+
+    pre code,
+    .code-help
+      padding-inline: 0.75rem
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.token.operator,
+.token.punctuation
+  color: var(--clr-muted)
+
+.token.color
+  color: #bce
+
+.token.tag,
+.token.namespace,
+.token.deleted
+  color: #f7a
+
+.token.keyword,
+.token.function-name
+  color: #7ae
+
+.token.keyword.nil
+  color: #9ac
+
+.token.keyword.control-flow,
+.token.property
+  color: #f8c
+
+.token.boolean,
+.token.number,
+.token.function
+  color: #7ad
+
+.token.attr-name,
+.token.class-name,
+.token.constant,
+.token.symbol
+  color: #fc6
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.builtin
+  color: #f9d
+
+.token.module
+  color: #c9c
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable
+  color: #baf
+
+.token.option,
+.token.entity,
+.token.url
+  color: #7bd
+
+.token.important,
+.token.bold
+  font-weight: bold
+
+.token.italic
+  font-style: italic
+  color: var(--clr-muted)
+
+.token.color
+  .color
+    display: inline-block
+    width: 0.6rem
+    height: 0.6rem
+    margin: 0 0.2rem
+    border: 1px solid #fff9
+
+  &.hexcode > .color
+    display: contents

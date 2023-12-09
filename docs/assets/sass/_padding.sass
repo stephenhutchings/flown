@@ -1,0 +1,23 @@
+=padding($name, $size)
+  .pb#{$name}
+    padding-block: $size
+
+  .pbs#{$name}
+    padding-block-start: $size
+
+  .pbe#{$name}
+    padding-block-end: $size
+
+  .pi#{$name}
+    padding-inline: $size
+
+  .pis#{$name}
+    padding-inline-start: $size
+
+  .pie#{$name}
+    padding-inline-end: $size
+
++padding("3", 2rem)
++padding("2", 1rem)
++padding("1", 0.5rem)
++padding("a", auto)

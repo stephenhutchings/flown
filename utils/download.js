@@ -4,8 +4,11 @@ import fetch from "node-fetch"
 
 import data from "./flags.json" assert { type: "json" }
 
-const output = "./src/wiki"
 const keys = ["svg", "png"]
+const output = {
+  svg: "./src/flags/source",
+  png: "./src/flags/wiki/png",
+}
 
 keys.forEach(async (key) => {
   const names = []
@@ -17,7 +20,7 @@ keys.forEach(async (key) => {
       if (res.status === 200) {
         const ext = path.extname(item[key])
         const name = item.slug
-        const file = path.join(output, ext.slice(1), name + ext)
+        const file = path.join(output[key], ext.slice(1), name + ext)
 
         res.body.pipe(fs.createWriteStream(file))
 

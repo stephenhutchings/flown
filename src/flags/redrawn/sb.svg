@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
+  <path fill="#215b33" d="m0 0h1200v720H0Z" />
+  <path fill="#0051ba" d="m0 720V0h1200Z" />
+  <path fill="#fcd116" d="M1200 40V0h-64L0 680v40h64z" />
+  <path fill="#fff"
+    d="M38 68h126L62 142l39-120 39 120Zm260 0h126l-102 74 39-120 39 120ZM168 180h126l-102 74 39-120 39 120ZM38 292h126L62 366l39-120 39 120Zm260 0h126l-102 74 39-120 39 120Z" />
+</svg>
