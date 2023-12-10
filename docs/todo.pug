@@ -6,8 +6,13 @@ block body
     :md
        These flags are marked as invalid, as they do not yet meet the criteria for inclusion in the project:
        - The file size must be less than 10kb
-       - All colour should be applied using `fill` (no strokes or gradients)
-       - Only `<svg>`, `<path>`, `<defs>`, `<use>` and `<circle>` tags are used
+       - All colour must be applied using `fill` (no strokes or gradients)
+       - Only `<svg>`, `<path>`, `<defs>`, `<use>` and `<circle>` tags are permitted
+       - Dimensions are 1200 &times; 720 (excepting [Switzerland], [Nepal] and [Vatican City])
+
+       [Switzerland]: /flags/ch
+       [Nepal]: /flags/np
+       [Vatican City]: /flags/va
 
     small
       | There are #{invalid.length} invalid flags remaining in the To Do list.
