@@ -12,14 +12,8 @@
   <path fill="#fedf00" d="M120 360l480 288 480-288L600 72 120 360Z" />
   <circle id="circle" cx="600" cy="360" r="196" fill="#002776" />
 
-  <clipPath id="b">
-    <use xlink:href="#circle" />
-  </clipPath>
-
   <g fill="#fff">
-    <g clip-path="url(#b)">
-      <path d="M400 284A476 476 0 0 1 814 406L794 426A448 448 0 0 0 407 312Z" />
-    </g>
+    <path d="M421 280A476 476 0 0 1 794 388A196 196 0 0 1 787 419A448 448 0 0 0 410 312A196 196 0 0 1 421 280Z" />
 
     <use id="αCMi" xlink:href="#star1" x="436" y="327" />
     <use id="αCMa" xlink:href="#star1" x="453" y="405" />
