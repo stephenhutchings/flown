@@ -7,6 +7,7 @@ import { closestLab, rgbaToLab } from "color-diff"
 import { matchColor } from "./color.js"
 import { svgs, files } from "./flags.js"
 import pretty from "./pretty.js"
+import isValid from "./is-valid.js"
 
 const PALETTE_SRC = "src/palette/custom-32.svg"
 
@@ -72,6 +73,7 @@ const transformFlags = async () => {
     ).toFixed(1)
 
     data.elementCount = output.slice(1).match(/<\w+ /g).length
+    data.isValid = isValid(output)
   }
 
   fs.writeFile("utils/flags.json", JSON.stringify(flags, null, 2))

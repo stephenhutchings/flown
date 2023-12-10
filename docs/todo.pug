@@ -1,0 +1,25 @@
+extends /_/layouts/default
+
+block body
+  article.pbs3
+    :md
+       These flags are considered invalid, and are yet to be redrawn.
+
+       There are currently three reasons they are considered invalid:
+       - They are either over 10kb
+       - They contain strokes or gradients
+       - They use tags other than `<svg>`, `<path>`, `<defs>`, `<use>`, `<circle>` or `<clipPath>`
+
+  .flags.pb3(style="border-block-start-width: 1px")
+    ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
+      each flag in flags.filter(f => !f.isValid)
+        li.flag
+          a(href=`/flags/${flag.slug}`)
+            figure
+              img.flag(
+                src=`/assets/img/flags/recolored/${flag.slug}.svg`
+              )
+
+            .fx.mb1.aic
+              h3.nano= flag.name
+              code.code.nano.misa= flag.a2

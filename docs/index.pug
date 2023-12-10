@@ -62,7 +62,8 @@ article.intro.mb3
     ul.gr6.md-gr4.sm-gr2.gap
       each flag in region.list
         li(class=[
-          flag.size.output > 10000 ? "large" : ""
+          flag.size.output > 10000 ? "large" : "",
+          flag.isValid ? "valid" : "invalid"
         ])
           a(href=`/flags/${flag.slug}`)
             +flag(flag.slug)

@@ -20,7 +20,8 @@
     },
     "elementCount": 12,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Taliban.svg",
@@ -48,7 +49,8 @@
     },
     "elementCount": 2,
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Afghanistan_(2013%E2%80%932021).svg",
@@ -77,7 +79,8 @@
     },
     "elementCount": 7,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_%C3%85land.svg",
@@ -107,7 +110,8 @@
     },
     "elementCount": 3,
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Albania.svg",
@@ -135,7 +139,8 @@
     },
     "elementCount": 3,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Algeria.svg",
@@ -164,7 +169,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_American_Samoa.svg",
@@ -196,7 +202,8 @@
     },
     "elementCount": 6,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Andorra.svg",
@@ -229,7 +236,8 @@
     },
     "elementCount": 141,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Angola.svg",
@@ -258,7 +266,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Anguilla.svg",
@@ -291,7 +300,8 @@
     },
     "elementCount": 8,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
@@ -315,7 +325,8 @@
     },
     "elementCount": 11,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg",
@@ -346,7 +357,8 @@
     },
     "elementCount": 5,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Argentina.svg",
@@ -376,7 +388,8 @@
     },
     "elementCount": 14,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Armenia.svg",
@@ -405,7 +418,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Artsakh.svg",
@@ -429,7 +443,8 @@
     },
     "elementCount": 4,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Aruba.svg",
@@ -460,7 +475,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Australia_(converted).svg",
@@ -489,7 +505,8 @@
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Austria.svg",
@@ -517,7 +534,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Azerbaijan.svg",
@@ -547,7 +565,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Bahamas.svg",
@@ -576,7 +595,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bahrain.svg",
@@ -604,7 +624,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bangladesh.svg",
@@ -632,7 +653,8 @@
     },
     "elementCount": 2,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Barbados.svg",
@@ -661,7 +683,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Belarus.svg",
@@ -690,7 +713,8 @@
     },
     "elementCount": 6,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Belgium.svg",
@@ -719,7 +743,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Belize.svg",
@@ -760,7 +785,8 @@
     },
     "elementCount": 125,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Benin.svg",
@@ -789,7 +815,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bermuda.svg",
@@ -824,7 +851,8 @@
     },
     "elementCount": 111,
     "subregion": "Northern America",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bhutan.svg",
@@ -854,7 +882,8 @@
     },
     "elementCount": 77,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bolivia_(state).svg",
@@ -896,7 +925,8 @@
     },
     "elementCount": 829,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bonaire.svg",
@@ -928,7 +958,8 @@
     },
     "elementCount": 8,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
@@ -957,7 +988,8 @@
     },
     "elementCount": 8,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Botswana.svg",
@@ -986,7 +1018,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Brazil.svg",
@@ -1016,7 +1049,8 @@
     },
     "elementCount": 41,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_British_Antarctic_Territory.svg",
@@ -1056,7 +1090,8 @@
     },
     "elementCount": 290,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg",
@@ -1094,7 +1129,8 @@
     },
     "elementCount": 190,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg",
@@ -1131,7 +1167,8 @@
     },
     "elementCount": 47,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Brunei.svg",
@@ -1161,7 +1198,8 @@
     },
     "elementCount": 8,
     "region": "Asia",
-    "subregion": "South-eastern Asia"
+    "subregion": "South-eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bulgaria.svg",
@@ -1190,7 +1228,8 @@
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
@@ -1219,7 +1258,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Burundi.svg",
@@ -1248,7 +1288,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cambodia.svg",
@@ -1278,7 +1319,8 @@
     },
     "elementCount": 57,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cameroon.svg",
@@ -1307,7 +1349,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Canada_(Pantone).svg",
@@ -1335,7 +1378,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern America",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cape_Verde.svg",
@@ -1365,7 +1409,8 @@
     },
     "elementCount": 14,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg",
@@ -1401,7 +1446,8 @@
     },
     "elementCount": 82,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
@@ -1432,7 +1478,8 @@
     },
     "elementCount": 5,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Chad.svg",
@@ -1461,7 +1508,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Chile.svg",
@@ -1490,7 +1538,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
@@ -1518,7 +1567,8 @@
     },
     "elementCount": 2,
     "subregion": "Eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Christmas_Island.svg",
@@ -1549,7 +1599,8 @@
     },
     "elementCount": 5,
     "subregion": "Australia and New Zealand",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Cocos_(Keeling)_Islands.svg",
@@ -1579,7 +1630,8 @@
     },
     "elementCount": 4,
     "subregion": "Australia and New Zealand",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Colombia.svg",
@@ -1608,7 +1660,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Comoros.svg",
@@ -1639,7 +1692,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
@@ -1668,7 +1722,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg",
@@ -1697,7 +1752,8 @@
     },
     "elementCount": 3,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Cook_Islands.svg",
@@ -1727,7 +1783,8 @@
     },
     "elementCount": 12,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg",
@@ -1767,7 +1824,8 @@
     },
     "elementCount": 288,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Croatia.svg",
@@ -1799,7 +1857,8 @@
     },
     "elementCount": 53,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg",
@@ -1828,7 +1887,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg",
@@ -1858,7 +1918,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cyprus.svg",
@@ -1887,7 +1948,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
@@ -1916,7 +1978,8 @@
     },
     "elementCount": 3,
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Denmark.svg",
@@ -1944,7 +2007,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Djibouti.svg",
@@ -1974,7 +2038,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Dominica.svg",
@@ -2007,7 +2072,8 @@
     },
     "elementCount": 87,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg",
@@ -2042,7 +2108,8 @@
     },
     "elementCount": 116,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ecuador.svg",
@@ -2092,7 +2159,8 @@
     },
     "elementCount": 467,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Egypt.svg",
@@ -2122,7 +2190,8 @@
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Antarctica_(Graham_Bartram).svg",
@@ -2145,7 +2214,8 @@
     },
     "elementCount": 2,
     "subregion": "Other",
-    "region": "Other"
+    "region": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_El_Salvador.svg",
@@ -2189,7 +2259,8 @@
     },
     "elementCount": 912,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg",
@@ -2223,7 +2294,8 @@
     },
     "elementCount": 16,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Eritrea.svg",
@@ -2253,7 +2325,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Estonia.svg",
@@ -2282,7 +2355,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Eswatini.svg",
@@ -2314,7 +2388,8 @@
     },
     "elementCount": 25,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ethiopia.svg",
@@ -2344,7 +2419,8 @@
     },
     "elementCount": 5,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Falkland_Islands.svg",
@@ -2393,7 +2469,8 @@
     },
     "elementCount": 299,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Faroe_Islands.svg",
@@ -2423,7 +2500,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Fiji.svg",
@@ -2457,7 +2535,8 @@
     },
     "elementCount": 110,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Finland.svg",
@@ -2485,7 +2564,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_France.svg",
@@ -2514,7 +2594,8 @@
     },
     "elementCount": 3,
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_French_Guiana.svg",
@@ -2544,7 +2625,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_French_Polynesia.svg",
@@ -2576,7 +2658,8 @@
     },
     "elementCount": 18,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
@@ -2606,7 +2689,8 @@
     },
     "elementCount": 3,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Gabon.svg",
@@ -2635,7 +2719,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_The_Gambia.svg",
@@ -2665,7 +2750,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Georgia.svg",
@@ -2693,7 +2779,8 @@
     },
     "elementCount": 8,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Germany.svg",
@@ -2722,7 +2809,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ghana.svg",
@@ -2751,7 +2839,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Gibraltar.svg",
@@ -2782,7 +2871,8 @@
     },
     "elementCount": 5,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Greece.svg",
@@ -2810,7 +2900,8 @@
     },
     "elementCount": 2,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Greenland.svg",
@@ -2839,7 +2930,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern America",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Grenada.svg",
@@ -2868,7 +2960,8 @@
     },
     "elementCount": 6,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Unofficial_flag_of_Guadeloupe_(local).svg",
@@ -2898,7 +2991,8 @@
     },
     "elementCount": 10,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guam.svg",
@@ -2935,7 +3029,8 @@
     },
     "elementCount": 17,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guatemala.svg",
@@ -2975,7 +3070,8 @@
     },
     "elementCount": 162,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guernsey.svg",
@@ -3005,7 +3101,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guinea.svg",
@@ -3034,7 +3131,8 @@
     },
     "elementCount": 3,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guinea-Bissau.svg",
@@ -3064,7 +3162,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guyana.svg",
@@ -3095,7 +3194,8 @@
     },
     "elementCount": 5,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Haiti.svg",
@@ -3129,7 +3229,8 @@
     },
     "elementCount": 492,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Honduras.svg",
@@ -3157,7 +3258,8 @@
     },
     "elementCount": 7,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Hong_Kong.svg",
@@ -3186,7 +3288,8 @@
     },
     "elementCount": 8,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Hungary.svg",
@@ -3215,7 +3318,8 @@
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Iceland.svg",
@@ -3244,7 +3348,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_India.svg",
@@ -3274,7 +3379,8 @@
     },
     "elementCount": 14,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Indonesia.svg",
@@ -3302,7 +3408,8 @@
     },
     "elementCount": 2,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Iran_(official).svg",
@@ -3331,7 +3438,8 @@
     },
     "elementCount": 15,
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Iraq.svg",
@@ -3361,7 +3469,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kurdistan.svg",
@@ -3386,7 +3495,8 @@
     },
     "elementCount": 4,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ireland.svg",
@@ -3415,7 +3525,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Isle_of_Mann.svg",
@@ -3446,7 +3557,8 @@
     },
     "elementCount": 7,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Israel.svg",
@@ -3474,7 +3586,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Italy.svg",
@@ -3503,7 +3616,8 @@
     },
     "elementCount": 3,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_C%C3%B4te_d%27Ivoire.svg",
@@ -3532,7 +3646,8 @@
     },
     "elementCount": 3,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Jamaica.svg",
@@ -3561,7 +3676,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg",
@@ -3589,7 +3705,8 @@
     },
     "elementCount": 2,
     "subregion": "Eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Jersey.svg",
@@ -3620,7 +3737,8 @@
     },
     "elementCount": 4,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Jordan.svg",
@@ -3650,7 +3768,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kazakhstan.svg",
@@ -3678,7 +3797,8 @@
     },
     "elementCount": 27,
     "subregion": "Central Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kenya.svg",
@@ -3708,7 +3828,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kiribati.svg",
@@ -3738,7 +3859,8 @@
     },
     "elementCount": 13,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_North_Korea.svg",
@@ -3767,7 +3889,8 @@
     },
     "elementCount": 5,
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Korea.svg",
@@ -3797,7 +3920,8 @@
     },
     "elementCount": 4,
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kosovo.svg",
@@ -3822,7 +3946,8 @@
     },
     "elementCount": 3,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kuwait.svg",
@@ -3852,7 +3977,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kyrgyzstan.svg",
@@ -3880,7 +4006,8 @@
     },
     "elementCount": 2,
     "subregion": "Central Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Laos.svg",
@@ -3909,7 +4036,8 @@
     },
     "elementCount": 3,
     "region": "Asia",
-    "subregion": "South-eastern Asia"
+    "subregion": "South-eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Latvia.svg",
@@ -3937,7 +4065,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Lebanon.svg",
@@ -3966,7 +4095,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Lesotho.svg",
@@ -3996,7 +4126,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Liberia.svg",
@@ -4025,7 +4156,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Libya.svg",
@@ -4055,7 +4187,8 @@
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Liechtenstein.svg",
@@ -4085,7 +4218,8 @@
     },
     "elementCount": 9,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Lithuania.svg",
@@ -4114,7 +4248,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Luxembourg.svg",
@@ -4143,7 +4278,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Macau.svg",
@@ -4173,7 +4309,8 @@
     },
     "elementCount": 3,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Madagascar.svg",
@@ -4202,7 +4339,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Malawi.svg",
@@ -4231,7 +4369,8 @@
     },
     "elementCount": 13,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Malaysia.svg",
@@ -4261,7 +4400,8 @@
     },
     "elementCount": 4,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Maldives.svg",
@@ -4290,7 +4430,8 @@
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mali.svg",
@@ -4319,7 +4460,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Malta.svg",
@@ -4348,7 +4490,8 @@
     },
     "elementCount": 47,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Marshall_Islands.svg",
@@ -4377,7 +4520,8 @@
     },
     "elementCount": 3,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Front_National_de_Lib%C3%A9ration_de_la_Martinique.svg",
@@ -4407,7 +4551,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mauritania.svg",
@@ -4436,7 +4581,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mauritius.svg",
@@ -4466,7 +4612,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mexico.svg",
@@ -4511,7 +4658,8 @@
     },
     "elementCount": 438,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg",
@@ -4539,7 +4687,8 @@
     },
     "elementCount": 2,
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Moldova.svg",
@@ -4570,7 +4719,8 @@
     },
     "elementCount": 47,
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Monaco.svg",
@@ -4598,7 +4748,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mongolia.svg",
@@ -4627,7 +4778,8 @@
     },
     "elementCount": 3,
     "subregion": "Eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Montenegro.svg",
@@ -4658,7 +4810,8 @@
     },
     "elementCount": 9,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Montserrat.svg",
@@ -4696,7 +4849,8 @@
     },
     "elementCount": 23,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Morocco.svg",
@@ -4724,7 +4878,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Mozambique.svg",
@@ -4755,7 +4910,8 @@
     },
     "elementCount": 8,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Myanmar.svg",
@@ -4785,7 +4941,8 @@
     },
     "elementCount": 4,
     "region": "Asia",
-    "subregion": "South-eastern Asia"
+    "subregion": "South-eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Namibia.svg",
@@ -4816,7 +4973,8 @@
     },
     "elementCount": 7,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Nauru.svg",
@@ -4845,7 +5003,8 @@
     },
     "elementCount": 3,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Nepal.svg",
@@ -4874,7 +5033,8 @@
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Netherlands.svg",
@@ -4903,7 +5063,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flags_of_New_Caledonia.svg",
@@ -4935,7 +5096,8 @@
     },
     "elementCount": 5,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_New_Zealand.svg",
@@ -4964,7 +5126,8 @@
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Nicaragua.svg",
@@ -5004,7 +5167,8 @@
     },
     "elementCount": 96,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Niger.svg",
@@ -5033,7 +5197,8 @@
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Nigeria.svg",
@@ -5061,7 +5226,8 @@
     },
     "elementCount": 2,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Niue.svg",
@@ -5092,7 +5258,8 @@
     },
     "elementCount": 5,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Norfolk_Island.svg",
@@ -5121,7 +5288,8 @@
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg",
@@ -5143,7 +5311,8 @@
     },
     "elementCount": 2,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands.svg",
@@ -5180,7 +5349,8 @@
     },
     "elementCount": 298,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_North_Macedonia.svg",
@@ -5208,7 +5378,8 @@
     },
     "elementCount": 4,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Norway.svg",
@@ -5237,7 +5408,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Oman.svg",
@@ -5266,7 +5438,8 @@
     },
     "elementCount": 65,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Pakistan.svg",
@@ -5294,7 +5467,8 @@
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Palau.svg",
@@ -5322,7 +5496,8 @@
     },
     "elementCount": 2,
     "subregion": "Micronesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Palestine.svg",
@@ -5353,7 +5528,8 @@
     },
     "elementCount": 4,
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Panama.svg",
@@ -5382,7 +5558,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Papua_New_Guinea.svg",
@@ -5412,7 +5589,8 @@
     },
     "elementCount": 4,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Paraguay.svg",
@@ -5444,7 +5622,8 @@
     },
     "elementCount": 35,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Peru.svg",
@@ -5472,7 +5651,8 @@
     },
     "elementCount": 2,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Philippines.svg",
@@ -5502,7 +5682,8 @@
     },
     "elementCount": 9,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Pitcairn_Islands.svg",
@@ -5538,7 +5719,8 @@
     },
     "elementCount": 54,
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Poland.svg",
@@ -5566,7 +5748,8 @@
     },
     "elementCount": 2,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Portugal.svg",
@@ -5598,7 +5781,8 @@
     },
     "elementCount": 49,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
@@ -5628,7 +5812,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Qatar.svg",
@@ -5656,7 +5841,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Romania.svg",
@@ -5685,7 +5871,8 @@
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Russia.svg",
@@ -5714,7 +5901,8 @@
     },
     "elementCount": 3,
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Rwanda.svg",
@@ -5743,7 +5931,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saba.svg",
@@ -5774,7 +5963,8 @@
     },
     "elementCount": 4,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg",
@@ -5805,7 +5995,8 @@
     },
     "elementCount": 4,
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg",
@@ -5836,7 +6027,8 @@
     },
     "elementCount": 5,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saint_Lucia.svg",
@@ -5866,7 +6058,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saint-Pierre_and_Miquelon.svg",
@@ -5901,7 +6094,8 @@
     },
     "elementCount": 106,
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
@@ -5930,7 +6124,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Samoa.svg",
@@ -5959,7 +6154,8 @@
     },
     "elementCount": 3,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_San_Marino.svg",
@@ -5996,7 +6192,8 @@
     },
     "elementCount": 301,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
@@ -6026,7 +6223,8 @@
     },
     "elementCount": 4,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
@@ -6054,7 +6252,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Senegal.svg",
@@ -6083,7 +6282,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Serbia.svg",
@@ -6114,7 +6314,8 @@
     },
     "elementCount": 354,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Seychelles.svg",
@@ -6145,7 +6346,8 @@
     },
     "elementCount": 5,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sierra_Leone.svg",
@@ -6174,7 +6376,8 @@
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Singapore.svg",
@@ -6202,7 +6405,8 @@
     },
     "elementCount": 2,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sint_Eustatius.svg",
@@ -6234,7 +6438,8 @@
     },
     "elementCount": 5,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sint_Maarten.svg",
@@ -6269,7 +6474,8 @@
     },
     "elementCount": 18,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Slovakia.svg",
@@ -6298,7 +6504,8 @@
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Slovenia.svg",
@@ -6328,7 +6535,8 @@
     },
     "elementCount": 4,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Solomon_Islands.svg",
@@ -6358,7 +6566,8 @@
     },
     "elementCount": 4,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Somalia.svg",
@@ -6386,7 +6595,8 @@
     },
     "elementCount": 2,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Africa.svg",
@@ -6418,7 +6628,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg",
@@ -6464,7 +6675,8 @@
     },
     "elementCount": 129,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Ossetia.svg",
@@ -6487,7 +6699,8 @@
     },
     "elementCount": 3,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Sudan.svg",
@@ -6519,7 +6732,8 @@
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Spain.svg",
@@ -6557,7 +6771,8 @@
     },
     "elementCount": 294,
     "subregion": "Southern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sri_Lanka.svg",
@@ -6588,7 +6803,8 @@
     },
     "elementCount": 6,
     "subregion": "Southern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sudan.svg",
@@ -6618,7 +6834,8 @@
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Suriname.svg",
@@ -6648,7 +6865,8 @@
     },
     "elementCount": 4,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sweden.svg",
@@ -6676,7 +6894,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Switzerland_(Pantone).svg",
@@ -6704,7 +6923,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Syria.svg",
@@ -6734,7 +6954,8 @@
     },
     "elementCount": 4,
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_China.svg",
@@ -6764,7 +6985,8 @@
     },
     "elementCount": 5,
     "subregion": "Eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tajikistan.svg",
@@ -6794,7 +7016,8 @@
     },
     "elementCount": 4,
     "subregion": "Central Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tanzania.svg",
@@ -6824,7 +7047,8 @@
     },
     "elementCount": 4,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa"
+    "subregion": "Sub-Saharan Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Thailand.svg",
@@ -6853,7 +7077,8 @@
     },
     "elementCount": 3,
     "subregion": "South-eastern Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_East_Timor.svg",
@@ -6883,7 +7108,8 @@
     },
     "elementCount": 4,
     "region": "Asia",
-    "subregion": "South-eastern Asia"
+    "subregion": "South-eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Togo.svg",
@@ -6913,7 +7139,8 @@
     },
     "elementCount": 5,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tokelau.svg",
@@ -6943,7 +7170,8 @@
     },
     "elementCount": 3,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tonga.svg",
@@ -6971,7 +7199,8 @@
     },
     "elementCount": 2,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Transnistria_(state).svg",
@@ -6994,7 +7223,8 @@
     },
     "elementCount": 3,
     "region": "Other",
-    "subregion": "Other"
+    "subregion": "Other",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg",
@@ -7023,7 +7253,8 @@
     },
     "elementCount": 3,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tunisia.svg",
@@ -7051,7 +7282,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Turkey.svg",
@@ -7079,7 +7311,8 @@
     },
     "elementCount": 2,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Turkmenistan.svg",
@@ -7110,7 +7343,8 @@
     },
     "elementCount": 146,
     "subregion": "Central Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands.svg",
@@ -7146,7 +7380,8 @@
     },
     "elementCount": 39,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tuvalu.svg",
@@ -7177,7 +7412,8 @@
     },
     "elementCount": 5,
     "subregion": "Polynesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Uganda.svg",
@@ -7207,7 +7443,8 @@
     },
     "elementCount": 7,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ukraine.svg",
@@ -7235,7 +7472,8 @@
     },
     "elementCount": 2,
     "subregion": "Eastern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg",
@@ -7265,7 +7503,8 @@
     },
     "elementCount": 4,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_United_Kingdom.svg",
@@ -7294,7 +7533,8 @@
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_England.svg",
@@ -7317,7 +7557,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Scotland.svg",
@@ -7340,7 +7581,8 @@
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Wales.svg",
@@ -7365,7 +7607,8 @@
     },
     "elementCount": 5,
     "subregion": "Northern Europe",
-    "region": "Europe"
+    "region": "Europe",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg",
@@ -7394,7 +7637,8 @@
     },
     "elementCount": 18,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg",
@@ -7428,7 +7672,8 @@
     },
     "elementCount": 56,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Uruguay.svg",
@@ -7458,7 +7703,8 @@
     },
     "elementCount": 12,
     "subregion": "Latin America and the Caribbean",
-    "region": "Americas"
+    "region": "Americas",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Uzbekistan.svg",
@@ -7488,7 +7734,8 @@
     },
     "elementCount": 4,
     "subregion": "Central Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Vanuatu_(official).svg",
@@ -7518,7 +7765,8 @@
     },
     "elementCount": 4,
     "subregion": "Melanesia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Vatican_City.svg",
@@ -7551,7 +7799,8 @@
     },
     "elementCount": 174,
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Venezuela.svg",
@@ -7581,7 +7830,8 @@
     },
     "elementCount": 4,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean"
+    "subregion": "Latin America and the Caribbean",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Vietnam.svg",
@@ -7609,7 +7859,8 @@
     },
     "elementCount": 2,
     "region": "Asia",
-    "subregion": "South-eastern Asia"
+    "subregion": "South-eastern Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Yemen.svg",
@@ -7638,7 +7889,8 @@
     },
     "elementCount": 3,
     "subregion": "Western Asia",
-    "region": "Asia"
+    "region": "Asia",
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Zambia.svg",
@@ -7668,7 +7920,8 @@
     },
     "elementCount": 7,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Zimbabwe.svg",
@@ -7699,6 +7952,7 @@
     },
     "elementCount": 8,
     "subregion": "Sub-Saharan Africa",
-    "region": "Africa"
+    "region": "Africa",
+    "isValid": true
   }
 ]

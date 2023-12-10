@@ -1,7 +1,7 @@
 extends /_/layouts/default
 
 block body
-  .flags
+  .flags.pb3
     ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
       each flag in flags.sort((a, b) => b.size.output - a.size.output)
         li.flag(class=[
