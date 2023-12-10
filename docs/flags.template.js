@@ -23,11 +23,6 @@ const isSimilar = (a, b) => {
     a === b ||
     sets.filter((set) => set.includes(a)).some((set) => set.includes(b))
   )
-
-  // a = [...a.map(toNear)].sort().toString()
-  // b = [...b.map(toNear)].sort().toString()
-
-  // return a === b
 }
 
 export default {

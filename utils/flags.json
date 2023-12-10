@@ -38,12 +38,13 @@
     "slug": "af-alt",
     "ratio": "1:2",
     "colors": [
-      0
+      0,
+      2
     ],
     "size": {
       "source": 37065,
-      "output": 6343,
-      "compression": 17.1
+      "output": 6358,
+      "compression": 17.2
     },
     "elementCount": 2,
     "region": "Asia",
