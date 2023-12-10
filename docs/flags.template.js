@@ -43,7 +43,7 @@ export default {
       })
 
       return {
-        title: flag.name,
+        title: `Flag of ${flag.official || flag.name} – flown`,
         url: `/flags/${flag.slug}/`,
         flag,
         sameColors,

@@ -4,5 +4,9 @@ export default {
   layout: "/_/layouts/color",
   slug: "",
 
-  pages: data.palette.map((p) => ({ ...p, slug: "" })),
+  pages: data.palette.map((p) => ({
+    ...p,
+    title: `${p.hex} – flown`,
+    slug: "",
+  })),
 }
