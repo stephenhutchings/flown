@@ -10,6 +10,11 @@ block body
       h2= flag.name
       span.emoji= flag.emoji
 
+    if !flag.isValid
+      .invalid.pb3
+        :md
+          Warning: This flag does not yet meet the criteria for this project. It has not yet been redrawn. See the [todo list](/todo).
+
     .fx.pb3.gap
       each type in ["source", "recolored"]
         a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg`)

@@ -1044,10 +1044,10 @@
     ],
     "size": {
       "source": 5325,
-      "output": 4194,
-      "compression": 78.8
+      "output": 4142,
+      "compression": 77.8
     },
-    "elementCount": 41,
+    "elementCount": 38,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": true
@@ -2992,7 +2992,7 @@
     "elementCount": 10,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": true
+    "isValid": false
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guam.svg",
@@ -4001,10 +4001,10 @@
     ],
     "size": {
       "source": 14078,
-      "output": 8509,
-      "compression": 60.4
+      "output": 1097,
+      "compression": 7.8
     },
-    "elementCount": 2,
+    "elementCount": 18,
     "subregion": "Central Asia",
     "region": "Asia",
     "isValid": true

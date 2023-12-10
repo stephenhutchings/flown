@@ -56,18 +56,19 @@ article.intro.mb3
 
 .flags
   each region in regions
-    h2.mb2(id=region.slug)
-      = region.name
+    .pb3(id=region.slug)
+      h2.mbe3
+        = region.name
 
-    ul.gr6.md-gr4.sm-gr2.gap
-      each flag in region.list
-        li(class=[
-          flag.size.output > 10000 ? "large" : "",
-          flag.isValid ? "valid" : "invalid"
-        ])
-          a(href=`/flags/${flag.slug}`)
-            +flag(flag.slug)
+      ul.gr6.md-gr4.sm-gr2.gap
+        each flag in region.list
+          li(class=[
+            flag.size.output > 10000 ? "large" : "",
+            flag.isValid ? "valid" : "invalid"
+          ])
+            a(href=`/flags/${flag.slug}`)
+              +flag(flag.slug)
 
-            .fx.mb1.aic
-              h3.nano= flag.name
-              code.code.nano.misa= flag.a2 || "—"
+              .fx.mb1.aic
+                h3.nano= flag.name
+                code.code.nano.misa= flag.a2 || "—"
