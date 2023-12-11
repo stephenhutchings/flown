@@ -6798,13 +6798,13 @@
     ],
     "size": {
       "source": 15392,
-      "output": 21382,
-      "compression": 138.9
+      "output": 7884,
+      "compression": 51.2
     },
     "elementCount": 6,
     "subregion": "Southern Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sudan.svg",
