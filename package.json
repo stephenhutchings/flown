@@ -1,7 +1,7 @@
 {
   "name": "flown-svg",
   "version": "0.0.0",
-  "description": "Country flags icons",
+  "description": "Country flags icons in SVG format",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,13 @@
     "recolor": "node ./utils/recolor.js",
     "palette": "node ./utils/palette.js"
   },
-  "keywords": [],
+  "keywords": [
+    "world",
+    "flag",
+    "country",
+    "standard",
+    "5:3"
+  ],
   "author": "",
   "devDependencies": {
     "@lokesh.dhakar/quantize": "^1.3.0",
