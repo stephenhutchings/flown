@@ -17,7 +17,7 @@ block body
 
     .fx.pb3.gap
       each type in ["source", "recolored"]
-        a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg`)
+        a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg` data-type=type)
           img(
             width=600
             src=`/assets/img/flags/${type}/${flag.slug}.svg`
@@ -29,18 +29,25 @@ block body
       if flag.a3
         code.code.nano= flag.a3
 
-      if flag.size.output > 1024
-        span= (flag.size.output / 1024).toFixed(1)
-          span.mt kB
-      else
-        span= flag.size.output
-          span.mt B
+      dl
+        dt Size
+        if flag.size.output > 1024
+          dd= (flag.size.output / 1024).toFixed(1)
+            span.mt kB
+        else
+          dd= flag.size.output
+            span.mt B
 
-      if flag.ratio
-        span= flag.ratio
+        if flag.size
+          dt Reduction
+          dd(title="Size reduction compared to source SVG")
+            = (100 / flag.size.compression).toFixed(1)
+            span.mt &times; smaller
 
-      if flag.size
-        span= flag.size.compression + "%"
+        if flag.ratio
+          dt Ratio
+          dd(title="Original ratio")
+            = flag.ratio
 
       a(href=flag.info target="_blank") Wikipedia
 
@@ -87,4 +94,37 @@ block body
             width=width
             src=`/assets/img/flags/recolored/${flag.slug}.svg`
           )
-          
+
+block append head
+  style.
+    .flag[data-type]::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fff;
+      color: #023;
+      padding: 2px 3px;
+      font-size: 0.8rem;
+      transition: opacity 300ms;
+    }
+
+    [data-type="source"]::before {
+      content: "Source (Wikipedia)";
+    }
+
+    [data-type="recolored"]::before {
+      content: "Redrawn";
+    }
+
+    .flag[data-type]:hover::before {
+      opacity: 0;
+    }
+
+    dl {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    dd {
+      margin-right: 0.5rem;
+    }
