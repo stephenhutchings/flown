@@ -1,8 +1,5 @@
 extends /_/layouts/default
 
-include /_/mixins/color
-include /_/mixins/flag
-
 block body
   .pb3
     +color(locals)
@@ -13,10 +10,4 @@ block body
     each id in list
       - const flag = flags[id]
       if flag
-        li
-          a(href=`/flags/${flag.slug}`)
-            +flag(flag.slug)
-
-            .fx.mb1.aic
-              h3.nano= flag.name
-              code.code.nano.misa= flag.a2
+        +flag-list-item(flag)

@@ -1,5 +1,5 @@
 ---
-title: "todo – flown"
+title: "To Do list – flown"
 ---
 
 extends /_/layouts/default
@@ -24,13 +24,4 @@ block body
   .flags.pb3(style="border-block-start-width: 1px")
     ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
       each flag in invalid
-        li.flag
-          a(href=`/flags/${flag.slug}`)
-            figure
-              img.flag(
-                src=`/assets/img/flags/recolored/${flag.slug}.svg`
-              )
-
-            .fx.mb1.aic
-              h3.nano= flag.name
-              code.code.nano.misa= flag.a2
+        +flag-list-item(flag)

@@ -1,75 +1,65 @@
 ---
-layout: /_/layouts/default
 title: "Flown – well-drawn svg world flags with a small file size"
 ---
 
-include /_/mixins/color
-include /_/mixins/flag
+extends /_/layouts/default
 
-article.intro.mb3
-  :md
-    `flown` is a collection of world flags. The library includes SVG files designed for use in digital applications where quality and visual consistency is important.
-    
-    Each flag in the set is modified to use a standardised colour palette and consistent (but unofficial) aspect ratio. Detailed elements, such as emblems, are simplified to limit file sizes to fit within strict budgets. Where necessary, these elements are redrawn to improve quality. You can read more about the [approach and rationale behind these modifications](/about/).
+block body
+  article.intro.mb3
+    :md
+      `flown` is a collection of world flags. The library includes SVG files designed for use in digital applications where quality and visual consistency is important.
+      
+      Each flag in the set is modified to use a standardised colour palette and consistent (but unofficial) aspect ratio. Detailed elements, such as emblems, are simplified to limit file sizes to fit within strict budgets. Where necessary, these elements are redrawn to improve quality. You can read more about the [approach and rationale behind these modifications](/about/).
 
-    Suggestions to improve the collection are encouraged. If you find an issue with any of the flags, please create a bug report.
+      Suggestions to improve the collection are encouraged. If you find an issue with any of the flags, please create a bug report.
 
-.quicklook.mb1
-  dl.gr6.md-gr4.sm-gr2.gap
-    dt.pb2.nano Flags
-    dd.pb1= flags.length
+  .quicklook.mb1
+    dl.gr6.md-gr4.sm-gr2.gap
+      dt.pb2.nano Flags
+      dd.pb1= flags.length
 
-    dt.pb2.nano Colours
-    dd.pb1= palette.length
+      dt.pb2.nano Colours
+      dd.pb1= palette.length
 
-    dt.pb2.nano Aspect Ratio
-    dd.pb1 
-      | 5
-      span.mt :
-      | 3
+      dt.pb2.nano Aspect Ratio
+      dd.pb1 
+        | 5
+        span.mt :
+        | 3
 
-    - const source = flags.reduce((m, f) => m + f.size.source, 0)
-    - const output = flags.reduce((m, f) => m + f.size.output, 0)
-    dt.pb2.nano Compression
-    dd.pb1
-      = (100 * (1 - output / source)).toFixed(1)
-      span.mt %
+      - const source = flags.reduce((m, f) => m + f.size.source, 0)
+      - const output = flags.reduce((m, f) => m + f.size.output, 0)
+      dt.pb2.nano Compression
+      dd.pb1
+        = (100 * (1 - output / source)).toFixed(1)
+        span.mt %
 
-    dt.pb2.nano Average Size
-    dd.pb1
-      = (output / flags.length / 1024).toFixed(1)
-      span.mt kB
+      dt.pb2.nano Average Size
+      dd.pb1
+        = (output / flags.length / 1024).toFixed(1)
+        span.mt kB
 
-.colors.fx.mb1.pb2.gap
-  h2.pb1.nano Colour Palette
+  .colors.fx.mb1.pb2.gap
+    h2.pb1.nano Colour Palette
 
-  ul.pb1.gr8.md-gr4.fxg.gap
-    each color in palette
-      li
-        +color(color)
+    ul.pb1.gr8.md-gr4.fxg.gap
+      each color in palette
+        li
+          +color(color)
 
-.jumpto.fx.gap
-  h2.nano Regions
-  nav.fx.fxw.gap
+  .jumpto.fx.gap
+    h2.nano Regions
+    nav.fx.fxw.gap
+      each region in regions
+        a(href=`#${region.slug}`)
+          = region.name
+
+  .flags
     each region in regions
-      a(href=`#${region.slug}`)
-        = region.name
+      .pb3(id=region.slug)
+        h2.mbe3
+          = region.name
 
-.flags
-  each region in regions
-    .pb3(id=region.slug)
-      h2.mbe3
-        = region.name
-
-      ul.gr6.md-gr4.sm-gr2.gap
-        each flag in region.list
-          li(class=[
-            flag.size.output > 10000 ? "large" : "",
-            flag.isValid ? "valid" : "invalid"
-          ])
-            a(href=`/flags/${flag.slug}`)
-              +flag(flag.slug)
-
-              .fx.mb1.aic
-                h3.nano= flag.name
-                code.code.nano.misa= flag.a2 || "—"
+        ul.gr6.md-gr4.sm-gr2.gap
+          each flag in region.list
+            +flag-list-item(flag)

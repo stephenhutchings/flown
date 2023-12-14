@@ -1,0 +1,11 @@
+mixin flag-list-item(flag)
+  li(class=[
+    flag.size.output > 10000 ? "large" : "",
+    flag.isValid ? "valid" : "invalid"
+  ])
+    a(href=`/flags/${flag.slug}`)
+      +flag(flag.slug)
+
+      .fx.mb1.aic
+        h3.nano= flag.name
+        code.code.nano.misa= flag.a2 || "—"
