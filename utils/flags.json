@@ -2980,19 +2980,20 @@
     "slug": "gp",
     "ratio": "2:3",
     "colors": [
+      2,
       9,
       24,
       31
     ],
     "size": {
       "source": 14351,
-      "output": 8295,
-      "compression": 57.8
+      "output": 3817,
+      "compression": 26.6
     },
-    "elementCount": 10,
+    "elementCount": 15,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guam.svg",
@@ -6790,7 +6791,6 @@
     "slug": "lk",
     "ratio": "1:2",
     "colors": [
-      2,
       8,
       10,
       16,
@@ -6798,10 +6798,10 @@
     ],
     "size": {
       "source": 15392,
-      "output": 7884,
-      "compression": 51.2
+      "output": 4971,
+      "compression": 32.3
     },
-    "elementCount": 6,
+    "elementCount": 5,
     "subregion": "Southern Asia",
     "region": "Asia",
     "isValid": true
