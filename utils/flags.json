@@ -2383,13 +2383,13 @@
     ],
     "size": {
       "source": 6733,
-      "output": 4740,
-      "compression": 70.4
+      "output": 1991,
+      "compression": 29.6
     },
-    "elementCount": 25,
+    "elementCount": 7,
     "region": "Africa",
     "subregion": "Sub-Saharan Africa",
-    "isValid": false
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ethiopia.svg",
@@ -3793,13 +3793,13 @@
     ],
     "size": {
       "source": 9668,
-      "output": 6720,
-      "compression": 69.5
+      "output": 3116,
+      "compression": 32.2
     },
-    "elementCount": 27,
+    "elementCount": 21,
     "subregion": "Central Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Kenya.svg",
@@ -5672,7 +5672,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      9,
+      10,
       14,
       23
     ],
