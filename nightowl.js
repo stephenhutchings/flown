@@ -32,7 +32,7 @@ export default {
     {
       src: "docs/assets",
       dist: "dist/assets",
-      include: "**/*.svg",
+      include: "**/*.{svg,png}",
     },
     {
       src: "src/palette",
