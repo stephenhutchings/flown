@@ -41,13 +41,18 @@ block body
         if flag.size
           dt Reduction
           dd(title="Size reduction compared to source SVG")
-            = (100 / flag.size.compression).toFixed(1)
-            span.mt &times; smaller
+            = (100 - flag.size.compression).toFixed(1)
+            span.mt %
 
         if flag.ratio
-          dt Ratio
+          dt Original ratio
           dd(title="Original ratio")
             = flag.ratio
+
+        if flag.ratio
+          dt Elements
+          dd(title="Number of elements")
+            = flag.elementCount
 
       a(href=flag.info target="_blank") Wikipedia
 
@@ -122,6 +127,7 @@ block append head
 
     dl {
       display: flex;
+      flex-wrap: wrap;
       gap: 0.5rem;
     }
 
