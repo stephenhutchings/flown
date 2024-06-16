@@ -15,10 +15,10 @@
     ],
     "size": {
       "source": 1770,
-      "output": 983,
-      "compression": 55.5
+      "output": 768,
+      "compression": 43.4
     },
-    "elementCount": 12,
+    "elementCount": 3,
     "region": "Other",
     "subregion": "Other",
     "isValid": true
