@@ -2653,13 +2653,13 @@
     ],
     "size": {
       "source": 7332,
-      "output": 3945,
-      "compression": 53.8
+      "output": 2074,
+      "compression": 28.3
     },
-    "elementCount": 18,
+    "elementCount": 13,
     "subregion": "Polynesia",
     "region": "Oceania",
-    "isValid": false
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
