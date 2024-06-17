@@ -7,5 +7,16 @@ extends /_/layouts/default
 block body
   .flags.pb3
     ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
-      each flag in flags.sort((a, b) => b.size.output - a.size.output)
+      - let prev
+      each flag, i in flags.sort((a, b) => b.size.output - a.size.output)
+        if prev && prev > 10000 && flag.size.output < 10000
+          li.fx.pi1(style={
+            "background": "#fff2",
+            "text-align": "center"
+          })
+            span.mba
+              | All flags after this point meet the maximum 10kb threshold.
+
+        - prev = flag.size.output
+
         +flag-list-item(flag)
