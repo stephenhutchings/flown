@@ -1,32 +1,50 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="stylesheet" href="/flown/assets/app.css"><link rel="shortcut icon" href="/flown/assets/favicon.png"><title>about – flown</title></head><body class="page-about"><header><nav class="fx gap pb2"><a href="/flown/">flown</a><a href="/flown/about/">about</a><a href="/flown/size/">size</a><a class="miea" href="/flown/todo/">todo</a><a href="https://github.com/stephenhutchings/flown">GitHub</a></nav></header><article class="mb3"><h2 id="goals">Goals</h2>
 <ul>
-<li>High quality artwork</li>
+<li>High quality artwork<ul>
 <li>Stylistic uniformity</li>
 <li>Limited visual complexity</li>
 <li>Improvements to legibility</li>
 </ul>
+</li>
+<li>Minimal distortion and deviation</li>
+<li>Smallest possible file sizes</li>
+<li>Predictable, consistent markup</li>
+</ul>
 <h2 id="aspect-ratios">Aspect Ratios</h2>
 <p>With few exceptions, flags are rectangular, but their sides occur in many
-different ratios. Purists will rightly argue that the original intentions of the
-design should be upheld. But there is a counter-argument. Mismatched proportions
-degrade the appearance of flags, making outliers appear irregular. Designers
-identify these inconsistencies as a distraction that should be minimised. The
-layouts they create often rely on repeatable blocks of consistently sized
-shapes. There is a temptation to crop or scale the flags as needed, but the
-variety of designs is not well suited to this approach.</p>
-<p>Deciding on an aspect ratio is another difficult choice. The most commonly used
-ratio is 3:2. However, another popular choice is 2:1. The gap between these
-options is significant. When the narrower designs are adapted to the wider
-format, they appear stretched. The same is true in the other direction &#8212; wider
-flags look too squashed in the narrower format. To compromise, an aspect ratio
-of 5:3 is used.</p>
-<p>Standardising these shapes without introducing distortions is a substantial
-undertaking. Scaling flags without deviating from their construction rules is an
-impossible task, as their official constructions often require specific ratios.
-With that in mind, the modifications have been done in a way that aims to tread
-as lightly as possible.</p>
-<p>How each flag has been scaled has depended on the nature of the design.
-Different elements are handled as follows.</p>
+different ratios.</p>
+<p>Purists may argue that the original intentions of the design should be upheld.
+But there is a counterargument.</p>
+<p>The proliferation of differing ratios presents interesting trivia, but the
+differences are irrelevant when flags are used as visual affordances outside of
+official contexts. Their use in emoji pickers provides a compelling example. In
+such a use case, mismatched proportions could degrade the appearance of both
+the individual flags and the surrounding layout, with many minor variations
+appearing unintentional or irregular.</p>
+<p>Designers identify these sort of inconsistencies as a distraction that should be
+minimised. The layouts they create rely on repeatable blocks of consistently
+sized shapes. With no standard shape to rely on, the temptation to crop or scale
+flags in situ is inevitable. However, such an ad hoc approach would greatly
+compromise the flags with the most extreme widths or heights.</p>
+<figure>
+  <img width="768" height="484" alt="Official construction" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_the_Comoros_%28construction_sheet%29.svg/2880px-Flag_of_the_Comoros_%28construction_sheet%29.svg.png">
+  <figcaption>
+    Scaling flags without deviating from their construction rules is an impossible task, as their official constructions often require specific ratios.
+  </figcaption>
+</figure>
+
+<p>Deciding on an aspect ratio is a difficult choice. The most commonly used ratio
+is 3:2, of which there 109 flags in this library. However, 2:1 is also common,
+numbering 81 flags. The gap between these two ratios is significant. When
+narrower designs are adapted to a wider format, they appear stretched. The same
+is true in the other direction — wider flags look uncomfortably squashed in the
+narrower format. To compromise, an aspect ratio of 5:3 is used. While less
+common than the first two, it offers a happy medium, distorting more flags but
+to a much lesser degree.</p>
+<p>Modifying the shapes of flags without introducing unnecessary distortions is a
+substantial undertaking. With that in mind, changes have been made in a way that
+aims to tread as lightly as possible. Each flag has been scaled using strategies
+that cater to their specific design elements.</p>
 <ol>
 <li><p>Horizontal, vertical and diagonal bands are stretched to fill the new
 dimensions.</p>
@@ -34,10 +52,10 @@ dimensions.</p>
 <li><p>Emblems and other items in the foreground maintain their proportions when
 scaled. For example, if the new flag design is 120% wider, the foreground
 elements are increased in both directions by 110%. This balances the change
-in distance to the different edges.</p>
+in distance to the vertical and horizontal edges.</p>
 </li>
 <li><p>Large items like squares and triangles are scaled in a way that best
-compromises between the different relationships that inform them. For
+compromises between the competing relationships that inform them. For
 example, if an equilateral triangle points to the center on a narrow flag, it
 cannot be widened and keep equal sides. Instead, it is stretched to a lesser
 degree, keeping something of the equilateral triangle while still pointing
@@ -49,11 +67,11 @@ near the centre of the flag.</p>
    scaled so that there vertical and horizontal thicknesses remain in sync. -->
 
 <h2 id="simplification">Simplification</h2>
-<p>Many flags use basic geometric constructions, but not all. For example, Belize,
-Bolivia, and Brunei feature complex illustrations and typography in their
-designs. Much of this detail is unnecessary when flags are displayed at small
-sizes. Moreover, the most complex of these designs take up hundreds of
-kilobytes, negating the advantages of the vector format.</p>
+<p>Many flags use basic geometric constructions, but not all. <a href="/flown/flags/bz">Belize</a>,
+<a href="/flown/flags/bo">Bolivia</a>, and <a href="/flown/flags/bn">Brunei</a> feature complex illustrations and
+typography in their designs. Much of this detail is unnecessary when flags are
+displayed at small sizes. Moreover, the most complex of these designs take up
+hundreds of kilobytes, negating the advantages of the vector format.</p>
 <p>All flags are drawn on a 1200&times;720 unit grid. The large size of the grid
 allows pre-rounding to whole units without visually compromising each design.
 Snapping values in this way removes the risk of later minification steps
@@ -88,9 +106,10 @@ modifications.</p>
 overly minimal approach would force unnecessary substitutions, significantly
 altering the original designs. It&#8217;s also important that the colour palette is
 defined by the needs of the flags, and not the other way around.</p>
-<p>To construct an initial palette, the full color selection was quantized down to
-colour sets of varying quantities. From this process, a basic palette of 16
-colors was selected. This set was able to reproduce most flags with reasonable accuracy, while minimising duplication.</p>
+<p>To construct an initial palette, the full selection of colours was reduced to
+smaller sets of various sizes using colour quantisation. This exploration
+provided a reduced palette of 16 colours able to reproduce most flags with
+reasonable accuracy and minimal duplication.</p>
 <figure class="fx fxc gap">
   <img width="160" height="10" alt="Quantized palette" src="/flown/assets/img/palette/16.svg">
   <img width="200" height="10" alt="Quantized palette" src="/flown/assets/img/palette/20.svg">
@@ -101,13 +120,14 @@ colors was selected. This set was able to reproduce most flags with reasonable a
   </figcaption>
 </figure>
 
-<p>But this mechanical selection wasn&#8217;t perfect. The process treats all
-colours equally, regardless of the area they cover. Rarer colours &#8212; like
-the turqoise variations used by the Bahamas and Uzbekistan, or the Qatari maroon
-&#8212; were lost in the averages. Other detailed elements were too
-complex to resolve without additional shades. To resolve these issues, the
-palette was expanded to 32 colours. New colours were added manually
-to fill the gaps according to the flags that were most affected.</p>
+<p>But this mechanical selection wasn’t perfect. The quantisation was performed
+naively, treating all colours equally regardless of the area they cover. Rarer
+colours &#8212; like the turqoise variations used by the Bahamas and Uzbekistan, or
+the Qatari maroon &#8212; were lost in the averages. Other detailed elements were
+too complex to resolve without additional shades. To resolve these shortcomings,
+the palette was carefully expanded to 32 colours. New colours were added
+manually to fill gaps according to the flags that were most affected. Base
+colours were adjusted to complement these additions.</p>
 <p>To prevent introducing too much bias, the palette is mapped to the original flags by computing the <a href="https://en.wikipedia.org/wiki/Color_difference#CIEDE2000">CIEDE2000</a> colour difference in L*a*b* color space. This ensures consistent mapping of colours and helps to identify issues. When an unexpected color is used, it suggests a weakness in the palette.</p>
 <p>Before computing the difference, the b-channel of the Lab colour value is
 downweighted and the L-channel is upweighted. The first weighting helps to
@@ -115,8 +135,10 @@ emphasise cultural distinctions in primary colours over perceptual differences.
 For example, as red moves towards orange, it is more likely to be perceived as a
 different primary color compared to an equivalent move towards violet. The
 second weighting prioritised tonal similarity over exact hue matching. Note that
-this weighting was not chosen scientifically, and may reflect the author&#8217;s
-biases.</p>
+this weighting was not chosen scientifically, and may reflect the author’s
+biases. There may be an alternative colour model which negates the need to
+manipulate the L*a*b weights in this way. However, initial experiments in this
+direction were not promising.</p>
 <p>Finally, the palette was manually refined to better align the levels of
 saturation and brightness of the palette. Again, this reflects the author&#8217;s
 personal taste.</p>
