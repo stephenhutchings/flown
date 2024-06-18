@@ -20,9 +20,10 @@ overly minimal approach would force unnecessary substitutions, significantly
 altering the original designs. It's also important that the colour palette is
 defined by the needs of the flags, and not the other way around.
 
-To construct an initial palette, the full color selection was quantized down to
-colour sets of varying quantities. From this process, a basic palette of 16
-colors was selected. This set was able to reproduce most flags with reasonable accuracy, while minimising duplication.
+To construct an initial palette, the full selection of colours was reduced to
+smaller sets of various sizes using colour quantisation. This exploration
+provided a reduced palette of 16 colours able to reproduce most flags with
+reasonable accuracy and minimal duplication.
 
 <figure class="fx fxc gap">
   <img width="160" height="10" alt="Quantized palette" src="/assets/img/palette/16.svg">
@@ -34,13 +35,14 @@ colors was selected. This set was able to reproduce most flags with reasonable a
   </figcaption>
 </figure>
 
-But this mechanical selection wasn't perfect. The process treats all
-colours equally, regardless of the area they cover. Rarer colours --- like
-the turqoise variations used by the Bahamas and Uzbekistan, or the Qatari maroon
---- were lost in the averages. Other detailed elements were too
-complex to resolve without additional shades. To resolve these issues, the
-palette was expanded to 32 colours. New colours were added manually
-to fill the gaps according to the flags that were most affected.
+But this mechanical selection wasn’t perfect. The quantisation was performed
+naively, treating all colours equally regardless of the area they cover. Rarer
+colours --- like the turqoise variations used by the Bahamas and Uzbekistan, or
+the Qatari maroon --- were lost in the averages. Other detailed elements were
+too complex to resolve without additional shades. To resolve these shortcomings,
+the palette was carefully expanded to 32 colours. New colours were added
+manually to fill gaps according to the flags that were most affected. Base
+colours were adjusted to complement these additions.
 
 To prevent introducing too much bias, the palette is mapped to the original flags by computing the [CIEDE2000] colour difference in L\*a\*b\* color space. This ensures consistent mapping of colours and helps to identify issues. When an unexpected color is used, it suggests a weakness in the palette.
 
@@ -50,8 +52,10 @@ emphasise cultural distinctions in primary colours over perceptual differences.
 For example, as red moves towards orange, it is more likely to be perceived as a
 different primary color compared to an equivalent move towards violet. The
 second weighting prioritised tonal similarity over exact hue matching. Note that
-this weighting was not chosen scientifically, and may reflect the author's
-biases.
+this weighting was not chosen scientifically, and may reflect the author’s
+biases. There may be an alternative colour model which negates the need to
+manipulate the L\*a\*b weights in this way. However, initial experiments in this
+direction were not promising.
 
 Finally, the palette was manually refined to better align the levels of
 saturation and brightness of the palette. Again, this reflects the author's

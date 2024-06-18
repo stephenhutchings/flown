@@ -1,10 +1,10 @@
 ## Simplification
 
-Many flags use basic geometric constructions, but not all. For example, Belize,
-Bolivia, and Brunei feature complex illustrations and typography in their
-designs. Much of this detail is unnecessary when flags are displayed at small
-sizes. Moreover, the most complex of these designs take up hundreds of
-kilobytes, negating the advantages of the vector format.
+Many flags use basic geometric constructions, but not all. [Belize](/flags/bz),
+[Bolivia](/flags/bo), and [Brunei](/flags/bn) feature complex illustrations and
+typography in their designs. Much of this detail is unnecessary when flags are
+displayed at small sizes. Moreover, the most complex of these designs take up
+hundreds of kilobytes, negating the advantages of the vector format.
 
 All flags are drawn on a 1200&times;720 unit grid. The large size of the grid
 allows pre-rounding to whole units without visually compromising each design.
