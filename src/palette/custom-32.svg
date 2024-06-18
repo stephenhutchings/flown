@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="10">
   <path d="m0,0h10v10H0V0Z" fill="#faf6f5" />
-  <path d="m10,0h10v10h-10V0Z" fill="#d7ccbf" />
-  <path d="m20,0h10v10h-10V0Z" fill="#0a1a1d" />
-  <path d="m30,0h10v10h-10V0Z" fill="#edcfb7" />
-  <path d="m40,0h10v10h-10V0Z" fill="#cca76d" />
-  <path d="m50,0h10v10h-10V0Z" fill="#9d7a51" />
+  <path d="m10,0h10v10h-10V0Z" fill="#d3d3d5" />
+  <path d="m20,0h10v10h-10V0Z" fill="#5a6365" />
+  <path d="m30,0h10v10h-10V0Z" fill="#0a1a1d" />
+  <path d="m40,0h10v10h-10V0Z" fill="#edcfb7" />
+  <path d="m50,0h10v10h-10V0Z" fill="#b5915f" />
   <path d="m60,0h10v10h-10V0Z" fill="#6c401f" />
   <path d="m70,0h10v10h-10V0Z" fill="#cb8500" />
   <path d="m80,0h10v10h-10V0Z" fill="#e17000" />

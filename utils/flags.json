@@ -40,7 +40,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2
+      3
     ],
     "size": {
       "source": 37065,
@@ -80,7 +80,11 @@
     "elementCount": 7,
     "region": "Other",
     "subregion": "Other",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_%C3%85land.svg",
@@ -129,7 +133,7 @@
     "slug": "al",
     "ratio": "5:7",
     "colors": [
-      2,
+      3,
       14
     ],
     "size": {
@@ -222,7 +226,7 @@
     "ratio": "7:10",
     "colors": [
       0,
-      4,
+      5,
       6,
       9,
       14,
@@ -237,7 +241,13 @@
     "elementCount": 141,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Angola.svg",
@@ -255,7 +265,7 @@
     "slug": "ao",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       9,
       15
     ],
@@ -345,7 +355,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       21
@@ -584,7 +594,7 @@
     "slug": "bs",
     "ratio": "1:2",
     "colors": [
-      2,
+      3,
       10,
       27
     ],
@@ -672,7 +682,7 @@
     "slug": "bb",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       10,
       24
     ],
@@ -732,7 +742,7 @@
     "slug": "be",
     "ratio": "13:15",
     "colors": [
-      2,
+      3,
       9,
       13
     ],
@@ -765,6 +775,7 @@
       0,
       1,
       2,
+      3,
       5,
       6,
       9,
@@ -786,7 +797,13 @@
     "elementCount": 125,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Benin.svg",
@@ -836,7 +853,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       6,
       9,
       15,
@@ -852,7 +869,13 @@
     "elementCount": 111,
     "subregion": "Northern America",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bhutan.svg",
@@ -871,7 +894,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       12
     ],
@@ -883,7 +906,13 @@
     "elementCount": 77,
     "subregion": "Southern Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bolivia_(state).svg",
@@ -920,13 +949,19 @@
     ],
     "size": {
       "source": 254777,
-      "output": 110330,
+      "output": 110359,
       "compression": 43.3
     },
-    "elementCount": 829,
+    "elementCount": 830,
     "region": "Americas",
     "subregion": "Latin America and the Caribbean",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Bonaire.svg",
@@ -946,7 +981,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       23
@@ -1008,7 +1043,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       20
     ],
     "size": {
@@ -1066,7 +1101,7 @@
       0,
       1,
       2,
-      4,
+      3,
       5,
       6,
       7,
@@ -1085,13 +1120,21 @@
     ],
     "size": {
       "source": 84937,
-      "output": 45960,
+      "output": 45990,
       "compression": 54.1
     },
-    "elementCount": 290,
+    "elementCount": 291,
     "region": "Other",
     "subregion": "Other",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg",
@@ -1112,7 +1155,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       5,
       6,
       9,
@@ -1130,7 +1173,14 @@
     "elementCount": 190,
     "subregion": "Sub-Saharan Africa",
     "region": "Africa",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg",
@@ -1150,8 +1200,8 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
       3,
+      4,
       6,
       9,
       10,
@@ -1168,7 +1218,13 @@
     "elementCount": 47,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "gradient",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Brunei.svg",
@@ -1187,7 +1243,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       14
     ],
@@ -1308,7 +1364,7 @@
     "ratio": "16:25",
     "colors": [
       0,
-      2,
+      3,
       14,
       23
     ],
@@ -1320,7 +1376,11 @@
     "elementCount": 57,
     "subregion": "South-eastern Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cameroon.svg",
@@ -1430,7 +1490,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       15,
       22,
@@ -1447,7 +1507,12 @@
     "elementCount": 82,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
@@ -1803,11 +1868,11 @@
     "ratio": "3:5",
     "colors": [
       0,
-      2,
-      4,
+      3,
       6,
       7,
       9,
+      10,
       13,
       14,
       19,
@@ -1825,7 +1890,14 @@
     "elementCount": 288,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Croatia.svg",
@@ -1844,7 +1916,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       21,
@@ -1858,7 +1930,13 @@
     "elementCount": 53,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg",
@@ -2058,7 +2136,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       6,
       9,
       14,
@@ -2073,7 +2151,12 @@
     "elementCount": 87,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg",
@@ -2092,7 +2175,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       5,
       9,
       14,
@@ -2109,7 +2192,12 @@
     "elementCount": 116,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Ecuador.svg",
@@ -2135,6 +2223,7 @@
       5,
       6,
       7,
+      8,
       9,
       10,
       14,
@@ -2147,20 +2236,27 @@
       22,
       23,
       26,
-      27,
       29,
       30,
       31
     ],
     "size": {
       "source": 279145,
-      "output": 116929,
+      "output": 117016,
       "compression": 41.9
     },
-    "elementCount": 467,
+    "elementCount": 470,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Egypt.svg",
@@ -2179,7 +2275,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       7,
       14
     ],
@@ -2234,8 +2330,8 @@
     "ratio": "189:335",
     "colors": [
       0,
-      2,
       3,
+      4,
       8,
       9,
       10,
@@ -2260,7 +2356,12 @@
     "elementCount": 912,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg",
@@ -2280,7 +2381,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       5,
       9,
       14,
@@ -2345,7 +2446,7 @@
     "ratio": "7:11",
     "colors": [
       0,
-      2,
+      3,
       21
     ],
     "size": {
@@ -2375,8 +2476,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      1,
-      2,
+      3,
       9,
       15,
       22
@@ -2464,13 +2564,20 @@
     ],
     "size": {
       "source": 131263,
-      "output": 81128,
-      "compression": 61.8
+      "output": 81426,
+      "compression": 62
     },
-    "elementCount": 299,
+    "elementCount": 301,
     "region": "Americas",
     "subregion": "Latin America and the Caribbean",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Faroe_Islands.svg",
@@ -2520,7 +2627,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       15,
       16,
@@ -2536,7 +2643,13 @@
     "elementCount": 110,
     "subregion": "Melanesia",
     "region": "Oceania",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Finland.svg",
@@ -2798,7 +2911,7 @@
     "slug": "de",
     "ratio": "3:5",
     "colors": [
-      2,
+      3,
       9,
       14
     ],
@@ -2860,7 +2973,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       14
     ],
@@ -2980,7 +3093,7 @@
     "slug": "gp",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       9,
       24,
       31
@@ -3014,7 +3127,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       6,
       9,
       15,
@@ -3031,7 +3144,12 @@
     "elementCount": 17,
     "subregion": "Micronesia",
     "region": "Oceania",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guatemala.svg",
@@ -3052,6 +3170,7 @@
       0,
       1,
       2,
+      3,
       5,
       6,
       7,
@@ -3072,7 +3191,15 @@
     "elementCount": 162,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guernsey.svg",
@@ -3151,7 +3278,7 @@
     "slug": "gw",
     "ratio": "1:2",
     "colors": [
-      2,
+      3,
       9,
       14,
       30
@@ -3183,7 +3310,7 @@
     "ratio": "3:5",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       30
@@ -3215,7 +3342,7 @@
     "ratio": "3:5",
     "colors": [
       0,
-      2,
+      3,
       9,
       10,
       14,
@@ -3231,7 +3358,14 @@
     "elementCount": 492,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Honduras.svg",
@@ -3459,7 +3593,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       14,
       31
     ],
@@ -3547,7 +3681,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       15
     ],
@@ -3666,7 +3800,7 @@
     "slug": "jm",
     "ratio": "1:2",
     "colors": [
-      2,
+      3,
       10,
       31
     ],
@@ -3758,7 +3892,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       14,
       31
     ],
@@ -3818,7 +3952,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       15,
       31
     ],
@@ -3910,7 +4044,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       14,
       22
     ],
@@ -3937,7 +4071,7 @@
     "ratio": "5:7",
     "colors": [
       0,
-      4,
+      5,
       22
     ],
     "size": {
@@ -3967,7 +4101,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       14,
       31
     ],
@@ -4116,7 +4250,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       24,
       30
     ],
@@ -4177,7 +4311,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       14,
       30
     ],
@@ -4207,7 +4341,7 @@
     "slug": "li",
     "ratio": "3:5",
     "colors": [
-      2,
+      3,
       9,
       14,
       24
@@ -4359,7 +4493,7 @@
     "slug": "mw",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       14,
       30
     ],
@@ -4481,7 +4615,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       14
     ],
     "size": {
@@ -4492,7 +4626,12 @@
     "elementCount": 47,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Marshall_Islands.svg",
@@ -4541,7 +4680,7 @@
     "slug": "mq",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       14,
       31
     ],
@@ -4654,13 +4793,20 @@
     ],
     "size": {
       "source": 139551,
-      "output": 88701,
+      "output": 88714,
       "compression": 63.6
     },
     "elementCount": 438,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg",
@@ -4721,7 +4867,12 @@
     "elementCount": 47,
     "region": "Europe",
     "subregion": "Eastern Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Monaco.svg",
@@ -4832,8 +4983,8 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
       3,
+      4,
       6,
       9,
       11,
@@ -4851,7 +5002,12 @@
     "elementCount": 23,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Morocco.svg",
@@ -4899,7 +5055,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       15,
       29
@@ -5084,7 +5240,7 @@
     "slug": "nc",
     "ratio": "1:2",
     "colors": [
-      2,
+      3,
       9,
       13,
       23,
@@ -5147,29 +5303,34 @@
     "ratio": "3:5",
     "colors": [
       0,
+      2,
+      5,
       9,
-      10,
       12,
       13,
       14,
-      15,
       16,
       19,
       22,
       23,
-      25,
       26,
       30
     ],
     "size": {
       "source": 23964,
-      "output": 15553,
-      "compression": 64.9
+      "output": 15566,
+      "compression": 65
     },
-    "elementCount": 96,
+    "elementCount": 81,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Niger.svg",
@@ -5334,7 +5495,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       8,
       9,
       14,
@@ -5351,7 +5512,14 @@
     "elementCount": 298,
     "subregion": "Micronesia",
     "region": "Oceania",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_North_Macedonia.svg",
@@ -5440,7 +5608,14 @@
     "elementCount": 65,
     "subregion": "Western Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Pakistan.svg",
@@ -5518,7 +5693,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       13,
       30
     ],
@@ -5579,7 +5754,7 @@
     "ratio": "3:4",
     "colors": [
       0,
-      2,
+      3,
       9,
       15
     ],
@@ -5610,7 +5785,7 @@
     "ratio": "11:20",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       23,
@@ -5624,7 +5799,12 @@
     "elementCount": 35,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Peru.svg",
@@ -5704,7 +5884,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       5,
       9,
       15,
@@ -5721,7 +5901,12 @@
     "elementCount": 54,
     "region": "Oceania",
     "subregion": "Polynesia",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Poland.svg",
@@ -5769,7 +5954,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       23,
@@ -5783,7 +5968,12 @@
     "elementCount": 49,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
@@ -5985,7 +6175,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       15,
       31
     ],
@@ -6016,7 +6206,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       15,
       30
@@ -6048,7 +6238,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       19
     ],
@@ -6080,7 +6270,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       16,
@@ -6090,13 +6280,17 @@
     ],
     "size": {
       "source": 106016,
-      "output": 55304,
-      "compression": 52.2
+      "output": 42201,
+      "compression": 39.8
     },
-    "elementCount": 106,
+    "elementCount": 90,
     "region": "Americas",
     "subregion": "Northern America",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
@@ -6176,7 +6370,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       5,
       7,
       10,
@@ -6194,7 +6388,13 @@
     "elementCount": 301,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
@@ -6212,7 +6412,7 @@
     "slug": "st",
     "ratio": "1:2",
     "colors": [
-      2,
+      3,
       9,
       15,
       30
@@ -6303,7 +6503,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       10,
       14,
       23
@@ -6316,7 +6516,14 @@
     "elementCount": 354,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Seychelles.svg",
@@ -6616,7 +6823,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       10,
       13,
       24,
@@ -6652,7 +6859,8 @@
       0,
       1,
       2,
-      4,
+      3,
+      5,
       6,
       8,
       9,
@@ -6677,7 +6885,15 @@
     "elementCount": 129,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "gradient",
+      "elements",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_South_Ossetia.svg",
@@ -6720,7 +6936,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       22,
@@ -6754,8 +6970,8 @@
     "colors": [
       0,
       1,
-      2,
       3,
+      4,
       9,
       10,
       13,
@@ -6773,7 +6989,13 @@
     "elementCount": 294,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Sri_Lanka.svg",
@@ -6823,7 +7045,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       15,
       31
     ],
@@ -6943,7 +7165,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       14,
       31
     ],
@@ -7035,7 +7257,7 @@
     "slug": "tz",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       9,
       20,
       30
@@ -7097,7 +7319,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       10,
       14
     ],
@@ -7243,7 +7465,7 @@
     "ratio": "3:5",
     "colors": [
       0,
-      2,
+      3,
       14
     ],
     "size": {
@@ -7331,7 +7553,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       10,
       14,
       31
@@ -7344,7 +7566,12 @@
     "elementCount": 146,
     "subregion": "Central Asia",
     "region": "Asia",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "attribute",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands.svg",
@@ -7364,7 +7591,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       6,
       9,
       10,
@@ -7381,7 +7608,11 @@
     "elementCount": 39,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Tuvalu.svg",
@@ -7432,7 +7663,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       9,
       14
     ],
@@ -7492,7 +7723,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       14,
       31
     ],
@@ -7658,7 +7889,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       10,
       16,
       21,
@@ -7673,7 +7904,13 @@
     "elementCount": 56,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "elements",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Uruguay.svg",
@@ -7753,7 +7990,7 @@
     "slug": "vu",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       9,
       15,
       30
@@ -7787,7 +8024,7 @@
     "colors": [
       0,
       1,
-      2,
+      3,
       7,
       9,
       14
@@ -7800,7 +8037,12 @@
     "elementCount": 174,
     "region": "Europe",
     "subregion": "Southern Europe",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "size",
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Venezuela.svg",
@@ -7879,7 +8121,7 @@
     "ratio": "2:3",
     "colors": [
       0,
-      2,
+      3,
       14
     ],
     "size": {
@@ -7908,7 +8150,7 @@
     "slug": "zm",
     "ratio": "2:3",
     "colors": [
-      2,
+      3,
       8,
       14,
       31
@@ -7921,7 +8163,11 @@
     "elementCount": 7,
     "subregion": "Sub-Saharan Africa",
     "region": "Africa",
-    "isValid": false
+    "isValid": false,
+    "errors": [
+      "stroke",
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Zimbabwe.svg",
@@ -7940,7 +8186,7 @@
     "ratio": "1:2",
     "colors": [
       0,
-      2,
+      3,
       9,
       14,
       31
