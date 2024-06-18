@@ -8,7 +8,7 @@ block body
   - const invalid = flags.filter(f => !f.isValid)
   article.pb3
     :md
-       These flags are marked as invalid, as they do not yet meet the criteria for inclusion in the project:
+       These flags do not yet meet the criteria for inclusion in the project:
        - The file size must be less than 10kb
        - All colour must be applied using `fill` (no strokes or gradients)
        - Only `<svg>`, `<path>`, `<defs>`, `<use>` and `<circle>` tags are permitted
@@ -19,7 +19,7 @@ block body
        [Vatican City]: /flags/va
 
     small
-      | There are #{invalid.length} invalid flags remaining in the To Do list.
+      | There are #{invalid.length} invalid flags remaining in this list.
 
   .flags.pb3(style="border-block-start-width: 1px")
     ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")

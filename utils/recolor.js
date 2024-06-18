@@ -75,8 +75,11 @@ const transformFlags = async () => {
       data.size.source
     ).toFixed(1)
 
+    const [valid, errors] = isValid(output)
+
     data.elementCount = output.slice(1).match(/<\w+ /g).length
-    data.isValid = isValid(output)
+    data.isValid = valid
+    if (errors.length) data.errors = errors
   }
 
   fs.writeFile("utils/flags.json", JSON.stringify(flags, null, 2))

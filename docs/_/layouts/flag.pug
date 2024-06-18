@@ -15,6 +15,12 @@ block body
         :md
           Warning: This flag does not yet meet the criteria for this project. It has not yet been redrawn. See the [todo list](/todo).
 
+        ul.mbs1
+          for key in flag.errors
+            li
+              != "&times; "
+              = errorCodes[key]
+
     .fx.pb3.gap
       each type in ["source", "recolored"]
         a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg` data-type=type)

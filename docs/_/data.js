@@ -38,4 +38,13 @@ export default {
   filters: {
     highlight,
   },
+  errorCodes: {
+    size: "File size must be less than 10kb",
+    stroke: "Strokes are not permitted",
+    gradient: "Gradients are not permitted",
+    elements: "Only <svg>, <path>, <defs>, <use> and <circle> are permitted",
+    unit: "Only allow maximum of one-decimal place",
+    ratio: "Standard size and ratio are used, unless square or non-rectangular",
+    attribute: "Do not use advanced techniques to apply color",
+  },
 }
