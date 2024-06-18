@@ -58,3 +58,11 @@ block body
         ul.gr6.md-gr4.sm-gr2.gap
           each flag in region.list
             +flag-list-item(flag)
+
+block append head
+  style.
+    .intro p:first-child {
+      background: #f42a5d7a;
+      padding: 0.5rem;
+      border-radius: 2px;
+    }
