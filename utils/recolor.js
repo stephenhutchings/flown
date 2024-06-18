@@ -42,11 +42,9 @@ const transformFlags = async () => {
     const data = flags.find((f) => f.slug === slug)
     const index = flags.indexOf(data)
 
-    const colors = []
     const res = svgs[i].replace(matchColor, (c) => {
       c = closestLab(map(c), palette)
 
-      if (!colors.includes(c.id)) colors.push(c.id)
       if (index >= 0 && !c.list.includes(index)) c.list.push(index)
 
       frequency[c.hex] ??= 0
@@ -63,7 +61,12 @@ const transformFlags = async () => {
 
     const source = await fs.readFile(`src/flags/source/${slug}.svg`, "utf8")
 
-    data.colors = colors.sort((a, b) => a - b)
+    data.colors = output
+      .match(matchColor)
+      .reduce((memo, hex) => (memo.includes(hex) ? memo : memo.concat(hex)), [])
+      .map((hex) => palette.findIndex((c) => c.hex === hex))
+      .sort((a, b) => a - b)
+
     data.size ??= {}
     data.size.source = source.length
     data.size.output = output.length
