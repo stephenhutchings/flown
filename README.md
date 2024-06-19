@@ -23,4 +23,4 @@ modifications](about). Suggestions to
 improve the collection are encouraged. If you find an issue with any of the
 flags, please create a bug report.
 
-[about]: /https://stephenhutchings.github.io/flown/about/
+[about]: https://stephenhutchings.github.io/flown/about/
