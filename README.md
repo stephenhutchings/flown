@@ -19,7 +19,7 @@ to limit file sizes to fit within strict budgets. Where necessary, these
 elements are carefully updated to improve quality.
 
 You can read more about the [approach and rationale behind these
-modifications](about). Suggestions to
+modifications][about]. Suggestions to
 improve the collection are encouraged. If you find an issue with any of the
 flags, please create a bug report.
 
