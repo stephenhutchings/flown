@@ -5954,24 +5954,22 @@
     "ratio": "2:3",
     "colors": [
       0,
-      3,
+      6,
       9,
-      14,
+      13,
       23,
-      31
+      29
     ],
     "size": {
       "source": 13160,
-      "output": 7497,
-      "compression": 57
+      "output": 6272,
+      "compression": 47.7
     },
-    "elementCount": 49,
+    "elementCount": 19,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false,
+    "isValid": true,
     "errors": [
-      "stroke",
-      "attribute",
       "ratio"
     ]
   },
