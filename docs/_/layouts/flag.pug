@@ -37,18 +37,18 @@ block body
 
       dl
         dt Size
-        if flag.size.output > 1024
-          dd= (flag.size.output / 1024).toFixed(1)
+        dd
+          if flag.size.output > 1024
+            = (flag.size.output / 1024).toFixed(1)
             span.mt kB
-        else
-          dd= flag.size.output
+          else
+            = flag.size.output
             span.mt B
 
-        if flag.size
-          dt Reduction
-          dd(title="Size reduction compared to source SVG")
-            = (100 - flag.size.compression).toFixed(1)
-            span.mt %
+          if flag.size.source > flag.size.output
+            span(title="Size reduction compared to source SVG").mt
+              |  (#{(100 - flag.size.compression).toFixed(1)}% smaller)
+
 
         if flag.ratio
           dt Original ratio
