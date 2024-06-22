@@ -12,7 +12,8 @@ Snapping values in this way removes the risk of later minification steps
 introducing unwanted distortions. This grid determines the finest level of
 detail that is possible, so simplification remains consistent across the
 collection. However, an exception is made for typography, which is allowed an
-additional decimal place of accuracy to avoid exaggerated distortions.
+additional decimal place of accuracy to avoid exaggerated distortions. (Consider
+use of intelligent transforms/scales to negate this need.)
 
 Shapes are drawn with only a `<path>`, `<circle>` and `<use>` elements, and
 colour is exclusively applied with the `fill` attribute. No `stroke` or
