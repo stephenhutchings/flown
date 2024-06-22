@@ -15,8 +15,8 @@
     ],
     "size": {
       "source": 1770,
-      "output": 768,
-      "compression": 43.4
+      "output": 766,
+      "compression": 43.3
     },
     "elementCount": 3,
     "region": "Other",
@@ -44,8 +44,8 @@
     ],
     "size": {
       "source": 37065,
-      "output": 6358,
-      "compression": 17.2
+      "output": 6356,
+      "compression": 17.1
     },
     "elementCount": 2,
     "region": "Asia",
@@ -202,7 +202,7 @@
     ],
     "size": {
       "source": 49138,
-      "output": 6744,
+      "output": 6742,
       "compression": 13.7
     },
     "elementCount": 6,
@@ -236,7 +236,7 @@
     ],
     "size": {
       "source": 58468,
-      "output": 8094,
+      "output": 8092,
       "compression": 13.8
     },
     "elementCount": 12,
@@ -272,8 +272,8 @@
     ],
     "size": {
       "source": 2227,
-      "output": 848,
-      "compression": 38.1
+      "output": 844,
+      "compression": 37.9
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
@@ -331,8 +331,8 @@
     ],
     "size": {
       "source": 1127,
-      "output": 559,
-      "compression": 49.6
+      "output": 557,
+      "compression": 49.4
     },
     "elementCount": 11,
     "region": "Other",
@@ -394,7 +394,7 @@
     ],
     "size": {
       "source": 4994,
-      "output": 1805,
+      "output": 1803,
       "compression": 36.1
     },
     "elementCount": 14,
@@ -630,8 +630,8 @@
     ],
     "size": {
       "source": 256,
-      "output": 232,
-      "compression": 90.6
+      "output": 230,
+      "compression": 89.8
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -1813,8 +1813,8 @@
     ],
     "size": {
       "source": 241,
-      "output": 213,
-      "compression": 88.4
+      "output": 211,
+      "compression": 87.6
     },
     "elementCount": 3,
     "region": "Africa",
@@ -2391,8 +2391,8 @@
     ],
     "size": {
       "source": 5890,
-      "output": 3793,
-      "compression": 64.4
+      "output": 3781,
+      "compression": 64.2
     },
     "elementCount": 16,
     "subregion": "Sub-Saharan Africa",
@@ -2484,8 +2484,8 @@
     ],
     "size": {
       "source": 6733,
-      "output": 1991,
-      "compression": 29.6
+      "output": 1985,
+      "compression": 29.5
     },
     "elementCount": 7,
     "region": "Africa",
@@ -2673,8 +2673,8 @@
     ],
     "size": {
       "source": 241,
-      "output": 191,
-      "compression": 79.3
+      "output": 192,
+      "compression": 79.7
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -2767,8 +2767,8 @@
     ],
     "size": {
       "source": 7332,
-      "output": 2074,
-      "compression": 28.3
+      "output": 2068,
+      "compression": 28.2
     },
     "elementCount": 13,
     "subregion": "Polynesia",
@@ -3009,13 +3009,16 @@
     ],
     "size": {
       "source": 284,
-      "output": 236,
-      "compression": 83.1
+      "output": 234,
+      "compression": 82.4
     },
     "elementCount": 2,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": true
+    "isValid": true,
+    "errors": [
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Greenland.svg",
@@ -3714,13 +3717,16 @@
     ],
     "size": {
       "source": 398,
-      "output": 297,
-      "compression": 74.6
+      "output": 264,
+      "compression": 66.3
     },
     "elementCount": 2,
     "subregion": "Western Asia",
     "region": "Asia",
-    "isValid": true
+    "isValid": true,
+    "errors": [
+      "ratio"
+    ]
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Italy.svg",
@@ -3865,7 +3871,7 @@
     ],
     "size": {
       "source": 76724,
-      "output": 6486,
+      "output": 6484,
       "compression": 8.5
     },
     "elementCount": 4,
@@ -4134,7 +4140,7 @@
     ],
     "size": {
       "source": 14078,
-      "output": 1097,
+      "output": 1095,
       "compression": 7.8
     },
     "elementCount": 18,
@@ -4164,8 +4170,8 @@
     ],
     "size": {
       "source": 233,
-      "output": 216,
-      "compression": 92.7
+      "output": 210,
+      "compression": 90.1
     },
     "elementCount": 3,
     "region": "Asia",
@@ -4254,8 +4260,8 @@
     ],
     "size": {
       "source": 1484,
-      "output": 752,
-      "compression": 50.7
+      "output": 729,
+      "compression": 49.1
     },
     "elementCount": 4,
     "subregion": "Sub-Saharan Africa",
@@ -4346,7 +4352,7 @@
     ],
     "size": {
       "source": 23762,
-      "output": 2742,
+      "output": 2736,
       "compression": 11.5
     },
     "elementCount": 9,
@@ -5028,8 +5034,8 @@
     ],
     "size": {
       "source": 264,
-      "output": 232,
-      "compression": 87.9
+      "output": 230,
+      "compression": 87.1
     },
     "elementCount": 2,
     "subregion": "Northern Africa",
@@ -5540,8 +5546,8 @@
     ],
     "size": {
       "source": 416,
-      "output": 393,
-      "compression": 94.5
+      "output": 391,
+      "compression": 94
     },
     "elementCount": 4,
     "subregion": "Southern Europe",
@@ -6143,8 +6149,8 @@
     ],
     "size": {
       "source": 607,
-      "output": 302,
-      "compression": 49.8
+      "output": 286,
+      "compression": 47.1
     },
     "elementCount": 4,
     "region": "Other",
@@ -6338,8 +6344,8 @@
     ],
     "size": {
       "source": 724,
-      "output": 334,
-      "compression": 46.1
+      "output": 332,
+      "compression": 45.9
     },
     "elementCount": 3,
     "subregion": "Polynesia",
@@ -6543,8 +6549,8 @@
     ],
     "size": {
       "source": 320,
-      "output": 309,
-      "compression": 96.6
+      "output": 307,
+      "compression": 95.9
     },
     "elementCount": 5,
     "subregion": "Sub-Saharan Africa",
@@ -6938,8 +6944,8 @@
     ],
     "size": {
       "source": 424,
-      "output": 362,
-      "compression": 85.4
+      "output": 360,
+      "compression": 84.9
     },
     "elementCount": 6,
     "subregion": "Sub-Saharan Africa",
@@ -7827,8 +7833,8 @@
     ],
     "size": {
       "source": 15819,
-      "output": 8490,
-      "compression": 53.7
+      "output": 8486,
+      "compression": 53.6
     },
     "elementCount": 5,
     "subregion": "Northern Europe",
@@ -8090,8 +8096,8 @@
     ],
     "size": {
       "source": 281,
-      "output": 181,
-      "compression": 64.4
+      "output": 179,
+      "compression": 63.7
     },
     "elementCount": 2,
     "region": "Asia",

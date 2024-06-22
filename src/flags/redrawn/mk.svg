@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720">
-  <path fill="#d82126" d="m0 0h1200v720H0V0Z" />
+  <path fill="#d82126" d="M0 0h1200v720H0z" />
   <path fill="#f8e92e"
     d="m0 0 590 359L0 288v144l590-71L0 720h180l420-352 420 352h180L610 361l590 71V288l-590 71L1200 0h-180L600 352 180 0Zm600 416-68 304h136Zm0-112L668 0H532Z" />
   <circle fill="#d82126" cx="600" cy="360" r="112" />

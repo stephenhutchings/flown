@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720">
-  <path d="m0 0h1200v720H0V0Z" fill="#039" />
+  <path d="M0 0h1200v720H0z" fill="#039" />
   <g fill="#fc0">
     <polygon id="a" points="576 152 600 135 624 152 615 125 638 108 609 108 600 80 591 108 562 108 585 125 576 152" />
     <use xlink:href="#a" y="488" />
