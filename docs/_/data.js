@@ -39,6 +39,7 @@ export default {
     highlight,
   },
   errorCodes: {
+    todo: "This is a work in progress",
     size: "File size must be less than 10kb",
     stroke: "Strokes are not permitted",
     gradient: "Gradients are not permitted",

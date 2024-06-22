@@ -7,6 +7,11 @@ export default (svg) => {
   }
 
   // Strokes are not permitted
+  if (/todo/.test(svg)) {
+    res.push("todo")
+  }
+
+  // Strokes are not permitted
   if (/stroke/.test(svg)) {
     res.push("stroke")
   }

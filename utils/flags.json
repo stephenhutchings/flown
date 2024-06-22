@@ -236,13 +236,13 @@
     ],
     "size": {
       "source": 58468,
-      "output": 37534,
-      "compression": 64.2
+      "output": 8094,
+      "compression": 13.8
     },
-    "elementCount": 141,
+    "elementCount": 12,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": false,
+    "isValid": true,
     "errors": [
       "size",
       "stroke",
@@ -5791,17 +5791,15 @@
     ],
     "size": {
       "source": 23523,
-      "output": 14274,
-      "compression": 60.7
+      "output": 8582,
+      "compression": 36.5
     },
-    "elementCount": 35,
+    "elementCount": 6,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
-      "size",
-      "stroke",
-      "ratio"
+      "todo"
     ]
   },
   {
@@ -7755,8 +7753,8 @@
     ],
     "size": {
       "source": 672,
-      "output": 480,
-      "compression": 71.4
+      "output": 458,
+      "compression": 68.2
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -7779,8 +7777,8 @@
     ],
     "size": {
       "source": 218,
-      "output": 195,
-      "compression": 89.4
+      "output": 191,
+      "compression": 87.6
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
