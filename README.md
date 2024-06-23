@@ -1,9 +1,8 @@
 # flown
 
 **This library is a work in progress**, involving hundreds of hours of
-methodical work redrawing complex design elements. Progress towards an initial
-version is slow but steady. Watch this repository to know when the first release
-becomes available.
+methodical work. Progress towards an initial version is slow but steady. Watch
+this repository to know when the first release becomes available.
 
 ---
 

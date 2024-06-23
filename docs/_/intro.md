@@ -1,7 +1,6 @@
 **This library is a work in progress,** involving hundreds of hours of
-methodical work redrawing complex design elements. Progress towards an initial
-version is slow but steady. Watch this repository on [GitHub] to know when the
-first release becomes available.
+methodical work. Progress towards an initial version is slow but steady. Watch
+this repository on [GitHub] to know when the first release becomes available.
 
 `flown` is a collection of world flags. The library includes SVG files designed for use in digital applications where quality and visual consistency is important.
 
