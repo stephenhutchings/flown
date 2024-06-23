@@ -4838,6 +4838,7 @@
     "slug": "md",
     "ratio": "1:2",
     "colors": [
+      3,
       5,
       9,
       15,
@@ -4846,18 +4847,13 @@
     ],
     "size": {
       "source": 34587,
-      "output": 22619,
-      "compression": 65.4
+      "output": 6917,
+      "compression": 20
     },
-    "elementCount": 47,
+    "elementCount": 17,
     "region": "Europe",
     "subregion": "Eastern Europe",
-    "isValid": false,
-    "errors": [
-      "size",
-      "elements",
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Monaco.svg",
