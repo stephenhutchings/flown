@@ -1,29 +1,36 @@
 import { readFileSync } from "node:fs"
 import flags from "../utils/flags.json"
 
+// prettier-ignore
 const sets = [
-  [3, 4],
-  [4, 5],
-  [5, 6],
-  [8, 11, 12],
-  [9, 10],
-  [13, 14],
-  [14, 15],
-  [15, 16],
-  [19, 20, 27],
-  [21, 22],
-  [22, 23],
-  [23, 24],
-  [25, 26],
-  [29, 31],
+  [1, 2],       // grey
+  [4, 5],       // tan
+  [5, 6],       // brown
+  [8, 11, 12],  // orange
+  [7, 9, 10],   // yellow/gold
+  [13, 14, 15], // red
+  [15, 16],     // darkred
+  [19, 20, 26], // cyan/aqua/lightblue
+  [20, 21],     // lightblue
+  [21, 22],     // medblue
+  [22, 23],     // darkblue1
+  [23, 24],     // darkblue2
+  [24, 25],     // darkblue3
+  [26, 27],     // turquoise
+  [28, 30],     // lightgreen
+  [29, 31],     // darkgreen
 ]
 
-const isSimilar = (a, b) => {
-  return (
-    a === b ||
-    sets.filter((set) => set.includes(a)).some((set) => set.includes(b))
-  )
-}
+const compareColors = (af, bf, fn) =>
+  af.slug !== bf.slug &&
+  af.colors.every((a) => bf.colors.some((b) => fn(a, b))) &&
+  bf.colors.every((a) => af.colors.some((b) => fn(a, b)))
+
+const isSame = (a, b) => a === b
+
+const isSimilar = (a, b) =>
+  a === b ||
+  sets.filter((set) => set.includes(a)).some((set) => set.includes(b))
 
 export default {
   // Declare a layout for your product pages
@@ -34,28 +41,21 @@ export default {
   pages: flags
     .filter((flag) => flag.slug)
     .map((flag) => {
-      const sameColors = flags.filter((other) => {
-        return (
-          flag.slug !== other.slug &&
-          flag.colors.length === other.colors.length &&
-          flag.colors.every((a) => other.colors.some((b) => a === b))
-        )
-      })
+      const sameColors = flags.filter((other) =>
+        compareColors(flag, other, isSame)
+      )
+
+      const similarColors = flags.filter(
+        (other) =>
+          !sameColors.includes(other) && compareColors(flag, other, isSimilar)
+      )
 
       return {
         title: `Flag of ${flag.official || flag.name} – flown`,
         url: `/flags/${flag.slug}/`,
         flag,
         sameColors,
-
-        similarColors: flags.filter((other) => {
-          return (
-            flag.slug !== other.slug &&
-            !sameColors.includes(other) &&
-            flag.colors.length === other.colors.length &&
-            flag.colors.every((a) => other.colors.some((b) => isSimilar(a, b)))
-          )
-        }),
+        similarColors,
       }
     }),
 }
