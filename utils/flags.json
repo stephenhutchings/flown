@@ -242,13 +242,7 @@
     "elementCount": 12,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": true,
-    "errors": [
-      "size",
-      "stroke",
-      "elements",
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Angola.svg",
@@ -3011,10 +3005,7 @@
     "elementCount": 2,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": true,
-    "errors": [
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Greenland.svg",
@@ -3143,10 +3134,7 @@
     "elementCount": 9,
     "subregion": "Micronesia",
     "region": "Oceania",
-    "isValid": true,
-    "errors": [
-      "stroke"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Guatemala.svg",
@@ -3719,10 +3707,7 @@
     "elementCount": 2,
     "subregion": "Western Asia",
     "region": "Asia",
-    "isValid": true,
-    "errors": [
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Italy.svg",
