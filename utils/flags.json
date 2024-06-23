@@ -4054,8 +4054,8 @@
     ],
     "size": {
       "source": 739,
-      "output": 761,
-      "compression": 103
+      "output": 760,
+      "compression": 102.8
     },
     "elementCount": 4,
     "region": "Asia",
@@ -5970,10 +5970,7 @@
     "elementCount": 19,
     "subregion": "Southern Europe",
     "region": "Europe",
-    "isValid": true,
-    "errors": [
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
