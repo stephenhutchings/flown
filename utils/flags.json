@@ -1365,23 +1365,19 @@
     "ratio": "16:25",
     "colors": [
       0,
-      3,
       14,
+      16,
       23
     ],
     "size": {
       "source": 11716,
-      "output": 7201,
-      "compression": 61.5
+      "output": 5120,
+      "compression": 43.7
     },
-    "elementCount": 57,
+    "elementCount": 6,
     "subregion": "South-eastern Asia",
     "region": "Asia",
-    "isValid": false,
-    "errors": [
-      "stroke",
-      "ratio"
-    ]
+    "isValid": true
   },
   {
     "img": "https://en.wikipedia.org/wiki/File:Flag_of_Cameroon.svg",
