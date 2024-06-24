@@ -13,6 +13,10 @@ const transform = process.env.NIGHTOWL_MODE === "build" && [
         baseUrl({
           url: "/flown",
           allTags: true,
+          attributes: {
+            "data-image-a": true,
+            "data-image-b": true,
+          },
         }),
       ])
         .process(content)

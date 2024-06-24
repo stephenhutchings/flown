@@ -104,47 +104,49 @@ block body
   section.pb3
     h2 Difference
 
-    p Compare the difference between the updated flag and source artwork. White areas show where the two flags are similar, and black shows where the flags differ. The difference score depends on the method used to resizing the flag, and whether the alignment is in the centre or on the hoist side.
+    p Compare the difference between the updated flag and source artwork. White areas show where the two flags are similar, and black shows where the flags differ. The difference score depends on the method used to resize the flag, and whether the alignment is in the centre or on the hoist side.
 
     form.fx.fxw.gap.pb2(
       data-component="image-diff"
-      data-a=`/assets/img/flags/source/${flag.slug}.svg`
-      data-b=`/assets/img/flags/recolored/${flag.slug}.svg`
+      data-image-a=`/assets/img/flags/source/${flag.slug}.svg`
+      data-image-b=`/assets/img/flags/recolored/${flag.slug}.svg`
     )
       canvas.flag(width="600" height="360")
 
       .details.fx.fxc.gap
         .status
           strong Difference score&ensp;
-          span.status-count
-        .option-group.mbs3
-          .option-name.mbe1
-            strong Resize
-          .option-list.fx.gap
-            label
-              input(type="radio" name="resize" value="stretch" checked)
-              | &ensp;Stretch
-            label
-              input(type="radio" name="resize" value="cover")
-              | &ensp;Cover
-            label
-              input(type="radio" name="resize" value="contain")
-              | &ensp;Contain
-            label
-              input(type="radio" name="resize" value="balance")
-              | &ensp;Balance
+          span.status-count Loading…
+        if flag.ratio !== "5:3"
+          .option-group.mbs3
+            .option-name.mbe1
+              strong Resize
+            .option-list.fx.gap
+              label
+                input(type="radio" name="resize" value="stretch" checked)
+                | &ensp;Stretch
+              label
+                input(type="radio" name="resize" value="cover")
+                | &ensp;Cover
+              label
+                input(type="radio" name="resize" value="contain")
+                | &ensp;Contain
+              label
+                input(type="radio" name="resize" value="balance")
+                | &ensp;Balance
 
-        .option-group.mbs1
-          .option-name.mbe1
-            strong Align
-          .option-list.fx.gap
-            label
-              input(type="radio" name="align" value="center" checked)
-              | &ensp;Centre
-            label
-              input(type="radio" name="align" value="hoist")
-              | &ensp;Hoist
-
+          .option-group.mbs1
+            .option-name.mbe1
+              strong Align
+            .option-list.fx.gap
+              label
+                input(type="radio" name="align" value="center" checked)
+                | &ensp;Centre
+              label
+                input(type="radio" name="align" value="hoist")
+                | &ensp;Hoist
+        else
+          p Because the source flag uses the same ratio, resizing and alignment options are not applicable.
   section.pb3
     h2 SVG Code
     pre
@@ -220,4 +222,9 @@ block append head
 
     section + section {
       border-block-start-width: 1px;
+    }
+
+    .details {
+      flex: 1 0 0;
+      max-width: 25rem;
     }

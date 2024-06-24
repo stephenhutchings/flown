@@ -69,16 +69,16 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
   const canvas = el.querySelector("canvas")
   const difference = el.querySelector(".status-count")
 
-  const a = await loadImage(el.dataset.a)
-  const b = await loadImage(el.dataset.b)
+  const a = await loadImage(el.dataset.imageA)
+  const b = await loadImage(el.dataset.imageB)
 
   const context = canvas.getContext("2d", { willReadFrequently: true })
   canvas.width *= window.devicePixelRatio
   canvas.height *= window.devicePixelRatio
 
   const process = () => {
-    const resize = el.resize.value
-    const align = el.align.value
+    const resize = el.resize ? el.resize.value : "stretch"
+    const align = el.align ? el.align.value : "center"
     const contrast = 1.5
 
     const { width, height } = canvas
