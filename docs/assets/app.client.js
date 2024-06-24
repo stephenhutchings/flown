@@ -25,7 +25,7 @@ const loadImage = (src) => {
   })
 }
 
-const drawImage = (context, img, resize, align) => {
+const drawImage = (context, img, resize, align, norepeat) => {
   const iw = img.width
   const ih = img.height
   const cw = context.canvas.width
@@ -50,6 +50,8 @@ const drawImage = (context, img, resize, align) => {
 
   context.drawImage(img, dx, dy, dw, dh)
 
+  if (norepeat) return
+
   // Repeat horizontal and vertical edges if needed
   if (dw < cw) {
     context.drawImage(img, 0, 0, 1, ih, 0, dy, dx, dh)
@@ -60,7 +62,6 @@ const drawImage = (context, img, resize, align) => {
     context.drawImage(img, 0, 0, iw, 1, dx, 0, dw, dy)
     context.drawImage(img, 0, ih - 1, iw, 1, dx, dh + dy, dw, dy)
   }
-  context.restore()
 }
 
 qsa("a[href*='#']").forEach((a) => a.addEventListener("click", scrollTo))
@@ -76,19 +77,50 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
   canvas.width *= window.devicePixelRatio
   canvas.height *= window.devicePixelRatio
 
-  const process = () => {
+  const { width, height } = canvas
+
+  const process = (x, y) => {
     const resize = el.resize ? el.resize.value : "stretch"
     const align = el.align ? el.align.value : "center"
     const contrast = 1.5
 
-    const { width, height } = canvas
+    context.clearRect(0, 0, width, height)
+
+    context.globalCompositeOperation = "source-over"
+    drawImage(context, a, resize, align, x || y)
+
+    if (x || y) {
+      context.filter = "none"
+      const f = canvas.width / canvas.offsetWidth
+      const s = 3 * f
+      const r = 100 * f
+      x *= f
+      y *= f
+
+      context.save()
+
+      context.beginPath()
+      context.moveTo(x + r, y)
+      context.arc(x, y - 0.001, r, 0, Math.PI * 2)
+      context.closePath()
+      context.clip()
+      drawImage(context, b, resize, align)
+      context.restore()
+
+      context.beginPath()
+      context.moveTo(x + r - s / 2, y)
+      context.arc(x, y - 0.001, r - s / 2, 0, Math.PI * 2)
+      context.closePath()
+      context.strokeStyle = "#aaa3"
+      context.lineWidth = s
+      context.stroke()
+
+      return
+    }
 
     // Increased contrast exaggerates differences in placement
     // and reduces differences in colour.
     context.filter = `contrast(${contrast})`
-
-    context.globalCompositeOperation = "source-over"
-    drawImage(context, a, resize, align)
 
     context.globalCompositeOperation = "difference"
     drawImage(context, b, resize, align)
@@ -117,6 +149,18 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
   })
 
   el.addEventListener("input", (e) => {
+    process()
+  })
+
+  canvas.addEventListener("touchmove", (e) => {
+    e.preventDefault()
+  })
+
+  canvas.addEventListener("pointermove", (e) => {
+    process(e.offsetX, e.offsetY)
+  })
+
+  canvas.addEventListener("pointerleave", () => {
     process()
   })
 

@@ -23,13 +23,13 @@ block body
 
     .fx.pb2.gap
       each type in ["recolored"]
-        a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg` data-type=type)
+        a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg`)
           img(
             width=600
             src=`/assets/img/flags/${type}/${flag.slug}.svg`
           )
 
-    .info
+    .info.fxw
       if flag.a2
         code.code.nano= flag.a2
 
@@ -57,7 +57,7 @@ block body
             = flag.ratio
 
         if flag.ratio
-          dt Elements
+          dt Layers
           dd(title="Number of elements")
             = flag.elementCount
 
@@ -117,7 +117,8 @@ block body
         .status
           strong Difference score&ensp;
           span.status-count Loading…
-        if flag.ratio !== "5:3"
+
+        if flag.ratio !== "3:5"
           .option-group.mbs3
             .option-name.mbe1
               strong Resize
@@ -146,7 +147,10 @@ block body
                 input(type="radio" name="align" value="hoist")
                 | &ensp;Hoist
         else
-          p Because the source flag uses the same ratio, resizing and alignment options are not applicable.
+          p The source flag uses the standard 3:5 ratio. No resizing is required.
+
+        p.mbsa Hover over the image to compare flags in full colour.
+
   section.pb3
     h2 SVG Code
     pre
@@ -158,11 +162,12 @@ block body
 
     .fx.fxw.gap.pb2.jcsb
       for width in [320, 160, 120, 80, 60, 40, 25, 20]
-        a(href=`/assets/img/flags/recolored/${flag.slug}.svg`)
-          img.flag(
+        a.td0.nano.mt(href=`/assets/img/flags/recolored/${flag.slug}.svg`)
+          img.flag.mbe1(
             width=width
             src=`/assets/img/flags/recolored/${flag.slug}.svg`
           )
+          | #{width}&times;#{width/5*3}
 
 block append head
   style.
@@ -213,7 +218,8 @@ block append head
 
     canvas {
       max-inline-size: 37.5rem;
-         }
+      cursor: crosshair;
+    }
 
     p {
       max-inline-size: 50rem;
@@ -227,4 +233,15 @@ block append head
     .details {
       flex: 1 0 0;
       max-width: 25rem;
+    }
+
+    @media (max-width: 800px) {
+      .jcsb {
+        justify-content: flex-start;
+      }
+
+      dl {
+        order: 1;
+        flex-wrap: none;
+      }
     }
