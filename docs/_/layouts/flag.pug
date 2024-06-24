@@ -7,7 +7,7 @@ block body
     flag.size.output > 10000 ? "large" : ""
   ])
     .head
-      h2= flag.name
+      h1= flag.name
       span.emoji= flag.emoji
 
     if !flag.isValid
@@ -21,8 +21,8 @@ block body
               != "&times; "
               = errorCodes[key]
 
-    .fx.pb3.gap
-      each type in ["source", "recolored"]
+    .fx.pb2.gap
+      each type in ["recolored"]
         a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg` data-type=type)
           img(
             width=600
@@ -68,38 +68,93 @@ block body
       each note in notes[flag.slug]
         li= note
 
-  if flag.colors
-    ul.fx.fxw.gap
-      each i in flag.colors
-        li
-          +color(palette[i])
+  section.pb3
+    h2 Palette
+    if flag.colors
+      ul.fx.fxw.gap
+        each i in flag.colors
+          li
+            +color(palette[i])
 
-  p.pb3
-    if sameColors.length > 0
-      | This colour palette is also used by
-      for other, i in sameColors
-        = i === 0 ? " " : i === sameColors.length - 1 ? " and " : ", "
-        a(href=`/flags/${other.slug}/`)
-          = other.name
-      = "."
-    else
-      | This colour palette is unique to #{flag.name}.
+    p.pb2
+      if sameColors.length > 0
+        | This colour palette is also used by
+        for other, i in sameColors
+          = i === 0 ? " " : i === sameColors.length - 1 ? " and " : ", "
+          a(href=`/flags/${other.slug}/`)
+            img.flag.inline(
+              src=`/assets/img/flags/recolored/${other.slug}.svg`
+            )
+            = other.name
+        = "."
+      else
+        | This colour palette is unique to #{flag.name}.
 
-    if similarColors.length > 0
-      |  It is similar to
-      for other, i in similarColors
-        = i === 0 ? " " : i === similarColors.length - 1 ? " and " : ", "
-        a(href=`/flags/${other.slug}/`)
-          = other.name
-      = "."
+      if similarColors.length > 0
+        |  It is similar to
+        for other, i in similarColors
+          = i === 0 ? " " : i === similarColors.length - 1 ? " and " : ", "
+          a(href=`/flags/${other.slug}/`)
+            img.flag.inline(
+              src=`/assets/img/flags/recolored/${other.slug}.svg`
+            )
+            = other.name
+        = "."
 
-  pre
-    code(style="white-space: pre-wrap; overflow-wrap: break-word;")
-      != filters.highlight(content.toString(), "svg")
+  section.pb3
+    h2 Difference
 
-  section.fx.fxw.gap.pb3(
-    style="justify-content: space-between;"
-  )
+    p Compare the difference between the updated flag and source artwork. White areas show where the two flags are similar, and black shows where the flags differ. The difference score depends on the method used to resizing the flag, and whether the alignment is in the centre or on the hoist side.
+
+    form.fx.fxw.gap.pb2(
+      data-component="image-diff"
+      data-a=`/assets/img/flags/source/${flag.slug}.svg`
+      data-b=`/assets/img/flags/recolored/${flag.slug}.svg`
+    )
+      canvas.flag(width="600" height="360")
+
+      .details.fx.fxc.gap
+        .status
+          strong Difference score&ensp;
+          span.status-count
+        .option-group.mbs3
+          .option-name.mbe1
+            strong Resize
+          .option-list.fx.gap
+            label
+              input(type="radio" name="resize" value="stretch" checked)
+              | &ensp;Stretch
+            label
+              input(type="radio" name="resize" value="cover")
+              | &ensp;Cover
+            label
+              input(type="radio" name="resize" value="contain")
+              | &ensp;Contain
+            label
+              input(type="radio" name="resize" value="balance")
+              | &ensp;Balance
+
+        .option-group.mbs1
+          .option-name.mbe1
+            strong Align
+          .option-list.fx.gap
+            label
+              input(type="radio" name="align" value="center" checked)
+              | &ensp;Centre
+            label
+              input(type="radio" name="align" value="hoist")
+              | &ensp;Hoist
+
+  section.pb3
+    h2 SVG Code
+    pre
+      code(style="white-space: pre-wrap; overflow-wrap: break-word;")
+        != filters.highlight(content.toString(), "svg")
+
+  section.pb3
+    h2 Waterfall
+
+    .fx.fxw.gap.pb2.jcsb
       for width in [320, 160, 120, 80, 60, 40, 25, 20]
         a(href=`/assets/img/flags/recolored/${flag.slug}.svg`)
           img.flag(
@@ -132,6 +187,14 @@ block append head
       opacity: 0;
     }
 
+    img.inline {
+      height: 0.9em;
+      width: 1.5em;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0.2em;
+    }
+
     dl {
       display: flex;
       flex-wrap: wrap;
@@ -140,4 +203,21 @@ block append head
 
     dd {
       margin-right: 0.5rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    canvas {
+      max-inline-size: 37.5rem;
+         }
+
+    p {
+      max-inline-size: 50rem;
+      line-height: 1.5;
+    }
+
+    section + section {
+      border-block-start-width: 1px;
     }
