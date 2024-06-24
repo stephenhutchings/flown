@@ -775,7 +775,6 @@
       6,
       9,
       11,
-      12,
       14,
       19,
       22,
@@ -786,7 +785,7 @@
     ],
     "size": {
       "source": 86438,
-      "output": 49190,
+      "output": 49183,
       "compression": 56.9
     },
     "elementCount": 125,
@@ -1156,25 +1155,23 @@
       9,
       15,
       21,
-      24,
+      25,
       29,
       31
     ],
     "size": {
       "source": 83791,
-      "output": 49647,
-      "compression": 59.3
+      "output": 36659,
+      "compression": 43.8
     },
-    "elementCount": 190,
+    "elementCount": 141,
     "subregion": "Sub-Saharan Africa",
     "region": "Africa",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "attribute",
-      "ratio"
+      "attribute"
     ]
   },
   {
@@ -1207,10 +1204,10 @@
     ],
     "size": {
       "source": 21651,
-      "output": 9604,
-      "compression": 44.4
+      "output": 9718,
+      "compression": 44.9
     },
-    "elementCount": 47,
+    "elementCount": 46,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": false,
@@ -1492,10 +1489,10 @@
     ],
     "size": {
       "source": 50126,
-      "output": 22769,
-      "compression": 45.4
+      "output": 22883,
+      "compression": 45.7
     },
-    "elementCount": 82,
+    "elementCount": 81,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": false,
@@ -7569,7 +7566,7 @@
       6,
       9,
       10,
-      14,
+      15,
       17,
       24,
       30
