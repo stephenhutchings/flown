@@ -7749,6 +7749,7 @@
     "short": "England",
     "a2": "GB-ENG",
     "slug": "gb-eng",
+    "ratio": "5:3",
     "colors": [
       0,
       15
@@ -7773,6 +7774,7 @@
     "short": "Scotland",
     "a2": "GB-SCT",
     "slug": "gb-sct",
+    "ratio": "5:3",
     "colors": [
       0,
       22
@@ -7797,6 +7799,7 @@
     "short": "Wales",
     "a2": "GB-WLS",
     "slug": "gb-wls",
+    "ratio": "5:3",
     "colors": [
       0,
       14,
