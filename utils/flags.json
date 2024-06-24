@@ -69,12 +69,13 @@
     "ratio": "2:3",
     "colors": [
       0,
+      3,
       14,
       31
     ],
     "size": {
       "source": 232397,
-      "output": 128032,
+      "output": 128047,
       "compression": 55.1
     },
     "elementCount": 7,
