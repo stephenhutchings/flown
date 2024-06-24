@@ -155,11 +155,11 @@ block body
     h2 SVG Code
     pre
       - const svg = content.toString()
-      - const snippet = svg.match(/^.{1000}[^"]{0,200}"?/)[0]
+      - const snippet = svg.match(/^.{1000}[^"]{0,200}"?/)
       - const code = filters.highlight(svg, "svg")
       code(style="white-space: pre-wrap; overflow-wrap: break-word;")
-        != filters.highlight(snippet+'…" />', "svg")
-        if code.length > snippet.length
+        != snippet ? filters.highlight(snippet[0]+'…" />', "svg") : code
+        if snippet
           button.more(data-component="replace" data-replace=code)
             | Expand
 
