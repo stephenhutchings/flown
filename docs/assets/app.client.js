@@ -66,6 +66,15 @@ const drawImage = (context, img, resize, align, norepeat) => {
 
 qsa("a[href*='#']").forEach((a) => a.addEventListener("click", scrollTo))
 
+qsa("[data-component='replace']").forEach((a) =>
+  a.addEventListener("click", () => {
+    const content = a.dataset.replace
+    const parent = a.parentNode
+    a.remove()
+    parent.innerHTML = content
+  })
+)
+
 qsa("[data-component='image-diff'").forEach(async (el) => {
   const canvas = el.querySelector("canvas")
   const difference = el.querySelector(".status-count")
