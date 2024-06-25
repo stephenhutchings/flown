@@ -1,9 +1,8 @@
+$screen-md-max: 64rem
+$screen-sm-max: 36rem
+
 .quicklook dl
   flex-flow: wrap column
-
-.quicklook dt,
-.quicklook dd
-  border-top-width: 1px
 
 .quicklook dd
   font-size: 4rem
@@ -14,11 +13,14 @@
 .jumpto .nano
   margin-top: 0.125rem
 
-.colors
-  border-top-width: 1px
-
+.colors, .jumpto, .tags
   h2
-    flex-basis: 10%
+    flex: 0 0 10%
+
+.intro p:first-child
+  background: #f42a5d7a
+  padding: 0.5rem
+  border-radius: 2px
 
 @media (max-width: $screen-md-max)
   .quicklook dl > *
@@ -28,5 +30,5 @@
   .quicklook dd
     font-size: 2.5rem
 
-  .colors
+  .colors, .jumpto, .tags
     display: block

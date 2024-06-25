@@ -3,9 +3,12 @@ mixin flag-list-item(flag)
     flag.size.output > 10000 ? "large" : "",
     flag.isValid ? "valid" : "invalid"
   ])
-    a(href=`/flags/${flag.slug}`)
+    a.td0(href=`/flags/${flag.slug}`)
       +flag(flag.slug)
 
       .fx.mb1.aic
-        h3.nano= flag.name
+        h3.nano
+          = flag.name.short
+          if flag.name.other
+            | &hairsp;/&hairsp;#{flag.name.other}
         code.code.nano.misa= flag.a2 || "—"

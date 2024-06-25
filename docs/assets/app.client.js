@@ -33,6 +33,8 @@ const drawImage = (context, img, resize, align, norepeat) => {
 
   let dw = cw
   let dh = ch
+  let dx
+  let dy
 
   if (resize !== "stretch") {
     let f = 1
@@ -45,8 +47,11 @@ const drawImage = (context, img, resize, align, norepeat) => {
     dh = Math.floor(ih * f)
   }
 
-  const dx = align === "hoist" ? 0 : (cw - dw) / 2
-  const dy = (ch - dh) / 2
+  dx = (cw - dw) / 2
+  dy = (ch - dh) / 2
+
+  if (align === "hoist") dx = 0
+  if (align === "fly") dx = cw - dw
 
   context.drawImage(img, dx, dy, dw, dh)
 
@@ -75,80 +80,88 @@ qsa("[data-component='replace']").forEach((a) =>
   })
 )
 
+const easeInOut = (t, p = 5) =>
+  t <= 0.5 ? Math.pow(t * 2, p) / 2 : 1 - Math.pow(2 - t * 2, p) / 2
+
 qsa("[data-component='image-diff'").forEach(async (el) => {
-  const canvas = el.querySelector("canvas")
   const difference = el.querySelector(".status-count")
+  const dcanvas = el.querySelector("canvas.difference")
+  const icanvas = el.querySelector("canvas.inspector")
 
   const a = await loadImage(el.dataset.imageA)
   const b = await loadImage(el.dataset.imageB)
 
-  const context = canvas.getContext("2d", { willReadFrequently: true })
-  canvas.width *= window.devicePixelRatio
-  canvas.height *= window.devicePixelRatio
+  const dcontext = dcanvas.getContext("2d", { willReadFrequently: true })
+  const icontext = icanvas.getContext("2d", { willReadFrequently: true })
 
-  const { width, height } = canvas
+  dcanvas.width *= window.devicePixelRatio
+  dcanvas.height *= window.devicePixelRatio
 
-  const process = (x, y) => {
+  icanvas.width = dcanvas.width
+  icanvas.height = dcanvas.height
+
+  const { width, height } = dcanvas
+  const weights = [0.299, 0.587, 0.114]
+
+  const process = (ctx, x, y) => {
     const resize = el.resize ? el.resize.value : "stretch"
     const align = el.align ? el.align.value : "center"
-    const contrast = 1.5
 
-    context.clearRect(0, 0, width, height)
+    ctx.clearRect(0, 0, width, height)
 
-    context.globalCompositeOperation = "source-over"
-    drawImage(context, a, resize, align, x || y)
+    ctx.globalCompositeOperation = "source-over"
+    drawImage(ctx, a, resize, align, x || y)
 
     if (x || y) {
-      context.filter = "none"
-      const f = canvas.width / canvas.offsetWidth
+      ctx.filter = "none"
+      const f = dcanvas.width / dcanvas.offsetWidth
       const s = 3 * f
       const r = 100 * f
       x *= f
       y *= f
 
-      context.save()
+      ctx.save()
 
-      context.beginPath()
-      context.moveTo(x + r, y)
-      context.arc(x, y - 0.001, r, 0, Math.PI * 2)
-      context.closePath()
-      context.clip()
-      drawImage(context, b, resize, align)
-      context.restore()
+      ctx.beginPath()
+      ctx.moveTo(x + r, y)
+      ctx.arc(x, y - 0.001, r, 0, Math.PI * 2)
+      ctx.closePath()
+      ctx.clip()
+      drawImage(ctx, b, resize, align)
+      ctx.restore()
 
-      context.beginPath()
-      context.moveTo(x + r - s / 2, y)
-      context.arc(x, y - 0.001, r - s / 2, 0, Math.PI * 2)
-      context.closePath()
-      context.strokeStyle = "#aaa3"
-      context.lineWidth = s
-      context.stroke()
+      ctx.beginPath()
+      ctx.moveTo(x + r - s / 2, y)
+      ctx.arc(x, y - 0.001, r - s / 2, 0, Math.PI * 2)
+      ctx.closePath()
+      ctx.strokeStyle = "#aaa3"
+      ctx.lineWidth = s
+      ctx.stroke()
 
       return
     }
 
-    // Increased contrast exaggerates differences in placement
-    // and reduces differences in colour.
-    context.filter = `contrast(${contrast})`
+    ctx.globalCompositeOperation = "difference"
+    drawImage(ctx, b, resize, align)
 
-    context.globalCompositeOperation = "difference"
-    drawImage(context, b, resize, align)
+    const { data } = ctx.getImageData(0, 0, width, height)
 
-    const { data } = context.getImageData(0, 0, width, height)
+    ctx.fillStyle = "white"
+    ctx.globalCompositeOperation = "color"
+    ctx.fillRect(0, 0, width, height)
+    ctx.globalCompositeOperation = "difference"
+    ctx.fillRect(0, 0, width, height)
 
-    context.fillStyle = "white"
-    context.globalCompositeOperation = "color"
-    context.fillRect(0, 0, width, height)
-    context.globalCompositeOperation = "difference"
-    context.fillRect(0, 0, width, height)
-
-    context.fillStyle = "#121e25"
-    context.globalCompositeOperation = "lighten"
-    context.fillRect(0, 0, width, height)
+    ctx.fillStyle = "#121e25"
+    ctx.globalCompositeOperation = "lighten"
+    ctx.fillRect(0, 0, width, height)
 
     const d =
-      data.reduce((m, a, i) => m + (i % 4 === 3 ? 0 : a / 255)) /
-      (data.length * 0.75)
+      data.reduce(
+        (m, a, i) =>
+          m + (i % 4 === 3 ? 0 : easeInOut(a / 255, 1.25) * weights[i % 4])
+      ) /
+      (data.length * 0.25)
 
     difference.innerHTML = (d * 100).toFixed(1) + "%"
   }
@@ -157,21 +170,26 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
     e.preventDefault()
   })
 
-  el.addEventListener("input", (e) => {
-    process()
+  el.addEventListener("input", () => {
+    process(dcontext)
   })
 
-  canvas.addEventListener("touchmove", (e) => {
+  icanvas.addEventListener("touchmove", (e) => {
     e.preventDefault()
   })
 
-  canvas.addEventListener("pointermove", (e) => {
-    process(e.offsetX, e.offsetY)
+  icanvas.addEventListener("pointerenter", (e) => {
+    el.classList.add("inspect")
+    process(icontext, e.offsetX, e.offsetY)
   })
 
-  canvas.addEventListener("pointerleave", () => {
-    process()
+  icanvas.addEventListener("pointermove", (e) => {
+    process(icontext, e.offsetX, e.offsetY)
   })
 
-  process()
+  icanvas.addEventListener("pointerleave", (e) => {
+    el.classList.remove("inspect")
+  })
+
+  process(dcontext)
 })

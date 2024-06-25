@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs"
-import flags from "../utils/flags.json"
+import data from "./_/data.js"
 
 // prettier-ignore
 const sets = [
@@ -38,20 +38,20 @@ export default {
   slug: "",
 
   render: ({ flag }) => readFileSync(`./src/flags/recolored/${flag.slug}.svg`),
-  pages: flags
+  pages: data.flags
     .filter((flag) => flag.slug)
     .map((flag) => {
-      const sameColors = flags.filter((other) =>
+      const sameColors = data.flags.filter((other) =>
         compareColors(flag, other, isSame)
       )
 
-      const similarColors = flags.filter(
+      const similarColors = data.flags.filter(
         (other) =>
           !sameColors.includes(other) && compareColors(flag, other, isSimilar)
       )
 
       return {
-        title: `Flag of ${flag.official || flag.name} – flown`,
+        title: `Flag of ${flag.name.official || flag.name.short} – flown`,
         url: `/flags/${flag.slug}/`,
         flag,
         sameColors,

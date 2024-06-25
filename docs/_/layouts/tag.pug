@@ -1,0 +1,13 @@
+extends /_/layouts/default
+
+block body
+  .pb3
+    h1= title
+    p.pb2
+      | There are #{list.length} flags that match this tag.
+
+  ul.gr6.md-gr4.sm-gr2.gap
+    each id in list
+      - const flag = flags[id]
+      if flag
+        +flag-list-item(flag)

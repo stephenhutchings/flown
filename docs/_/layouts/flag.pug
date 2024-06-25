@@ -3,12 +3,23 @@ extends /_/layouts/default
 include /_/mixins/color
 
 block body
+  - const ratio = flag.ratio.split(":").reduce((a, b) => a / b)
+
   section.pb3(class=[
     flag.size.output > 10000 ? "large" : ""
   ])
-    .head
-      h1= flag.name
-      span.emoji= flag.emoji
+    .head.fx.fxw.gap.mbe1
+      h1.mbsa= flag.name.short
+
+      if flag.name.official && flag.name.short !== flag.name.official
+        small.mbsa= flag.name.official
+
+      .misa.fx.gap
+        if flag.a2
+          code.code.nano.mba= flag.a2
+
+        if flag.emoji
+          span.emoji= flag.emoji
 
     if !flag.isValid
       .invalid.pb3
@@ -30,12 +41,6 @@ block body
           )
 
     .info.fxw
-      if flag.a2
-        code.code.nano= flag.a2
-
-      if flag.a3
-        code.code.nano= flag.a3
-
       dl
         dt Size
         dd
@@ -51,22 +56,43 @@ block body
               |  (#{(100 - flag.size.compression).toFixed(1)}% smaller)
 
 
-        if flag.ratio
-          dt Original ratio
-          dd(title="Original ratio")
-            = flag.ratio
+        dt Distortion
+        dd(title="Change in size from original ratio")
+          if ratio === 3 / 5
+            | 0
+            span.mt %
+          else if ratio > 3 / 5
+            = (100 * (ratio / (3 / 5) - 1)).toFixed(1)
+            span.mt % wider
+          else
+            = (100 * (1 - ratio / (3 / 5))).toFixed(1)
+            span.mt % narrower
 
-        if flag.ratio
-          dt Layers
-          dd(title="Number of elements")
-            = flag.elementCount
+          span.mt
+            |  (#{flag.ratio})
 
-      a(href=flag.info target="_blank") Wikipedia
+
+        dt Layers
+        dd(title="Number of elements")
+          = flag.elementCount
+
+        dt Details
+        dd
+          a(href=flag.info target="_blank") Wikipedia
 
   if notes && notes[flag.slug]
     ul
       each note in notes[flag.slug]
         li= note
+
+  if flag.tags.length
+    section.pb3
+      h2 Tags
+      ul.fx.fxw.gap
+        each tag in flag.tags
+          li
+            a(href=`/tags/${slugify(tag)}/`)
+              = tag
 
   section.pb3
     h2 Palette
@@ -85,10 +111,10 @@ block body
             img.flag.inline(
               src=`/assets/img/flags/recolored/${other.slug}.svg`
             )
-            = other.name
+            = other.name.short
         = "."
       else
-        | This colour palette is unique to #{flag.name}.
+        | This colour palette is unique to #{flag.name.short}.
 
       if similarColors.length > 0
         |  It is similar to
@@ -98,20 +124,53 @@ block body
             img.flag.inline(
               src=`/assets/img/flags/recolored/${other.slug}.svg`
             )
-            = other.name
+            = other.name.short
         = "."
+
+  //- if flag.details
+    section.pb3
+      h2 Detail
+
+      each detail in flag.details
+        - const [x, y, w, h] = detail.area
+        - const f = 5 / 3
+
+        .pb1
+          p.mbe2= detail.note
+
+          .fx.gap
+            each type, i in ["recolored", "source"]
+              - const src = `/assets/img/flags/${type}/${flag.slug}.svg`
+              .detail(
+                style={
+                  "aspect-ratio": (f * (w / h)).toFixed(3),
+                }
+              )
+                img(
+                  src=src
+                  style={
+                    width: +(100 / w).toFixed(3) + "%",
+                    height: +(100 / h).toFixed(3) + "%",
+                    top: +(100 * -y / h).toFixed(3) + "%",
+                    left: +(100 * -x / w).toFixed(3) + "%",
+                    filter: i === 1 ? "saturate(0)" : null,
+                  }
+                )
+
 
   section.pb3
     h2 Difference
 
-    p Compare the difference between the updated flag and source artwork. White areas show where the two flags are similar, and black shows where the flags differ. The difference score depends on the method used to resize the flag, and whether the alignment is in the centre or on the hoist side.
+    p Compare the differences between this flag and the source artwork. White indicates similarity, while black shows where the flags differ. When the proportions differ, the flag can be resized and aligned in different ways. The score is computed from the average weighted difference between rendered pixels.
 
     form.fx.fxw.gap.pb2(
       data-component="image-diff"
       data-image-a=`/assets/img/flags/source/${flag.slug}.svg`
       data-image-b=`/assets/img/flags/recolored/${flag.slug}.svg`
     )
-      canvas.flag(width="600" height="360")
+      .flag
+        canvas.difference(width="600" height="360")
+        canvas.inspector(width="600" height="360")
 
       .details.fx.fxc.gap
         .status
@@ -119,20 +178,20 @@ block body
           span.status-count Loading…
 
         if flag.ratio !== "3:5"
-          .option-group.mbs3
+          .option-group.mbs2
             .option-name.mbe1
               strong Resize
             .option-list.fx.gap
-              label
+              label(title="Ignore aspect ratio when resizing")
                 input(type="radio" name="resize" value="stretch" checked)
                 | &ensp;Stretch
-              label
+              label(title="Expand to fill the space")
                 input(type="radio" name="resize" value="cover")
                 | &ensp;Cover
-              label
+              label(title="Shrink to fit inside the space")
                 input(type="radio" name="resize" value="contain")
                 | &ensp;Contain
-              label
+              label(title="Scale to match the area")
                 input(type="radio" name="resize" value="balance")
                 | &ensp;Balance
 
@@ -140,14 +199,19 @@ block body
             .option-name.mbe1
               strong Align
             .option-list.fx.gap
-              label
-                input(type="radio" name="align" value="center" checked)
-                | &ensp;Centre
-              label
-                input(type="radio" name="align" value="hoist")
+              - const hoist = flag.tags.includes("Canton")
+              label(title="Align to the hoist side (left)")
+                input(type="radio" name="align" value="hoist" checked=hoist)
                 | &ensp;Hoist
+              label(title="Align to the center")
+                input(type="radio" name="align" value="center" checked=!hoist)
+                | &ensp;Centre
+              label(title="Align to the fly side (right)")
+                input(type="radio" name="align" value="fly")
+                | &ensp;Fly
+
         else
-          p The source flag uses the standard 3:5 ratio. No resizing is required.
+          p The source flag uses the standard 3:5 ratio. Resizing is not required.
 
         p.mbsa Hover over the image to compare flags in full colour.
 
@@ -166,6 +230,8 @@ block body
   section.pb3
     h2 Waterfall
 
+    p See how this flag displays at different sizes.
+
     .fx.fxw.gap.pb2.jcsb
       for width in [320, 160, 120, 80, 60, 40, 25, 20]
         a.td0.nano.mt(href=`/assets/img/flags/recolored/${flag.slug}.svg`)
@@ -176,108 +242,5 @@ block body
           | #{width}&times;#{width/5*3}
 
 block append head
-  style.
-    .flag[data-type]::before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: #fff;
-      color: #023;
-      padding: 2px 3px;
-      font-size: 0.8rem;
-      transition: opacity 300ms;
-    }
-
-    [data-type="source"]::before {
-      content: "Source (Wikipedia)";
-    }
-
-    [data-type="recolored"]::before {
-      content: "Redrawn";
-    }
-
-    .flag[data-type]:hover::before {
-      opacity: 0;
-    }
-
-    img.inline {
-      height: 0.9em;
-      width: 1.5em;
-      display: inline-block;
-      vertical-align: middle;
-      margin: 0 0.2em;
-    }
-
-    dl {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    dd {
-      margin-right: 0.5rem;
-    }
-
-    h2 {
-      margin-bottom: 1rem;
-    }
-
-    canvas {
-      max-inline-size: 37.5rem;
-      cursor: crosshair;
-    }
-
-    p {
-      max-inline-size: 50rem;
-      line-height: 1.5;
-    }
-
-    section + section {
-      border-block-start-width: 1px;
-    }
-
-    pre {
-      position: relative;
-    }
-
-    .details {
-      flex: 1 0 0;
-      max-width: 25rem;
-    }
-
-    .more {
-      background: #345;
-      padding: 0.5rem 0.75rem;
-      margin: 0.2rem;
-      appearance: none;
-      font: inherit;
-      color: inherit;
-      border-radius: 2px;
-      position: absolute;
-      inset: auto 0 0;
-      transition: background 300ms;
-    }
-
-    .more:hover,
-    .more:focus-visible {
-      background: #456;
-    }
-
-    .more::before {
-      content: "";
-      position: absolute;
-      inset: auto 0 100%;
-      height: 1rem;
-      background: linear-gradient(to bottom, #2340, #234);
-    }
-
-    @media (max-width: 800px) {
-      .jcsb {
-        justify-content: flex-start;
-      }
-
-      dl {
-        order: 1;
-        flex-wrap: none;
-      }
-    }
+  style
+    include:sass /assets/sass/_flag.sass

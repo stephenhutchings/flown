@@ -1,4 +1,5 @@
 import { marked } from "marked"
+import sass from "sass"
 import { markedSmartypants } from "marked-smartypants"
 
 import posthtml from "posthtml"
@@ -61,6 +62,11 @@ export default {
       options: {
         filters: {
           md: marked,
+          sass: (str) =>
+            sass.compileString(str, {
+              syntax: "indented",
+              loadPaths: ["docs/assets/sass"],
+            }).css,
         },
       },
     },

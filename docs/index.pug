@@ -10,40 +10,48 @@ block body
 
   .quicklook.mb1
     dl.gr6.md-gr4.sm-gr2.gap
-      dt.pb2.nano Flags
-      dd.pb1= flags.length
+      dt.bt.pb2.nano Flags
+      dd.bt.pb1= flags.length
 
-      dt.pb2.nano Colours
-      dd.pb1= palette.length
+      dt.bt.pb2.nano Colours
+      dd.bt.pb1= palette.length
 
-      dt.pb2.nano Aspect Ratio
-      dd.pb1 
+      dt.bt.pb2.nano Aspect Ratio
+      dd.bt.pb1 
         | 5
         span.mt :
         | 3
 
       - const source = flags.reduce((m, f) => m + f.size.source, 0)
       - const output = flags.reduce((m, f) => m + f.size.output, 0)
-      dt.pb2.nano Compression
-      dd.pb1
+      dt.bt.pb2.nano Compression
+      dd.bt.pb1
         = (100 * (1 - output / source)).toFixed(1)
         span.mt %
 
-      dt.pb2.nano Average Size
-      dd.pb1
+      dt.bt.pb2.nano Average Size
+      dd.bt.pb1
         = (output / flags.length / 1024).toFixed(1)
         span.mt kB
 
-  .colors.fx.mb1.pb2.gap
-    h2.pb1.nano Colour Palette
+  .colors.fx.pb3.gap.bt
+    h2.mbe1.nano Colour Palette
 
-    ul.pb1.gr8.md-gr4.fxg.gap
+    ul.gr8.md-gr4.fxg.gap
       each color in palette
         li
           +color(color)
+  
+  .tags.fx.pb3.gap.bt
+    h2.mbe1.nano Tags
 
-  .jumpto.fx.gap
-    h2.nano Regions
+    nav.fx.fxw.gap
+      each tag in tagList
+        a(href=`/tags/${tag.slug}`)
+          = tag.title
+
+  .jumpto.fx.pb3.gap.bt
+    h2.mbe1.nano Regions
     nav.fx.fxw.gap
       each region in regions
         a(href=`#${region.slug}`)
@@ -60,9 +68,5 @@ block body
             +flag-list-item(flag)
 
 block append head
-  style.
-    .intro p:first-child {
-      background: #f42a5d7a;
-      padding: 0.5rem;
-      border-radius: 2px;
-    }
+  style
+    include:sass /assets/sass/_home.sass

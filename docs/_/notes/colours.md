@@ -3,7 +3,7 @@
 Despite their tendency towards primary colours, flags exhibit a large degree of subtle, and often unintentional, variation. While some flags dictate the use of specific colours, others are less precise.
 
 <figure>
-  <img width="500" height="200" alt="All flag colours" src="/assets/img/palette/all.svg">
+  <img width="750" height="300" alt="All flag colours" src="/assets/img/palette/all.svg">
   <figcaption>
     The colour palette used by all the original flags includes over a thousand distinct varieties. This profusion tends to fall into broadly similar tones and hues.
   </figcaption>
@@ -26,10 +26,10 @@ provided a reduced palette of 16 colours able to reproduce most flags with
 reasonable accuracy and minimal duplication.
 
 <figure class="fx fxc gap">
-  <img width="160" height="10" alt="Quantized palette" src="/assets/img/palette/16.svg">
-  <img width="200" height="10" alt="Quantized palette" src="/assets/img/palette/20.svg">
-  <img width="240" height="10" alt="Quantized palette" src="/assets/img/palette/24.svg">
-  <img width="320" height="10" alt="Quantized palette" src="/assets/img/palette/32.svg">
+  <img width="320" height="20" alt="Quantized palette" src="/assets/img/palette/16.svg">
+  <img width="400" height="20" alt="Quantized palette" src="/assets/img/palette/20.svg">
+  <img width="480" height="20" alt="Quantized palette" src="/assets/img/palette/24.svg">
+  <img width="640" height="20" alt="Quantized palette" src="/assets/img/palette/32.svg">
   <figcaption>
     The full set quantized down to a selection of 16, 20, 24 and 32 colours.
   </figcaption>
@@ -37,12 +37,12 @@ reasonable accuracy and minimal duplication.
 
 But this mechanical selection wasn’t perfect. The quantisation was performed
 naively, treating all colours equally regardless of the area they cover. Rarer
-colours --- like the turqoise variations used by the Bahamas and Uzbekistan, or
-the Qatari maroon --- were lost in the averages. Other detailed elements were
-too complex to resolve without additional shades. To resolve these shortcomings,
-the palette was carefully expanded to 32 colours. New colours were added
-manually to fill gaps according to the flags that were most affected. Base
-colours were adjusted to complement these additions.
+colours --- like the turqoise variations used by the [Bahamas] and [Uzbekistan],
+or the maroons of [Qatar] and [Latvia] --- were lost in the averages. Other
+detailed elements were too complex to resolve without additional shades. To
+resolve these shortcomings, the palette was carefully expanded to 32 colours.
+New colours were added manually to fill gaps according to the flags that were
+most affected. Base colours were adjusted to complement these additions.
 
 To prevent introducing too much bias, the palette is mapped to the original flags by computing the [CIEDE2000] colour difference in L\*a\*b\* color space. This ensures consistent mapping of colours and helps to identify issues. When an unexpected color is used, it suggests a weakness in the palette.
 
@@ -62,7 +62,7 @@ saturation and brightness of the palette. Again, this reflects the author's
 personal taste.
 
 <figure>
-  <img width="320" height="10" alt="Final colour palette" src="/assets/img/palette/custom-32.svg">
+  <img width="640" height="20" alt="Final colour palette" src="/assets/img/palette/custom-32.svg">
   <figcaption>
     Choosing the final palette has been equal parts art and science.
   </figcaption>
@@ -71,3 +71,7 @@ personal taste.
 It's worth noting that the palette does not include pure white or black. This was originally a result of the colour quantisation, but has its own benefits. The outlines of flags that use large fields of white, such as the Japanese flag, remain defined on pages using a pure white background.
 
 [CIEDE2000]: https://en.wikipedia.org/wiki/Color_difference#CIEDE2000
+[Bahamas]: /flags/bs/
+[Uzbekistan]: /flags/uz/
+[Qatar]: /flags/qa/
+[Latvia]: /flags/lv/
