@@ -51,7 +51,10 @@ export default {
       )
 
       return {
-        title: `Flag of ${flag.name.official || flag.name.short} – flown`,
+        title: `Flag of ${(flag.name.official || flag.name.short).replace(
+          /^The /,
+          "the "
+        )} – flown`,
         url: `/flags/${flag.slug}/`,
         flag,
         sameColors,
