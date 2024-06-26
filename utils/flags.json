@@ -6323,8 +6323,8 @@
     ],
     "size": {
       "source": 23964,
-      "output": 15566,
-      "compression": 65
+      "output": 13058,
+      "compression": 54.5
     },
     "elementCount": 81,
     "subregion": "Latin America and the Caribbean",
@@ -8963,24 +8963,21 @@
     "ratio": "2:3",
     "colors": [
       0,
-      3,
       10,
       14,
       31
     ],
     "size": {
       "source": 75449,
-      "output": 27449,
-      "compression": 36.4
+      "output": 24606,
+      "compression": 32.6
     },
-    "elementCount": 146,
+    "elementCount": 20,
     "subregion": "Central Asia",
     "region": "Asia",
     "isValid": false,
     "errors": [
-      "size",
-      "attribute",
-      "ratio"
+      "size"
     ],
     "tags": [
       "Crescent",
