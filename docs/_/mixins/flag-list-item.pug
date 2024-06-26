@@ -9,6 +9,9 @@ mixin flag-list-item(flag)
       .fx.mb1.aic
         h3.nano
           = flag.name.short
-          if flag.name.other
-            | &hairsp;/&hairsp;#{flag.name.other}
+          small.mt
+            if flag.name.other
+              |  #{flag.name.other}
+
         code.code.nano.misa= flag.a2 || "—"
+      
