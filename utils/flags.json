@@ -6664,20 +6664,13 @@
     ],
     "size": {
       "source": 17172,
-      "output": 12249,
-      "compression": 71.3
+      "output": 7082,
+      "compression": 41.2
     },
-    "elementCount": 65,
+    "elementCount": 7,
     "subregion": "Western Asia",
     "region": "Asia",
-    "isValid": false,
-    "errors": [
-      "size",
-      "stroke",
-      "elements",
-      "attribute",
-      "ratio"
-    ],
+    "isValid": true,
     "tags": [
       "Triband",
       "Stripe",
