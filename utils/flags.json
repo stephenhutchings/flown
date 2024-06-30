@@ -3690,10 +3690,10 @@
     ],
     "size": {
       "source": 1101,
-      "output": 667,
-      "compression": 60.6
+      "output": 644,
+      "compression": 58.5
     },
-    "elementCount": 6,
+    "elementCount": 5,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": true,
