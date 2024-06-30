@@ -2186,8 +2186,8 @@
     ],
     "size": {
       "source": 241,
-      "output": 211,
-      "compression": 87.6
+      "output": 198,
+      "compression": 82.2
     },
     "elementCount": 3,
     "region": "Africa",
@@ -7369,8 +7369,8 @@
     ],
     "size": {
       "source": 621,
-      "output": 398,
-      "compression": 64.1
+      "output": 375,
+      "compression": 60.4
     },
     "elementCount": 5,
     "subregion": "Latin America and the Caribbean",
