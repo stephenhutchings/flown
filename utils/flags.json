@@ -8287,18 +8287,17 @@
     ],
     "size": {
       "source": 60255,
-      "output": 35381,
-      "compression": 58.7
+      "output": 35489,
+      "compression": 58.9
     },
-    "elementCount": 294,
+    "elementCount": 295,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "ratio"
+      "elements"
     ],
     "tags": [
       "Triband",
