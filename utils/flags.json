@@ -2581,18 +2581,13 @@
     ],
     "size": {
       "source": 5157,
-      "output": 4823,
-      "compression": 93.5
+      "output": 3336,
+      "compression": 64.7
     },
-    "elementCount": 87,
+    "elementCount": 23,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "stroke",
-      "elements",
-      "ratio"
-    ],
+    "isValid": true,
     "tags": [
       "Animal",
       "Bird",
