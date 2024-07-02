@@ -5499,16 +5499,15 @@
     ],
     "size": {
       "source": 15715,
-      "output": 11733,
-      "compression": 74.7
+      "output": 11328,
+      "compression": 72.1
     },
-    "elementCount": 34,
+    "elementCount": 13,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
     "errors": [
-      "size",
-      "stroke"
+      "size"
     ],
     "tags": [
       "Bicolour"
@@ -5675,40 +5674,36 @@
     "ratio": "4:7",
     "colors": [
       0,
-      1,
       2,
       3,
       4,
       5,
       6,
-      7,
-      8,
-      9,
       10,
+      11,
       13,
       14,
-      16,
+      15,
+      17,
       21,
       26,
       27,
       29,
-      31
+      30
     ],
     "size": {
       "source": 139551,
-      "output": 88714,
-      "compression": 63.6
+      "output": 78739,
+      "compression": 56.4
     },
-    "elementCount": 438,
+    "elementCount": 142,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "gradient",
-      "elements",
-      "ratio"
+      "elements"
     ],
     "tags": [
       "Triband",
