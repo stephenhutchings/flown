@@ -1586,8 +1586,8 @@
     ],
     "size": {
       "source": 672,
-      "output": 222,
-      "compression": 33
+      "output": 221,
+      "compression": 32.9
     },
     "elementCount": 3,
     "subregion": "Sub-Saharan Africa",
@@ -1961,8 +1961,8 @@
     ],
     "size": {
       "source": 688,
-      "output": 303,
-      "compression": 44
+      "output": 302,
+      "compression": 43.9
     },
     "elementCount": 2,
     "subregion": "Eastern Asia",
