@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720">
   <path fill="#002395" d="M0 0h1200v720H0z" />
-  <path fill="#fecb00" d="m280 0h720v720Z" />
+  <path fill="#fecb00" d="m262 0h720v720Z" />
   <g id="b">
-    <path id="a" fill="#fff" d="M112 48 152-77l40 125L87-30h130Z" />
+    <path id="a" fill="#fff" d="m92 48 40-124 40 124-105-78h130Z" />
     <use xlink:href="#a" x="90" y="90" />
     <use xlink:href="#a" x="180" y="180" />
   </g>
