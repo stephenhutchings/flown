@@ -2319,18 +2319,17 @@
     ],
     "size": {
       "source": 68547,
-      "output": 42381,
-      "compression": 61.8
+      "output": 42427,
+      "compression": 61.9
     },
-    "elementCount": 53,
+    "elementCount": 54,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "attribute",
-      "ratio"
+      "attribute"
     ],
     "tags": [
       "Triband",
@@ -2626,17 +2625,16 @@
     ],
     "size": {
       "source": 203618,
-      "output": 52800,
+      "output": 52794,
       "compression": 25.9
     },
-    "elementCount": 116,
+    "elementCount": 115,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Cross",
@@ -3175,18 +3173,17 @@
     ],
     "size": {
       "source": 40121,
-      "output": 25012,
-      "compression": 62.3
+      "output": 23447,
+      "compression": 58.4
     },
-    "elementCount": 110,
+    "elementCount": 82,
     "subregion": "Melanesia",
     "region": "Oceania",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "ratio"
+      "elements"
     ],
     "tags": [
       "Canton",
@@ -5499,8 +5496,8 @@
     ],
     "size": {
       "source": 15715,
-      "output": 11328,
-      "compression": 72.1
+      "output": 10784,
+      "compression": 68.6
     },
     "elementCount": 13,
     "subregion": "Southern Europe",
@@ -6543,19 +6540,17 @@
     ],
     "size": {
       "source": 164863,
-      "output": 105807,
-      "compression": 64.2
+      "output": 105313,
+      "compression": 63.9
     },
-    "elementCount": 298,
+    "elementCount": 269,
     "subregion": "Micronesia",
     "region": "Oceania",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "attribute",
-      "ratio"
+      "attribute"
     ],
     "tags": [
       "Star",
