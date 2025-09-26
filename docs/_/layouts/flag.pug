@@ -5,9 +5,7 @@ include /_/mixins/color
 block body
   - const ratio = flag.ratio.split(":").reduce((a, b) => a / b)
 
-  section.pb3(class=[
-    flag.size.output > 10000 ? "large" : ""
-  ])
+  section.pb3
     .head.fx.fxw.gap.mbe1
       h1.mbsa= flag.name.short
 
