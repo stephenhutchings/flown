@@ -1218,8 +1218,8 @@
     ],
     "size": {
       "source": 512,
-      "output": 430,
-      "compression": 84
+      "output": 429,
+      "compression": 83.8
     },
     "elementCount": 8,
     "subregion": "Southern Europe",
@@ -5892,7 +5892,10 @@
     "region": "Europe",
     "isValid": true,
     "tags": [
-      "Border"
+      "Animal",
+      "Border",
+      "Bird",
+      "Shield"
     ]
   },
   {
