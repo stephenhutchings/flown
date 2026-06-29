@@ -17,7 +17,7 @@ flags in situ is inevitable. However, such an ad hoc approach greatly
 compromises flags with the most extreme widths or heights.
 
 <figure>
-  <img width="520" height="328" alt="Official construction" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_the_Comoros_%28construction_sheet%29.svg/2880px-Flag_of_the_Comoros_%28construction_sheet%29.svg.png">
+  <img width="520" height="328" alt="Official construction" src="https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_the_Comoros_%28construction_sheet%29.svg">
   <figcaption>
     Scaling flags without deviating from their construction rules is an impossible task, as their official constructions often require specific ratios.
   </figcaption>
