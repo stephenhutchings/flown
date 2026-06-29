@@ -6298,34 +6298,27 @@
     "ratio": "3:5",
     "colors": [
       0,
-      2,
       5,
       9,
+      10,
       12,
-      13,
       14,
       16,
       19,
       22,
       23,
-      26,
-      30
+      30,
+      31
     ],
     "size": {
       "source": 23964,
-      "output": 13058,
-      "compression": 54.5
+      "output": 5729,
+      "compression": 23.9
     },
-    "elementCount": 81,
+    "elementCount": 18,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "size",
-      "stroke",
-      "elements",
-      "attribute"
-    ],
+    "isValid": true,
     "tags": [
       "Triband",
       "Inscription",
@@ -6868,16 +6861,13 @@
     ],
     "size": {
       "source": 23523,
-      "output": 8582,
-      "compression": 36.5
+      "output": 5567,
+      "compression": 23.7
     },
     "elementCount": 6,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "todo"
-    ],
+    "isValid": true,
     "tags": [
       "Triband",
       "Stripe",
