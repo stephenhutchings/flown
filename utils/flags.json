@@ -3157,7 +3157,6 @@
     "ratio": "1:2",
     "colors": [
       0,
-      3,
       9,
       15,
       16,
@@ -3167,23 +3166,22 @@
     ],
     "size": {
       "source": 40121,
-      "output": 23447,
-      "compression": 58.4
+      "output": 10007,
+      "compression": 24.9
     },
-    "elementCount": 82,
+    "elementCount": 10,
     "subregion": "Melanesia",
     "region": "Oceania",
     "isValid": false,
-    "errors": [
-      "size",
-      "stroke",
-      "elements"
-    ],
     "tags": [
       "Canton",
       "Cross",
       "Animal",
       "Plant"
+    ],
+    "errors": [
+      "size",
+      "todo"
     ]
   },
   {
