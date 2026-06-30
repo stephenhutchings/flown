@@ -1069,25 +1069,19 @@
     "ratio": "2:3",
     "colors": [
       0,
-      3,
+      2,
       9,
       12
     ],
     "size": {
       "source": 36864,
-      "output": 24552,
-      "compression": 66.6
+      "output": 9192,
+      "compression": 24.9
     },
-    "elementCount": 77,
+    "elementCount": 4,
     "subregion": "Southern Asia",
     "region": "Asia",
-    "isValid": false,
-    "errors": [
-      "size",
-      "stroke",
-      "elements",
-      "ratio"
-    ],
+    "isValid": true,
     "tags": [
       "Bicolour",
       "Animal",
@@ -1997,8 +1991,8 @@
     ],
     "size": {
       "source": 3015,
-      "output": 1566,
-      "compression": 51.9
+      "output": 1534,
+      "compression": 50.9
     },
     "elementCount": 5,
     "subregion": "Australia and New Zealand",
