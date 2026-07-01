@@ -9048,16 +9048,17 @@
     "ratio": "2:3",
     "colors": [
       0,
+      1,
       3,
       9,
       14
     ],
     "size": {
       "source": 6572,
-      "output": 1637,
-      "compression": 24.9
+      "output": 1438,
+      "compression": 21.9
     },
-    "elementCount": 7,
+    "elementCount": 8,
     "subregion": "Sub-Saharan Africa",
     "region": "Africa",
     "isValid": true,
