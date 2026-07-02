@@ -8248,10 +8248,10 @@
     ],
     "size": {
       "source": 60255,
-      "output": 14799,
-      "compression": 24.6
+      "output": 13720,
+      "compression": 22.8
     },
-    "elementCount": 16,
+    "elementCount": 19,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
