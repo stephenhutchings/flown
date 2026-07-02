@@ -8240,29 +8240,23 @@
       0,
       1,
       3,
-      4,
-      9,
       10,
-      13,
       15,
       17,
       22,
-      23,
       28
     ],
     "size": {
       "source": 60255,
-      "output": 35489,
-      "compression": 58.9
+      "output": 14799,
+      "compression": 24.6
     },
-    "elementCount": 295,
+    "elementCount": 16,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
     "errors": [
-      "size",
-      "stroke",
-      "elements"
+      "size"
     ],
     "tags": [
       "Triband",
