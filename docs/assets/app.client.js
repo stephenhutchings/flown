@@ -51,6 +51,8 @@ const drawImage = (context, img, resize, align, norepeat) => {
   dy = (ch - dh) / 2
 
   if (align === "hoist") dx = 0
+  if (align === "1/3") dx = (cw - dw) * (1 / 3)
+  if (align === "2/3") dx = (cw - dw) * (2 / 3)
   if (align === "fly") dx = cw - dw
 
   context.drawImage(img, dx, dy, dw, dh)
@@ -77,7 +79,7 @@ qsa("[data-component='replace']").forEach((a) =>
     const parent = a.parentNode
     a.remove()
     parent.innerHTML = content
-  })
+  }),
 )
 
 const easeInOut = (t, p = 5) =>
@@ -159,7 +161,7 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
     const d =
       data.reduce(
         (m, a, i) =>
-          m + (i % 4 === 3 ? 0 : easeInOut(a / 255, 1.25) * weights[i % 4])
+          m + (i % 4 === 3 ? 0 : easeInOut(a / 255, 1.25) * weights[i % 4]),
       ) /
       (data.length * 0.25)
 
