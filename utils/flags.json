@@ -5906,7 +5906,6 @@
     "ratio": "1:2",
     "colors": [
       0,
-      3,
       4,
       6,
       9,
@@ -5919,18 +5918,13 @@
     ],
     "size": {
       "source": 12868,
-      "output": 5796,
-      "compression": 45
+      "output": 4547,
+      "compression": 35.3
     },
-    "elementCount": 23,
+    "elementCount": 11,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "stroke",
-      "attribute",
-      "ratio"
-    ],
+    "isValid": true,
     "tags": [
       "Canton",
       "Cross",
