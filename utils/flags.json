@@ -7684,19 +7684,16 @@
     ],
     "size": {
       "source": 153385,
-      "output": 64125,
-      "compression": 41.8
+      "output": 43545,
+      "compression": 28.4
     },
-    "elementCount": 354,
+    "elementCount": 273,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "elements",
-      "attribute",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Triband",
@@ -8962,17 +8959,13 @@
     ],
     "size": {
       "source": 6940,
-      "output": 6253,
-      "compression": 90.1
+      "output": 6622,
+      "compression": 95.4
     },
-    "elementCount": 39,
+    "elementCount": 12,
     "subregion": "Latin America and the Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "stroke",
-      "ratio"
-    ],
+    "isValid": true,
     "tags": [
       "Canton",
       "Cross",
