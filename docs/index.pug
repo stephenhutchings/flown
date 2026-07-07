@@ -17,10 +17,19 @@ block body
       dd.bt.pb1= palette.length
 
       dt.bt.pb2.nano Aspect Ratio
-      dd.bt.pb1 
+      dd.bt.pb1.ratio
         | 5
         span.mt :
         | 3
+        
+        svg(
+          viewBox="0 0 120 72"
+          fill="none"
+          stroke="#fff"
+        )
+          path(d="M0 0h120v72H0z" fill="#fff3")
+          path(d="M0 24h120M0 48h120M24 0v72M48 0v72M72 0v72m24-72v72z")
+
 
       - const source = flags.reduce((m, f) => m + f.size.source, 0)
       - const output = flags.reduce((m, f) => m + f.size.output, 0)

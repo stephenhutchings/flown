@@ -22,9 +22,31 @@ $screen-sm-max: 36rem
   padding: 0.5rem
   border-radius: 2px
 
+.ratio
+  margin-block-end: -6rem
+  align-items: center
+
+  svg
+    margin: 1.5rem 0 0 auto
+    overflow: visible
+    opacity: 0.5
+
+  path
+    vector-effect: non-scaling-stroke
+
 @media (max-width: $screen-md-max)
   .quicklook dl > *
     width: auto
+
+  .ratio
+    display: flex
+    margin-block-end: 0
+
+    svg
+      width: 80px
+      height: 48px
+      margin: 0 1.5rem -2px auto
+      order: -1
 
 @media (max-width: $screen-sm-max)
   .quicklook dd
@@ -32,3 +54,9 @@ $screen-sm-max: 36rem
 
   .colors, .jumpto, .tags
     display: block
+
+  .ratio
+    svg
+      width: 50px
+      height: 30px
+      margin: 0 1rem 0 auto
