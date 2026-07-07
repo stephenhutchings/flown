@@ -22,6 +22,6 @@ block body
       | There are #{invalid.length} invalid flags remaining in this list.
 
   .flags.pb3(style="border-block-start-width: 1px")
-    ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
+    ul.gr6(style="gap: 1rem")
       each flag in invalid
         +flag-list-item(flag)

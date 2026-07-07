@@ -2,24 +2,12 @@
   %#{$size}gr
     display: grid
 
-  .#{$size}gr12
-    grid-template-columns: repeat(12, 1fr)
+  .#{$size}gr6
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr))
     @extend %#{$size}gr
 
   .#{$size}gr8
-    grid-template-columns: repeat(8, 1fr)
-    @extend %#{$size}gr
-
-  .#{$size}gr6
-    grid-template-columns: repeat(6, 1fr)
-    @extend %#{$size}gr
-
-  .#{$size}gr4
-    grid-template-columns: repeat(4, 1fr)
-    @extend %#{$size}gr
-
-  .#{$size}gr2
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr))
     @extend %#{$size}gr
 
 +grid("")

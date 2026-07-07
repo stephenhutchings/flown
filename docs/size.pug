@@ -9,7 +9,7 @@ block body
    This page list flags in order of file size, from largest to smallest.
 
   .flags.pb3
-    ul.gr6.md-gr4.sm-gr2(style="gap: 1rem")
+    ul.gr6(style="gap: 1rem")
       - let prev
       each flag, i in flags.sort((a, b) => b.size.output - a.size.output)
         if prev && prev > 10000 && flag.size.output < 10000
