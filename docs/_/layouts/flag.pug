@@ -6,13 +6,13 @@ block body
   - const ratio = flag.ratio.split(":").reduce((a, b) => a / b)
 
   section.pb3
-    .head.fx.fxw.gap.mbe1
-      h1.mbsa= flag.name.short
+    .head.fx.fxw.gap.mbe2
+      h1= flag.name.short
 
       if flag.name.official && flag.name.short !== flag.name.official
-        small.mbsa= flag.name.official
+        small= flag.name.official
 
-      .misa.fx.gap
+      .fx.gap.misa.mba
         if flag.a2
           code.code.nano.mba= flag.a2
 
