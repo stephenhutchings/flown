@@ -105,6 +105,12 @@ qsa("[data-component='image-diff'").forEach(async (el) => {
   const { width, height } = dcanvas
   const weights = [0.299, 0.587, 0.114]
 
+  /**
+   *
+   * @param {CanvasRenderingContext2D} ctx
+   * @param {number} x
+   * @param {number} y
+   */
   const process = (ctx, x, y) => {
     const resize = el.resize ? el.resize.value : "stretch"
     const align = el.align ? el.align.value : "center"
