@@ -1124,18 +1124,16 @@
     ],
     "size": {
       "source": 254777,
-      "output": 110359,
-      "compression": 43.3
+      "output": 87274,
+      "compression": 34.3
     },
-    "elementCount": 830,
+    "elementCount": 701,
     "region": "Americas",
     "subregion": "Latin America and the Caribbean",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "attribute",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Triband",
