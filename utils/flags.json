@@ -82,22 +82,20 @@
     "ratio": "2:3",
     "colors": [
       0,
-      3,
       14,
       31
     ],
     "size": {
       "source": 232397,
-      "output": 128047,
-      "compression": 55.1
+      "output": 86468,
+      "compression": 37.2
     },
     "elementCount": 7,
     "region": "Asia",
     "subregion": "Southern Asia",
     "isValid": false,
     "errors": [
-      "size",
-      "ratio"
+      "size"
     ],
     "tags": [
       "Triband",
@@ -7514,10 +7512,10 @@
     ],
     "size": {
       "source": 132841,
-      "output": 49589,
-      "compression": 37.3
+      "output": 45718,
+      "compression": 34.4
     },
-    "elementCount": 54,
+    "elementCount": 40,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
@@ -9599,16 +9597,15 @@
     ],
     "size": {
       "source": 5360,
-      "output": 5228,
-      "compression": 97.5
+      "output": 4798,
+      "compression": 89.5
     },
-    "elementCount": 7,
+    "elementCount": 6,
     "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": false,
     "errors": [
-      "stroke",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Stripe",
