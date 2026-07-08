@@ -613,8 +613,8 @@
     ],
     "size": {
       "source": 1587,
-      "output": 911,
-      "compression": 57.4
+      "output": 902,
+      "compression": 56.8
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
@@ -6235,8 +6235,8 @@
     ],
     "size": {
       "source": 2406,
-      "output": 696,
-      "compression": 28.9
+      "output": 694,
+      "compression": 28.8
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
