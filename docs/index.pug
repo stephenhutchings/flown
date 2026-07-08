@@ -66,16 +66,24 @@ block body
         a(href=`#${region.slug}`)
           = region.name
 
+  .jumpto.fx.pb3.g3.bt
+    h2.mbe1.nano Subregions
+    nav.fx.fxw.g3
+      each region in regions
+        each subregion in region.list
+          a(href=`#${subregion.slug}`)
+            = subregion.name
+
   .flags
     each region in regions
       .pb3(id=region.slug)
         h2
           = region.name
 
-        each list, subregion in region.list
-          h3.mbs3.mbe2= subregion
+        each subregion in region.list
+          h3.mbs3.mbe2(id=subregion.slug)= subregion.name
           ul.gr2.g3
-            each flag in list
+            each flag in subregion.list
               +flag-list-item(flag)
 
 block append head

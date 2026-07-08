@@ -7,21 +7,33 @@ const paletteJson = fs.readFileSync("./utils/palette.json", "utf8")
 const flags = JSON.parse(flagsJson)
 const palette = JSON.parse(paletteJson)
 
-const regionGroups = flags.reduce((memo, flag) => {
-  if (!memo[flag.region]) {
-    memo[flag.region] = []
-  }
-
-  memo[flag.region].push(flag)
-
-  return memo
-}, {})
-
 const slugify = (str) =>
   str
     .toLowerCase()
     .replace(/ /g, "-")
     .replace(/[^a-z]/g, "")
+
+const regionGroups = flags.reduce((memo, flag) => {
+  if (!memo[flag.region]) {
+    memo[flag.region] = []
+  }
+
+  let subregion = memo[flag.region].find((d) => d.name === flag.subregion)
+
+  if (!subregion) {
+    subregion = {
+      name: flag.subregion,
+      slug: slugify(flag.subregion),
+      list: [],
+    }
+
+    memo[flag.region].push(subregion)
+  }
+
+  subregion.list.push(flag)
+
+  return memo
+}, {})
 
 const regions = Object.keys(regionGroups)
   .sort((a, b) => a.localeCompare(b))
@@ -32,8 +44,8 @@ const regions = Object.keys(regionGroups)
   }))
 
 const links = {
-  npm: ["NPM", "https://npmjs.com/package/@sings/flown"],
-  git: ["GitHub", "https://github.com/stephenhutchings/flown"],
+  npm: { label: "NPM", href: "https://npmjs.com/package/@sings/flown" },
+  git: { label: "GitHub", href: "https://github.com/stephenhutchings/flown" },
 }
 
 flags.forEach((flag) => {
@@ -60,13 +72,13 @@ const tags = Object.values(
     })
 
     return memo
-  }, {})
+  }, {}),
 ).sort((a, b) =>
   a.title.includes(" colour") && !b.title.includes(" colour")
     ? 1
     : !a.title.includes(" colour") && b.title.includes(" colour")
-    ? -1
-    : a.title.localeCompare(b.title)
+      ? -1
+      : a.title.localeCompare(b.title),
 )
 
 export default {

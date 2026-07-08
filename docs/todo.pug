@@ -6,7 +6,7 @@ extends /_/layouts/default
 
 block body
   - const invalid = flags.filter(f => !f.isValid)
-  article.pb3
+  article.pbs3
     :md
        These flags do not yet meet the criteria for inclusion in the project:
        - The file size must be less than 10kb
@@ -18,10 +18,10 @@ block body
        [Nepal]: /flags/np
        [Vatican City]: /flags/va
 
-    small
-      | There are #{invalid.length} invalid flags remaining in this list.
-
   .flags.pb3(style="border-block-start-width: 1px")
-    ul.gr6(style="gap: 1rem")
+    p
+      small There are #{invalid.length} invalid flags remaining in this list.
+
+    ul.gr2.mbs3(style="gap: 1rem")
       each flag in invalid
         +flag-list-item(flag)
