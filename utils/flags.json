@@ -92,8 +92,8 @@
       "compression": 55.1
     },
     "elementCount": 7,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Asia",
+    "subregion": "Southern Asia",
     "isValid": false,
     "errors": [
       "size",
@@ -322,7 +322,7 @@
       "compression": 37.9
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -362,7 +362,7 @@
       "compression": 25.5
     },
     "elementCount": 8,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "details": [
@@ -441,7 +441,7 @@
       "compression": 76.1
     },
     "elementCount": 5,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -478,7 +478,7 @@
       "compression": 36.1
     },
     "elementCount": 14,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -583,7 +583,7 @@
       "compression": 78.8
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -726,7 +726,7 @@
       "compression": 85
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -829,7 +829,7 @@
       "compression": 68.5
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -948,7 +948,7 @@
       "compression": 56.9
     },
     "elementCount": 125,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -993,7 +993,7 @@
       "compression": 101.5
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1129,7 +1129,7 @@
     },
     "elementCount": 701,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "isValid": false,
     "errors": [
       "size",
@@ -1178,7 +1178,7 @@
     },
     "elementCount": 8,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "isValid": true,
     "tags": [
       "Circle",
@@ -1250,7 +1250,7 @@
       "compression": 76.5
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1285,7 +1285,7 @@
       "compression": 71.6
     },
     "elementCount": 38,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -1392,7 +1392,7 @@
       "compression": 43.8
     },
     "elementCount": 141,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": false,
     "errors": [
@@ -1443,7 +1443,7 @@
       "compression": 44.9
     },
     "elementCount": 46,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -1582,7 +1582,7 @@
       "compression": 32.9
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1617,7 +1617,7 @@
       "compression": 105.9
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1690,7 +1690,7 @@
       "compression": 48.4
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1763,7 +1763,7 @@
     },
     "elementCount": 14,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "isValid": true,
     "tags": [
       "Star",
@@ -1805,7 +1805,7 @@
       "compression": 45.7
     },
     "elementCount": 81,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -1853,7 +1853,7 @@
       "compression": 81.5
     },
     "elementCount": 5,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1888,7 +1888,7 @@
       "compression": 101
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -1923,7 +1923,7 @@
       "compression": 85.1
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -2071,7 +2071,7 @@
       "compression": 78.8
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -2108,7 +2108,7 @@
       "compression": 81.5
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -2146,7 +2146,7 @@
       "compression": 48.7
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -2183,7 +2183,7 @@
     },
     "elementCount": 3,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "isValid": true,
     "tags": [
       "Stripe",
@@ -2266,7 +2266,7 @@
       "compression": 75
     },
     "elementCount": 288,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -2358,7 +2358,7 @@
       "compression": 87
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -2395,7 +2395,7 @@
       "compression": 37.4
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -2536,7 +2536,7 @@
       "compression": 72
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -2576,7 +2576,7 @@
       "compression": 64.7
     },
     "elementCount": 23,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -2621,7 +2621,7 @@
       "compression": 25.9
     },
     "elementCount": 115,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -2684,7 +2684,7 @@
       "compression": 29
     },
     "elementCount": 438,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -2812,7 +2812,7 @@
       "compression": 16.4
     },
     "elementCount": 86,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -2864,7 +2864,7 @@
       "compression": 69.3
     },
     "elementCount": 18,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -2904,7 +2904,7 @@
       "compression": 62.2
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -2977,7 +2977,7 @@
     },
     "elementCount": 7,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "isValid": true,
     "tags": [
       "Stripe",
@@ -3013,7 +3013,7 @@
       "compression": 70.6
     },
     "elementCount": 5,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -3070,7 +3070,7 @@
     },
     "elementCount": 301,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "isValid": false,
     "errors": [
       "size",
@@ -3265,7 +3265,7 @@
       "compression": 23.6
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -3344,8 +3344,8 @@
       "compression": 49.5
     },
     "elementCount": 3,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
     "isValid": true,
     "tags": [
       "Triband",
@@ -3381,7 +3381,7 @@
       "compression": 100
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -3417,7 +3417,7 @@
       "compression": 84.5
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -3451,8 +3451,8 @@
       "compression": 85.9
     },
     "elementCount": 8,
-    "subregion": "Latin America and the Caribbean",
-    "region": "Americas",
+    "subregion": "Western Asia",
+    "region": "Asia",
     "isValid": true,
     "tags": [
       "Cross",
@@ -3521,7 +3521,7 @@
       "compression": 85.6
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -3664,7 +3664,7 @@
       "compression": 58.5
     },
     "elementCount": 5,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -3701,7 +3701,7 @@
       "compression": 26.6
     },
     "elementCount": 15,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -3792,7 +3792,7 @@
       "compression": 52
     },
     "elementCount": 162,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -3875,7 +3875,7 @@
       "compression": 97.1
     },
     "elementCount": 3,
-    "subregion": "Melanesia",
+    "subregion": "Western Africa",
     "region": "Oceania",
     "isValid": true,
     "tags": [
@@ -3911,7 +3911,7 @@
       "compression": 37.3
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -3948,7 +3948,7 @@
       "compression": 59.4
     },
     "elementCount": 5,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -3987,7 +3987,7 @@
       "compression": 67.5
     },
     "elementCount": 492,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -4032,7 +4032,7 @@
       "compression": 79
     },
     "elementCount": 7,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -4067,8 +4067,8 @@
       "compression": 62.7
     },
     "elementCount": 8,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
     "isValid": true,
     "tags": [
       "Plant"
@@ -4489,7 +4489,7 @@
     },
     "elementCount": 3,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "isValid": true,
     "tags": [
       "Triband",
@@ -4523,7 +4523,7 @@
       "compression": 92
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -4704,7 +4704,7 @@
       "compression": 73.7
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5053,7 +5053,7 @@
       "compression": 49.1
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5087,7 +5087,7 @@
       "compression": 42.8
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5265,8 +5265,8 @@
       "compression": 39.6
     },
     "elementCount": 3,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
     "isValid": true,
     "tags": [
       "Stripe",
@@ -5301,7 +5301,7 @@
       "compression": 77.8
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5336,7 +5336,7 @@
       "compression": 63.3
     },
     "elementCount": 13,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5441,7 +5441,7 @@
       "compression": 101
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5550,7 +5550,7 @@
       "compression": 38.7
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -5587,7 +5587,7 @@
       "compression": 78.4
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5622,7 +5622,7 @@
       "compression": 102.1
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -5670,7 +5670,7 @@
       "compression": 56.4
     },
     "elementCount": 142,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -5909,7 +5909,7 @@
       "compression": 35.3
     },
     "elementCount": 11,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -5983,7 +5983,7 @@
       "compression": 53.2
     },
     "elementCount": 8,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -6060,7 +6060,7 @@
       "compression": 68.4
     },
     "elementCount": 7,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -6286,7 +6286,7 @@
       "compression": 23.9
     },
     "elementCount": 18,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -6325,7 +6325,7 @@
       "compression": 84.5
     },
     "elementCount": 4,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -6361,7 +6361,7 @@
       "compression": 80.1
     },
     "elementCount": 2,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -6760,7 +6760,7 @@
       "compression": 83.4
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Central America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -6835,7 +6835,7 @@
       "compression": 23.7
     },
     "elementCount": 6,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -6873,7 +6873,7 @@
       "compression": 42.3
     },
     "elementCount": 2,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -7069,7 +7069,7 @@
       "compression": 94.3
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -7208,7 +7208,7 @@
       "compression": 63.5
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -7246,8 +7246,8 @@
       "compression": 47.1
     },
     "elementCount": 4,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Americas",
+    "subregion": "Caribbean",
     "isValid": true,
     "tags": [
       "Star",
@@ -7321,7 +7321,7 @@
       "compression": 60.4
     },
     "elementCount": 5,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -7358,7 +7358,7 @@
       "compression": 83.5
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -7441,7 +7441,7 @@
       "compression": 77.7
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -7514,10 +7514,10 @@
     ],
     "size": {
       "source": 132841,
-      "output": 45718,
-      "compression": 34.4
+      "output": 49589,
+      "compression": 37.3
     },
-    "elementCount": 40,
+    "elementCount": 54,
     "subregion": "Southern Europe",
     "region": "Europe",
     "isValid": false,
@@ -7563,7 +7563,7 @@
     },
     "elementCount": 4,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Middle Africa",
     "isValid": true,
     "tags": [
       "Triangle",
@@ -7633,7 +7633,7 @@
       "compression": 91.8
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -7716,7 +7716,7 @@
       "compression": 95.9
     },
     "elementCount": 5,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -7750,7 +7750,7 @@
       "compression": 103.6
     },
     "elementCount": 3,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -7822,8 +7822,8 @@
       "compression": 38.9
     },
     "elementCount": 5,
-    "region": "Other",
-    "subregion": "Other",
+    "region": "Americas",
+    "subregion": "Caribbean",
     "isValid": true,
     "tags": [
       "Border",
@@ -7868,7 +7868,7 @@
     },
     "elementCount": 18,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "isValid": true,
     "tags": [
       "Animal",
@@ -8014,7 +8014,7 @@
       "compression": 30
     },
     "elementCount": 2,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -8051,7 +8051,7 @@
       "compression": 62.8
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Southern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -8104,7 +8104,7 @@
       "compression": 63.3
     },
     "elementCount": 129,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -8187,7 +8187,7 @@
       "compression": 84.9
     },
     "elementCount": 6,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -8342,7 +8342,7 @@
       "compression": 70
     },
     "elementCount": 4,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -8553,7 +8553,7 @@
     },
     "elementCount": 4,
     "region": "Africa",
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "isValid": true,
     "tags": [
       "Stripe",
@@ -8659,7 +8659,7 @@
       "compression": 39.8
     },
     "elementCount": 5,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Western Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -8796,7 +8796,7 @@
       "compression": 69.1
     },
     "elementCount": 3,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -8946,7 +8946,7 @@
       "compression": 95.4
     },
     "elementCount": 12,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -9023,7 +9023,7 @@
       "compression": 21.9
     },
     "elementCount": 8,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
@@ -9296,7 +9296,7 @@
       "compression": 72.8
     },
     "elementCount": 56,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
@@ -9343,7 +9343,7 @@
       "compression": 14.6
     },
     "elementCount": 12,
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "region": "Americas",
     "isValid": true,
     "tags": [
@@ -9500,7 +9500,7 @@
     },
     "elementCount": 4,
     "region": "Americas",
-    "subregion": "Latin America and the Caribbean",
+    "subregion": "South America",
     "isValid": true,
     "tags": [
       "Star"
@@ -9603,7 +9603,7 @@
       "compression": 97.5
     },
     "elementCount": 7,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": false,
     "errors": [
@@ -9645,7 +9645,7 @@
       "compression": 76.8
     },
     "elementCount": 8,
-    "subregion": "Sub-Saharan Africa",
+    "subregion": "Eastern Africa",
     "region": "Africa",
     "isValid": true,
     "tags": [
