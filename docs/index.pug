@@ -9,7 +9,7 @@ block body
     include:md /_/intro.md
 
   .quicklook.mb1
-    dl.gr6.g3
+    dl.gr2.g3
       dt.bt.pb2.nano Flags
       dd.bt.pb1= flags.length
 
@@ -46,7 +46,7 @@ block body
   .colors.fx.pb3.g3.bt
     h2.mbe2.nano Colour Palette
 
-    ul.gr8.fxg.g3
+    ul.gr1.fxg.g3
       each color in palette
         li
           +color(color)
@@ -74,7 +74,7 @@ block body
 
         each list, subregion in region.list
           h3.mbs3.mbe2= subregion
-          ul.gr6.g3
+          ul.gr2.g3
             each flag in list
               +flag-list-item(flag)
 
