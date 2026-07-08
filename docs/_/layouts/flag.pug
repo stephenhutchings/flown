@@ -6,13 +6,13 @@ block body
   - const ratio = flag.ratio.split(":").reduce((a, b) => a / b)
 
   section.pb3
-    .head.fx.fxw.gap.mbe2
+    .head.fx.fxw.g3.mbe2
       h1= flag.name.short
 
       if flag.name.official && flag.name.short !== flag.name.official
         small= flag.name.official
 
-      .fx.gap.misa.mba
+      .fx.g3.misa.mba
         if flag.a2
           code.code.nano.mba= flag.a2
 
@@ -30,7 +30,7 @@ block body
               != "&times; "
               = errorCodes[key]
 
-    .fx.pb2.gap
+    .fx.pb2.g3
       each type in ["recolored"]
         a.flag(href=`/assets/img/flags/${type}/${flag.slug}.svg`)
           img(
@@ -86,7 +86,7 @@ block body
   if flag.tags.length
     section.pb3
       h2 Tags
-      ul.fx.fxw.gap
+      ul.fx.fxw.g3
         each tag in flag.tags
           li
             a(href=`/tags/${slugify(tag)}/`)
@@ -95,7 +95,7 @@ block body
   section.pb3
     h2 Palette
     if flag.colors
-      ul.fx.fxw.gap
+      ul.fx.fxw.g3
         each i in flag.colors
           li
             +color(palette[i])
@@ -136,7 +136,7 @@ block body
         .pb1
           p.mbe2= detail.note
 
-          .fx.gap
+          .fx.g3
             each type, i in ["recolored", "source"]
               - const src = `/assets/img/flags/${type}/${flag.slug}.svg`
               .detail(
@@ -161,7 +161,7 @@ block body
 
     p Compare the differences between this flag and the source artwork. White indicates similarity, while black shows where the flags differ. When the proportions differ, the flag can be resized and aligned in different ways. The score is computed from the average weighted difference between rendered pixels.
 
-    form.fx.fxw.gap.pb2(
+    form.fx.fxw.g3.pb2(
       data-component="image-diff"
       data-image-a=`/assets/img/flags/source/${flag.slug}.svg`
       data-image-b=`/assets/img/flags/recolored/${flag.slug}.svg`
@@ -170,7 +170,7 @@ block body
         canvas.difference(width="600" height="360")
         canvas.inspector(width="600" height="360")
 
-      .details.fx.fxc.gap
+      .details.fx.fxc.g3
         .status
           strong Difference score&ensp;
           span.status-count Loading…
@@ -179,7 +179,7 @@ block body
           .option-group.mbs2
             .option-name.mbe1
               strong Resize
-            .option-list.fx.gap
+            .option-list.fx.g3
               label(title="Ignore aspect ratio when resizing")
                 input(type="radio" name="resize" value="stretch" checked)
                 | &ensp;Stretch
@@ -196,7 +196,7 @@ block body
           .option-group.mbs1
             .option-name.mbe1
               strong Align
-            .option-list.fx.gap
+            .option-list.fx.g3
               - const hoist = flag.tags.includes("Canton")
               label(title="Align to the hoist side (left)")
                 input(type="radio" name="align" value="hoist" checked=hoist)
@@ -236,7 +236,7 @@ block body
 
     p See how this flag displays at different sizes.
 
-    .fx.fxw.gap.pb2.jcsb
+    .fx.fxw.g3.pb2.jcsb
       for width in [320, 160, 120, 80, 60, 40, 25, 20]
         a.td0.nano.mt.mbea(href=`/assets/img/flags/recolored/${flag.slug}.svg`)
           img.flag.mbe1(

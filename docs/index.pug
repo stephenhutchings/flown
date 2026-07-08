@@ -9,7 +9,7 @@ block body
     include:md /_/intro.md
 
   .quicklook.mb1
-    dl.gr6.gap
+    dl.gr6.g3
       dt.bt.pb2.nano Flags
       dd.bt.pb1= flags.length
 
@@ -43,25 +43,25 @@ block body
         = (output / flags.length / 1024).toFixed(1)
         span.mt kB
 
-  .colors.fx.pb3.gap.bt
-    h2.mbe1.nano Colour Palette
+  .colors.fx.pb3.g3.bt
+    h2.mbe2.nano Colour Palette
 
-    ul.gr8.fxg.gap
+    ul.gr8.fxg.g3
       each color in palette
         li
           +color(color)
   
-  .tags.fx.pb3.gap.bt
+  .tags.fx.pb3.g3.bt
     h2.mbe1.nano Tags
 
-    nav.fx.fxw.gap
+    nav.fx.fxw.g3
       each tag in tagList
         a(href=`/tags/${tag.slug}`)
           = tag.title
 
-  .jumpto.fx.pb3.gap.bt
+  .jumpto.fx.pb3.g3.bt
     h2.mbe1.nano Regions
-    nav.fx.fxw.gap
+    nav.fx.fxw.g3
       each region in regions
         a(href=`#${region.slug}`)
           = region.name
@@ -69,12 +69,14 @@ block body
   .flags
     each region in regions
       .pb3(id=region.slug)
-        h2.mbe3
+        h2
           = region.name
 
-        ul.gr6.md-gr4.sm-gr2.gap
-          each flag in region.list
-            +flag-list-item(flag)
+        each list, subregion in region.list
+          h3.mbs3.mbe2= subregion
+          ul.gr6.g3
+            each flag in list
+              +flag-list-item(flag)
 
 block append head
   style

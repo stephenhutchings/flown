@@ -20,8 +20,12 @@ html
 
   body(class=`page-${meta.url.split("/")[1] || "home"}`)
     header
-      nav.fx.gap.pb2
-        a(href="/") flown
+      nav.fx.g3.pb2.nano.aic
+        a(href="/")
+          svg(width="32" height="32")
+            rect(width="32" height="32" rx="4" ry="4" fill="#faf6f5")
+            path(d="M27 11V6Q18 9 8 6H5v20h3v-5q10 3 19 0v-5q-9 3-19 0v-5q10 3 19 0" fill="#121e25")
+
         a(href="/about/") about
         a(href="/size/") size
         a.miea(href="/todo/") todo
