@@ -136,10 +136,16 @@ pre
   .head
     gap: 0.5rem
     margin-block-start: -0.5rem
+    white-space: normal
+    display: grid
+    grid-template-columns: auto auto
 
     small
-      order: 1
-      flex-basis: 100%
+      grid-column: 1
+
+    > :last-child
+      grid-row: 1
+      grid-column: 2
 
   .jcsb
     justify-content: flex-start
