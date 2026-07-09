@@ -1028,18 +1028,17 @@
     ],
     "size": {
       "source": 33442,
-      "output": 22129,
-      "compression": 66.2
+      "output": 21962,
+      "compression": 65.7
     },
-    "elementCount": 111,
+    "elementCount": 108,
     "subregion": "Northern America",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "ratio"
+      "elements"
     ],
     "tags": [
       "Canton",
@@ -1794,17 +1793,16 @@
     ],
     "size": {
       "source": 50126,
-      "output": 22883,
-      "compression": 45.7
+      "output": 26224,
+      "compression": 52.3
     },
-    "elementCount": 81,
+    "elementCount": 105,
     "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Canton",
@@ -3038,39 +3036,31 @@
       2,
       3,
       4,
-      5,
       6,
-      7,
       8,
       9,
       10,
       11,
-      12,
       14,
       15,
-      16,
       21,
       24,
-      25,
       29,
       30,
       31
     ],
     "size": {
       "source": 131263,
-      "output": 81298,
-      "compression": 61.9
+      "output": 39579,
+      "compression": 30.2
     },
-    "elementCount": 300,
+    "elementCount": 73,
     "region": "Americas",
     "subregion": "South America",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "elements",
-      "attribute",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Canton",
@@ -6498,17 +6488,15 @@
     ],
     "size": {
       "source": 164863,
-      "output": 105313,
-      "compression": 63.9
+      "output": 99991,
+      "compression": 60.7
     },
-    "elementCount": 269,
+    "elementCount": 13,
     "subregion": "Micronesia",
     "region": "Oceania",
     "isValid": false,
     "errors": [
-      "size",
-      "stroke",
-      "attribute"
+      "size"
     ],
     "tags": [
       "Star",
@@ -6941,17 +6929,16 @@
     ],
     "size": {
       "source": 20227,
-      "output": 6982,
-      "compression": 34.5
+      "output": 12924,
+      "compression": 63.9
     },
-    "elementCount": 54,
+    "elementCount": 48,
     "region": "Oceania",
     "subregion": "Polynesia",
     "isValid": false,
     "errors": [
-      "stroke",
-      "elements",
-      "ratio"
+      "size",
+      "stroke"
     ],
     "tags": [
       "Canton",
@@ -8078,11 +8065,9 @@
       8,
       9,
       10,
-      12,
       14,
       15,
       16,
-      20,
       22,
       23,
       24,
@@ -8092,20 +8077,16 @@
     ],
     "size": {
       "source": 52914,
-      "output": 33480,
-      "compression": 63.3
+      "output": 31229,
+      "compression": 59
     },
-    "elementCount": 129,
+    "elementCount": 108,
     "subregion": "South America",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "gradient",
-      "elements",
-      "attribute",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Canton",
@@ -9284,18 +9265,17 @@
     ],
     "size": {
       "source": 20210,
-      "output": 14718,
-      "compression": 72.8
+      "output": 12921,
+      "compression": 63.9
     },
-    "elementCount": 56,
+    "elementCount": 48,
     "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
       "stroke",
-      "elements",
-      "ratio"
+      "elements"
     ],
     "tags": [
       "Shield",
