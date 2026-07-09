@@ -1017,21 +1017,19 @@
     ],
     "size": {
       "source": 86438,
-      "output": 49183,
-      "compression": 56.9,
-      "width": 1000,
-      "height": 600,
+      "output": 43551,
+      "compression": 50.4,
+      "width": 1200,
+      "height": 720,
       "distortion": 1
     },
-    "elementCount": 125,
+    "elementCount": 122,
     "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "attribute",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Circle",
@@ -2410,7 +2408,6 @@
       0,
       3,
       6,
-      7,
       9,
       10,
       13,
@@ -2424,22 +2421,19 @@
     ],
     "size": {
       "source": 62947,
-      "output": 47240,
-      "compression": 75,
-      "width": 1000,
-      "height": 600,
+      "output": 30986,
+      "compression": 49.2,
+      "width": 1200,
+      "height": 720,
       "distortion": 1
     },
-    "elementCount": 288,
+    "elementCount": 164,
     "subregion": "Central America",
     "region": "Americas",
     "isValid": false,
     "errors": [
       "size",
-      "stroke",
-      "gradient",
-      "elements",
-      "ratio"
+      "stroke"
     ],
     "tags": [
       "Stripe",
