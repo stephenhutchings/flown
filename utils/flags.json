@@ -9265,18 +9265,13 @@
     ],
     "size": {
       "source": 20210,
-      "output": 12921,
-      "compression": 63.9
+      "output": 8491,
+      "compression": 42
     },
-    "elementCount": 48,
+    "elementCount": 7,
     "subregion": "Caribbean",
     "region": "Americas",
-    "isValid": false,
-    "errors": [
-      "size",
-      "stroke",
-      "elements"
-    ],
+    "isValid": true,
     "tags": [
       "Shield",
       "Arrow",
