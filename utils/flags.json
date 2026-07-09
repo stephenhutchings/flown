@@ -18,7 +18,10 @@
     "size": {
       "source": 1770,
       "output": 766,
-      "compression": 43.3
+      "compression": 43.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "region": "Other",
@@ -54,7 +57,10 @@
     "size": {
       "source": 37065,
       "output": 6356,
-      "compression": 17.1
+      "compression": 17.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 2,
     "region": "Asia",
@@ -88,7 +94,10 @@
     "size": {
       "source": 232397,
       "output": 86468,
-      "compression": 37.2
+      "compression": 37.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 7,
     "region": "Asia",
@@ -128,7 +137,10 @@
     "size": {
       "source": 256,
       "output": 265,
-      "compression": 103.5
+      "compression": 103.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0897435897435899
     },
     "elementCount": 3,
     "region": "Europe",
@@ -162,7 +174,10 @@
     "size": {
       "source": 8628,
       "output": 1931,
-      "compression": 22.4
+      "compression": 22.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1904761904761905
     },
     "elementCount": 3,
     "subregion": "Southern Europe",
@@ -197,7 +212,10 @@
     "size": {
       "source": 311,
       "output": 267,
-      "compression": 85.9
+      "compression": 85.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Northern Africa",
@@ -237,7 +255,10 @@
     "size": {
       "source": 49138,
       "output": 6742,
-      "compression": 13.7
+      "compression": 13.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8771929824561403
     },
     "elementCount": 6,
     "subregion": "Polynesia",
@@ -280,7 +301,10 @@
     "size": {
       "source": 58468,
       "output": 8092,
-      "compression": 13.8
+      "compression": 13.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1666666666666667
     },
     "elementCount": 12,
     "subregion": "Southern Europe",
@@ -317,7 +341,10 @@
     "size": {
       "source": 2227,
       "output": 844,
-      "compression": 37.9
+      "compression": 37.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Middle Africa",
@@ -357,7 +384,10 @@
     "size": {
       "source": 4496,
       "output": 1146,
-      "compression": 25.5
+      "compression": 25.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 8,
     "subregion": "Caribbean",
@@ -399,7 +429,10 @@
     "size": {
       "source": 1127,
       "output": 557,
-      "compression": 49.4
+      "compression": 49.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 11,
     "region": "Other",
@@ -436,7 +469,10 @@
     "size": {
       "source": 540,
       "output": 411,
-      "compression": 76.1
+      "compression": 76.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 5,
     "subregion": "Caribbean",
@@ -473,7 +509,10 @@
     "size": {
       "source": 4994,
       "output": 1803,
-      "compression": 36.1
+      "compression": 36.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0416666666666667
     },
     "elementCount": 14,
     "subregion": "South America",
@@ -510,7 +549,10 @@
     "size": {
       "source": 201,
       "output": 201,
-      "compression": 100
+      "compression": 100,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Western Asia",
@@ -541,7 +583,10 @@
     "size": {
       "source": 383,
       "output": 422,
-      "compression": 110.2
+      "compression": 110.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "region": "Other",
@@ -578,7 +623,10 @@
     "size": {
       "source": 415,
       "output": 327,
-      "compression": 78.8
+      "compression": 78.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Caribbean",
@@ -614,7 +662,10 @@
     "size": {
       "source": 1587,
       "output": 902,
-      "compression": 56.8
+      "compression": 56.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
@@ -649,7 +700,10 @@
     "size": {
       "source": 218,
       "output": 160,
-      "compression": 73.4
+      "compression": 73.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Western Europe",
@@ -685,7 +739,10 @@
     "size": {
       "source": 588,
       "output": 322,
-      "compression": 54.8
+      "compression": 54.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -721,7 +778,10 @@
     "size": {
       "source": 240,
       "output": 204,
-      "compression": 85
+      "compression": 85,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -755,7 +815,10 @@
     "size": {
       "source": 256,
       "output": 230,
-      "compression": 89.8
+      "compression": 89.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -789,7 +852,10 @@
     "size": {
       "source": 165,
       "output": 165,
-      "compression": 100
+      "compression": 100,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 2,
     "subregion": "Southern Asia",
@@ -824,7 +890,10 @@
     "size": {
       "source": 638,
       "output": 437,
-      "compression": 68.5
+      "compression": 68.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Caribbean",
@@ -860,7 +929,10 @@
     "size": {
       "source": 2040,
       "output": 1119,
-      "compression": 54.9
+      "compression": 54.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 6,
     "subregion": "Eastern Europe",
@@ -896,7 +968,10 @@
     "size": {
       "source": 182,
       "output": 199,
-      "compression": 109.3
+      "compression": 109.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.4444444444444446
     },
     "elementCount": 3,
     "subregion": "Western Europe",
@@ -943,7 +1018,10 @@
     "size": {
       "source": 86438,
       "output": 49183,
-      "compression": 56.9
+      "compression": 56.9,
+      "width": 1000,
+      "height": 600,
+      "distortion": 1
     },
     "elementCount": 125,
     "subregion": "Central America",
@@ -988,7 +1066,10 @@
     "size": {
       "source": 197,
       "output": 200,
-      "compression": 101.5
+      "compression": 101.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -1029,7 +1110,10 @@
     "size": {
       "source": 33442,
       "output": 21962,
-      "compression": 65.7
+      "compression": 65.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 108,
     "subregion": "Northern America",
@@ -1073,7 +1157,10 @@
     "size": {
       "source": 36864,
       "output": 9192,
-      "compression": 24.9
+      "compression": 24.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Southern Asia",
@@ -1122,7 +1209,10 @@
     "size": {
       "source": 254777,
       "output": 87274,
-      "compression": 34.3
+      "compression": 34.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1363636363636362
     },
     "elementCount": 701,
     "region": "Americas",
@@ -1171,7 +1261,10 @@
     "size": {
       "source": 516,
       "output": 418,
-      "compression": 81
+      "compression": 81,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 8,
     "region": "Americas",
@@ -1208,7 +1301,10 @@
     "size": {
       "source": 512,
       "output": 429,
-      "compression": 83.8
+      "compression": 83.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 8,
     "subregion": "Southern Europe",
@@ -1244,7 +1340,10 @@
     "size": {
       "source": 268,
       "output": 205,
-      "compression": 76.5
+      "compression": 76.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Southern Africa",
@@ -1279,7 +1378,10 @@
     "size": {
       "source": 5325,
       "output": 3811,
-      "compression": 71.6
+      "compression": 71.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1666666666666667
     },
     "elementCount": 38,
     "subregion": "South America",
@@ -1328,7 +1430,10 @@
     "size": {
       "source": 84937,
       "output": 45990,
-      "compression": 54.1
+      "compression": 54.1,
+      "width": 1000,
+      "height": 500,
+      "distortion": 1
     },
     "elementCount": 291,
     "region": "Other",
@@ -1386,7 +1491,10 @@
     "size": {
       "source": 83791,
       "output": 36659,
-      "compression": 43.8
+      "compression": 43.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 141,
     "subregion": "Eastern Africa",
@@ -1435,7 +1543,10 @@
     "size": {
       "source": 21651,
       "output": 12809,
-      "compression": 59.2
+      "compression": 59.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 9,
     "subregion": "Caribbean",
@@ -1478,7 +1589,10 @@
     "size": {
       "source": 24304,
       "output": 5228,
-      "compression": 21.5
+      "compression": 21.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 8,
     "region": "Asia",
@@ -1536,7 +1650,10 @@
     "size": {
       "source": 288,
       "output": 201,
-      "compression": 69.8
+      "compression": 69.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
@@ -1571,7 +1688,10 @@
     "size": {
       "source": 672,
       "output": 221,
-      "compression": 32.9
+      "compression": 32.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -1606,7 +1726,10 @@
     "size": {
       "source": 693,
       "output": 734,
-      "compression": 105.9
+      "compression": 105.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -1643,7 +1766,10 @@
     "size": {
       "source": 11716,
       "output": 5120,
-      "compression": 43.7
+      "compression": 43.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0666666666666667
     },
     "elementCount": 6,
     "subregion": "South-eastern Asia",
@@ -1679,7 +1805,10 @@
     "size": {
       "source": 508,
       "output": 246,
-      "compression": 48.4
+      "compression": 48.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Middle Africa",
@@ -1714,7 +1843,10 @@
     "size": {
       "source": 720,
       "output": 491,
-      "compression": 68.2
+      "compression": 68.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 2,
     "subregion": "Northern America",
@@ -1751,7 +1883,10 @@
     "size": {
       "source": 1148,
       "output": 594,
-      "compression": 51.7
+      "compression": 51.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.9803921568627452
     },
     "elementCount": 14,
     "region": "Africa",
@@ -1794,7 +1929,10 @@
     "size": {
       "source": 50126,
       "output": 26224,
-      "compression": 52.3
+      "compression": 52.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 105,
     "subregion": "Caribbean",
@@ -1841,7 +1979,10 @@
     "size": {
       "source": 400,
       "output": 326,
-      "compression": 81.5
+      "compression": 81.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 5,
     "subregion": "Middle Africa",
@@ -1876,7 +2017,10 @@
     "size": {
       "source": 197,
       "output": 199,
-      "compression": 101
+      "compression": 101,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Middle Africa",
@@ -1911,7 +2055,10 @@
     "size": {
       "source": 295,
       "output": 251,
-      "compression": 85.1
+      "compression": 85.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "South America",
@@ -1945,7 +2092,10 @@
     "size": {
       "source": 688,
       "output": 302,
-      "compression": 43.9
+      "compression": 43.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Eastern Asia",
@@ -1981,7 +2131,10 @@
     "size": {
       "source": 3015,
       "output": 1534,
-      "compression": 50.9
+      "compression": 50.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Australia and New Zealand",
@@ -2021,7 +2174,10 @@
     "size": {
       "source": 5080,
       "output": 1484,
-      "compression": 29.2
+      "compression": 29.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Australia and New Zealand",
@@ -2059,7 +2215,10 @@
     "size": {
       "source": 255,
       "output": 201,
-      "compression": 78.8
+      "compression": 78.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "South America",
@@ -2096,7 +2255,10 @@
     "size": {
       "source": 620,
       "output": 505,
-      "compression": 81.5
+      "compression": 81.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -2134,7 +2296,10 @@
     "size": {
       "source": 542,
       "output": 264,
-      "compression": 48.7
+      "compression": 48.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.25
     },
     "elementCount": 3,
     "subregion": "Middle Africa",
@@ -2170,7 +2335,10 @@
     "size": {
       "source": 241,
       "output": 198,
-      "compression": 82.2
+      "compression": 82.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Africa",
@@ -2206,7 +2374,10 @@
     "size": {
       "source": 1179,
       "output": 863,
-      "compression": 73.2
+      "compression": 73.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 12,
     "subregion": "Polynesia",
@@ -2254,7 +2425,10 @@
     "size": {
       "source": 62947,
       "output": 47240,
-      "compression": 75
+      "compression": 75,
+      "width": 1000,
+      "height": 600,
+      "distortion": 1
     },
     "elementCount": 288,
     "subregion": "Central America",
@@ -2303,7 +2477,10 @@
     "size": {
       "source": 68547,
       "output": 42427,
-      "compression": 61.9
+      "compression": 61.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 54,
     "subregion": "Southern Europe",
@@ -2346,7 +2523,10 @@
     "size": {
       "source": 322,
       "output": 280,
-      "compression": 87
+      "compression": 87,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Caribbean",
@@ -2383,7 +2563,10 @@
     "size": {
       "source": 672,
       "output": 251,
-      "compression": 37.4
+      "compression": 37.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -2419,7 +2602,10 @@
     "size": {
       "source": 14140,
       "output": 1854,
-      "compression": 13.1
+      "compression": 13.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -2455,7 +2641,10 @@
     "size": {
       "source": 275,
       "output": 202,
-      "compression": 73.5
+      "compression": 73.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Europe",
@@ -2489,7 +2678,10 @@
     "size": {
       "source": 186,
       "output": 192,
-      "compression": 103.2
+      "compression": 103.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.2612612612612615
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -2524,7 +2716,10 @@
     "size": {
       "source": 371,
       "output": 267,
-      "compression": 72
+      "compression": 72,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Eastern Africa",
@@ -2564,7 +2759,10 @@
     "size": {
       "source": 5157,
       "output": 3336,
-      "compression": 64.7
+      "compression": 64.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 23,
     "subregion": "Caribbean",
@@ -2609,7 +2807,10 @@
     "size": {
       "source": 203618,
       "output": 52794,
-      "compression": 25.9
+      "compression": 25.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 115,
     "subregion": "Caribbean",
@@ -2672,7 +2873,10 @@
     "size": {
       "source": 279145,
       "output": 81026,
-      "compression": 29
+      "compression": 29,
+      "width": null,
+      "height": null,
+      "distortion": null
     },
     "elementCount": 438,
     "subregion": "South America",
@@ -2722,7 +2926,10 @@
     "size": {
       "source": 18439,
       "output": 3162,
-      "compression": 17.1
+      "compression": 17.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
@@ -2755,7 +2962,10 @@
     "size": {
       "source": 6070,
       "output": 1318,
-      "compression": 21.7
+      "compression": 21.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Other",
@@ -2800,7 +3010,10 @@
     "size": {
       "source": 280714,
       "output": 46164,
-      "compression": 16.4
+      "compression": 16.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.9402985074626867
     },
     "elementCount": 86,
     "subregion": "Central America",
@@ -2852,7 +3065,10 @@
     "size": {
       "source": 5890,
       "output": 4084,
-      "compression": 69.3
+      "compression": 69.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 18,
     "subregion": "Middle Africa",
@@ -2892,7 +3108,10 @@
     "size": {
       "source": 3309,
       "output": 2057,
-      "compression": 62.2
+      "compression": 62.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -2927,7 +3146,10 @@
     "size": {
       "source": 192,
       "output": 201,
-      "compression": 104.7
+      "compression": 104.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0606060606060606
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -2964,7 +3186,10 @@
     "size": {
       "source": 6733,
       "output": 1985,
-      "compression": 29.5
+      "compression": 29.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 7,
     "region": "Africa",
@@ -3001,7 +3226,10 @@
     "size": {
       "source": 864,
       "output": 610,
-      "compression": 70.6
+      "compression": 70.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Eastern Africa",
@@ -3052,7 +3280,10 @@
     "size": {
       "source": 131263,
       "output": 39579,
-      "compression": 30.2
+      "compression": 30.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 73,
     "region": "Americas",
@@ -3099,7 +3330,10 @@
     "size": {
       "source": 378,
       "output": 265,
-      "compression": 70.1
+      "compression": 70.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.2121212121212122
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -3139,7 +3373,10 @@
     "size": {
       "source": 40121,
       "output": 9417,
-      "compression": 23.5
+      "compression": 23.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 10,
     "subregion": "Melanesia",
@@ -3175,7 +3412,10 @@
     "size": {
       "source": 241,
       "output": 192,
-      "compression": 79.7
+      "compression": 79.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0185185185185186
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -3209,7 +3449,10 @@
     "size": {
       "source": 262,
       "output": 199,
-      "compression": 76
+      "compression": 76,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Europe",
@@ -3245,7 +3488,10 @@
     "size": {
       "source": 923,
       "output": 218,
-      "compression": 23.6
+      "compression": 23.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "South America",
@@ -3284,7 +3530,10 @@
     "size": {
       "source": 7332,
       "output": 2068,
-      "compression": 28.2
+      "compression": 28.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 13,
     "subregion": "Polynesia",
@@ -3324,7 +3573,10 @@
     "size": {
       "source": 1307,
       "output": 647,
-      "compression": 49.5
+      "compression": 49.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Africa",
@@ -3361,7 +3613,10 @@
     "size": {
       "source": 201,
       "output": 201,
-      "compression": 100
+      "compression": 100,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.25
     },
     "elementCount": 3,
     "subregion": "Middle Africa",
@@ -3397,7 +3652,10 @@
     "size": {
       "source": 291,
       "output": 246,
-      "compression": 84.5
+      "compression": 84.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Western Africa",
@@ -3431,7 +3689,10 @@
     "size": {
       "source": 545,
       "output": 468,
-      "compression": 85.9
+      "compression": 85.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 8,
     "subregion": "Western Asia",
@@ -3466,7 +3727,10 @@
     "size": {
       "source": 502,
       "output": 201,
-      "compression": 40
+      "compression": 40,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 3,
     "subregion": "Western Europe",
@@ -3501,7 +3765,10 @@
     "size": {
       "source": 299,
       "output": 256,
-      "compression": 85.6
+      "compression": 85.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Western Africa",
@@ -3537,7 +3804,10 @@
     "size": {
       "source": 5984,
       "output": 2542,
-      "compression": 42.5
+      "compression": 42.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Southern Europe",
@@ -3574,7 +3844,10 @@
     "size": {
       "source": 284,
       "output": 234,
-      "compression": 82.4
+      "compression": 82.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Southern Europe",
@@ -3608,7 +3881,10 @@
     "size": {
       "source": 246,
       "output": 206,
-      "compression": 83.7
+      "compression": 83.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Northern America",
@@ -3644,7 +3920,10 @@
     "size": {
       "source": 1101,
       "output": 644,
-      "compression": 58.5
+      "compression": 58.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 5,
     "subregion": "Caribbean",
@@ -3681,7 +3960,10 @@
     "size": {
       "source": 14351,
       "output": 3823,
-      "compression": 26.6
+      "compression": 26.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 15,
     "subregion": "Caribbean",
@@ -3725,7 +4007,10 @@
     "size": {
       "source": 10613,
       "output": 2766,
-      "compression": 26.1
+      "compression": 26.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.894308943089431
     },
     "elementCount": 9,
     "subregion": "Micronesia",
@@ -3772,7 +4057,10 @@
     "size": {
       "source": 55848,
       "output": 29052,
-      "compression": 52
+      "compression": 52,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0416666666666667
     },
     "elementCount": 162,
     "subregion": "Central America",
@@ -3819,7 +4107,10 @@
     "size": {
       "source": 338,
       "output": 321,
-      "compression": 95
+      "compression": 95,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -3855,7 +4146,10 @@
     "size": {
       "source": 205,
       "output": 199,
-      "compression": 97.1
+      "compression": 97.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -3891,7 +4185,10 @@
     "size": {
       "source": 710,
       "output": 265,
-      "compression": 37.3
+      "compression": 37.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Western Africa",
@@ -3928,7 +4225,10 @@
     "size": {
       "source": 510,
       "output": 303,
-      "compression": 59.4
+      "compression": 59.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 5,
     "subregion": "South America",
@@ -3967,7 +4267,10 @@
     "size": {
       "source": 58517,
       "output": 39524,
-      "compression": 67.5
+      "compression": 67.5,
+      "width": 1000,
+      "height": 600,
+      "distortion": 1
     },
     "elementCount": 492,
     "subregion": "Caribbean",
@@ -4012,7 +4315,10 @@
     "size": {
       "source": 461,
       "output": 364,
-      "compression": 79
+      "compression": 79,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 7,
     "subregion": "Central America",
@@ -4047,7 +4353,10 @@
     "size": {
       "source": 845,
       "output": 530,
-      "compression": 62.7
+      "compression": 62.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 8,
     "region": "Asia",
@@ -4082,7 +4391,10 @@
     "size": {
       "source": 197,
       "output": 201,
-      "compression": 102
+      "compression": 102,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
@@ -4117,7 +4429,10 @@
     "size": {
       "source": 281,
       "output": 265,
-      "compression": 94.3
+      "compression": 94.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.2
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -4152,7 +4467,10 @@
     "size": {
       "source": 849,
       "output": 667,
-      "compression": 78.6
+      "compression": 78.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 14,
     "subregion": "Southern Asia",
@@ -4188,7 +4506,10 @@
     "size": {
       "source": 148,
       "output": 158,
-      "compression": 106.8
+      "compression": 106.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "South-eastern Asia",
@@ -4222,7 +4543,10 @@
     "size": {
       "source": 1407,
       "output": 1206,
-      "compression": 85.7
+      "compression": 85.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.9523809523809523
     },
     "elementCount": 15,
     "region": "Asia",
@@ -4259,7 +4583,10 @@
     "size": {
       "source": 1204,
       "output": 864,
-      "compression": 71.8
+      "compression": 71.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -4292,7 +4619,10 @@
     "size": {
       "source": 822,
       "output": 482,
-      "compression": 58.6
+      "compression": 58.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Other",
@@ -4327,7 +4657,10 @@
     "size": {
       "source": 282,
       "output": 199,
-      "compression": 70.6
+      "compression": 70.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -4364,7 +4697,10 @@
     "size": {
       "source": 5243,
       "output": 1936,
-      "compression": 36.9
+      "compression": 36.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 7,
     "subregion": "Northern Europe",
@@ -4398,7 +4734,10 @@
     "size": {
       "source": 398,
       "output": 264,
-      "compression": 66.3
+      "compression": 66.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.2121212121212122
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -4433,7 +4772,10 @@
     "size": {
       "source": 273,
       "output": 199,
-      "compression": 72.9
+      "compression": 72.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Southern Europe",
@@ -4468,7 +4810,10 @@
     "size": {
       "source": 194,
       "output": 199,
-      "compression": 102.6
+      "compression": 102.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Africa",
@@ -4503,7 +4848,10 @@
     "size": {
       "source": 311,
       "output": 286,
-      "compression": 92
+      "compression": 92,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -4537,7 +4885,10 @@
     "size": {
       "source": 209,
       "output": 165,
-      "compression": 78.9
+      "compression": 78.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Eastern Asia",
@@ -4574,7 +4925,10 @@
     "size": {
       "source": 76724,
       "output": 6484,
-      "compression": 8.5
+      "compression": 8.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 4,
     "subregion": "Northern Europe",
@@ -4613,7 +4967,10 @@
     "size": {
       "source": 412,
       "output": 336,
-      "compression": 81.6
+      "compression": 81.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -4646,7 +5003,10 @@
     "size": {
       "source": 9668,
       "output": 3060,
-      "compression": 31.7
+      "compression": 31.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 21,
     "subregion": "Central Asia",
@@ -4684,7 +5044,10 @@
     "size": {
       "source": 1033,
       "output": 761,
-      "compression": 73.7
+      "compression": 73.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -4721,7 +5084,10 @@
     "size": {
       "source": 4141,
       "output": 1822,
-      "compression": 44
+      "compression": 44,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 13,
     "subregion": "Micronesia",
@@ -4758,7 +5124,10 @@
     "size": {
       "source": 873,
       "output": 303,
-      "compression": 34.7
+      "compression": 34.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "region": "Asia",
@@ -4794,7 +5163,10 @@
     "size": {
       "source": 739,
       "output": 760,
-      "compression": 102.8
+      "compression": 102.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Asia",
@@ -4825,7 +5197,10 @@
     "size": {
       "source": 8464,
       "output": 1214,
-      "compression": 14.3
+      "compression": 14.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1904761904761905
     },
     "elementCount": 3,
     "region": "Other",
@@ -4860,7 +5235,10 @@
     "size": {
       "source": 317,
       "output": 253,
-      "compression": 79.8
+      "compression": 79.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -4894,7 +5272,10 @@
     "size": {
       "source": 14078,
       "output": 1095,
-      "compression": 7.8
+      "compression": 7.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 18,
     "subregion": "Central Asia",
@@ -4928,7 +5309,10 @@
     "size": {
       "source": 233,
       "output": 210,
-      "compression": 90.1
+      "compression": 90.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Asia",
@@ -4963,7 +5347,10 @@
     "size": {
       "source": 155,
       "output": 160,
-      "compression": 103.2
+      "compression": 103.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -4998,7 +5385,10 @@
     "size": {
       "source": 6015,
       "output": 1961,
-      "compression": 32.6
+      "compression": 32.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Asia",
@@ -5033,7 +5423,10 @@
     "size": {
       "source": 1484,
       "output": 729,
-      "compression": 49.1
+      "compression": 49.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Southern Africa",
@@ -5067,7 +5460,10 @@
     "size": {
       "source": 729,
       "output": 312,
-      "compression": 42.8
+      "compression": 42.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8771929824561403
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -5103,7 +5499,10 @@
     "size": {
       "source": 479,
       "output": 305,
-      "compression": 63.7
+      "compression": 63.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
@@ -5138,7 +5537,10 @@
     "size": {
       "source": 23762,
       "output": 2738,
-      "compression": 11.5
+      "compression": 11.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 9,
     "subregion": "Western Europe",
@@ -5173,7 +5575,10 @@
     "size": {
       "source": 201,
       "output": 201,
-      "compression": 100
+      "compression": 100,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -5208,7 +5613,10 @@
     "size": {
       "source": 281,
       "output": 201,
-      "compression": 71.5
+      "compression": 71.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 3,
     "subregion": "Western Europe",
@@ -5245,7 +5653,10 @@
     "size": {
       "source": 2365,
       "output": 936,
-      "compression": 39.6
+      "compression": 39.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Asia",
@@ -5281,7 +5692,10 @@
     "size": {
       "source": 257,
       "output": 200,
-      "compression": 77.8
+      "compression": 77.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Eastern Africa",
@@ -5316,7 +5730,10 @@
     "size": {
       "source": 1071,
       "output": 678,
-      "compression": 63.3
+      "compression": 63.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 13,
     "subregion": "Eastern Africa",
@@ -5351,7 +5768,10 @@
     "size": {
       "source": 683,
       "output": 559,
-      "compression": 81.8
+      "compression": 81.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "South-eastern Asia",
@@ -5386,7 +5806,10 @@
     "size": {
       "source": 322,
       "output": 238,
-      "compression": 73.9
+      "compression": 73.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
@@ -5421,7 +5844,10 @@
     "size": {
       "source": 197,
       "output": 199,
-      "compression": 101
+      "compression": 101,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -5456,7 +5882,10 @@
     "size": {
       "source": 15715,
       "output": 10784,
-      "compression": 68.6
+      "compression": 68.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 13,
     "subregion": "Southern Europe",
@@ -5493,7 +5922,10 @@
     "size": {
       "source": 790,
       "output": 517,
-      "compression": 65.4
+      "compression": 65.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8771929824561403
     },
     "elementCount": 3,
     "subregion": "Micronesia",
@@ -5530,7 +5962,10 @@
     "size": {
       "source": 522,
       "output": 202,
-      "compression": 38.7
+      "compression": 38.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -5567,7 +6002,10 @@
     "size": {
       "source": 343,
       "output": 269,
-      "compression": 78.4
+      "compression": 78.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -5602,7 +6040,10 @@
     "size": {
       "source": 239,
       "output": 244,
-      "compression": 102.1
+      "compression": 102.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Eastern Africa",
@@ -5649,7 +6090,10 @@
     "size": {
       "source": 139551,
       "output": 78739,
-      "compression": 56.4
+      "compression": 56.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.9523809523809523
     },
     "elementCount": 142,
     "subregion": "Central America",
@@ -5691,7 +6135,10 @@
     "size": {
       "source": 814,
       "output": 282,
-      "compression": 34.6
+      "compression": 34.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8771929824561403
     },
     "elementCount": 2,
     "region": "Oceania",
@@ -5728,7 +6175,10 @@
     "size": {
       "source": 34587,
       "output": 6893,
-      "compression": 19.9
+      "compression": 19.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 17,
     "region": "Europe",
@@ -5769,7 +6219,10 @@
     "size": {
       "source": 197,
       "output": 158,
-      "compression": 80.2
+      "compression": 80.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.3333333333333335
     },
     "elementCount": 2,
     "subregion": "Western Europe",
@@ -5803,7 +6256,10 @@
     "size": {
       "source": 1526,
       "output": 853,
-      "compression": 55.9
+      "compression": 55.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Eastern Asia",
@@ -5843,7 +6299,10 @@
     "size": {
       "source": 123773,
       "output": 9463,
-      "compression": 7.6
+      "compression": 7.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 9,
     "subregion": "Southern Europe",
@@ -5888,7 +6347,10 @@
     "size": {
       "source": 12868,
       "output": 4547,
-      "compression": 35.3
+      "compression": 35.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 11,
     "subregion": "Caribbean",
@@ -5926,7 +6388,10 @@
     "size": {
       "source": 264,
       "output": 230,
-      "compression": 87.1
+      "compression": 87.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Northern Africa",
@@ -5962,7 +6427,10 @@
     "size": {
       "source": 2789,
       "output": 1483,
-      "compression": 53.2
+      "compression": 53.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 8,
     "subregion": "Eastern Africa",
@@ -6001,7 +6469,10 @@
     "size": {
       "source": 636,
       "output": 269,
-      "compression": 42.3
+      "compression": 42.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Asia",
@@ -6039,7 +6510,10 @@
     "size": {
       "source": 788,
       "output": 539,
-      "compression": 68.4
+      "compression": 68.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 7,
     "subregion": "Southern Africa",
@@ -6075,7 +6549,10 @@
     "size": {
       "source": 717,
       "output": 275,
-      "compression": 38.4
+      "compression": 38.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Micronesia",
@@ -6110,7 +6587,10 @@
     "size": {
       "source": 1523,
       "output": 524,
-      "compression": 34.4
+      "compression": 34.4,
+      "width": 591,
+      "height": 720,
+      "distortion": 1.0010162601626016
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
@@ -6145,7 +6625,10 @@
     "size": {
       "source": 223,
       "output": 201,
-      "compression": 90.1
+      "compression": 90.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Europe",
@@ -6183,7 +6666,10 @@
     "size": {
       "source": 8006,
       "output": 941,
-      "compression": 11.8
+      "compression": 11.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Melanesia",
@@ -6220,7 +6706,10 @@
     "size": {
       "source": 2406,
       "output": 694,
-      "compression": 28.8
+      "compression": 28.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
@@ -6265,7 +6754,10 @@
     "size": {
       "source": 23964,
       "output": 5729,
-      "compression": 23.9
+      "compression": 23.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 18,
     "subregion": "Central America",
@@ -6304,7 +6796,10 @@
     "size": {
       "source": 296,
       "output": 250,
-      "compression": 84.5
+      "compression": 84.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.4285714285714286
     },
     "elementCount": 4,
     "subregion": "Western Africa",
@@ -6340,7 +6835,10 @@
     "size": {
       "source": 201,
       "output": 161,
-      "compression": 80.1
+      "compression": 80.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 2,
     "subregion": "Western Africa",
@@ -6377,7 +6875,10 @@
     "size": {
       "source": 1221,
       "output": 702,
-      "compression": 57.5
+      "compression": 57.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Polynesia",
@@ -6415,7 +6916,10 @@
     "size": {
       "source": 23635,
       "output": 3114,
-      "compression": 13.2
+      "compression": 13.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Australia and New Zealand",
@@ -6445,7 +6949,10 @@
     "size": {
       "source": 348,
       "output": 259,
-      "compression": 74.4
+      "compression": 74.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "region": "Other",
@@ -6489,7 +6996,10 @@
     "size": {
       "source": 164863,
       "output": 99991,
-      "compression": 60.7
+      "compression": 60.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 13,
     "subregion": "Micronesia",
@@ -6527,7 +7037,10 @@
     "size": {
       "source": 416,
       "output": 391,
-      "compression": 94
+      "compression": 94,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Southern Europe",
@@ -6562,7 +7075,10 @@
     "size": {
       "source": 319,
       "output": 265,
-      "compression": 83.1
+      "compression": 83.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.2121212121212122
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -6596,7 +7112,10 @@
     "size": {
       "source": 17172,
       "output": 7082,
-      "compression": 41.2
+      "compression": 41.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 7,
     "subregion": "Western Asia",
@@ -6631,7 +7150,10 @@
     "size": {
       "source": 707,
       "output": 276,
-      "compression": 39
+      "compression": 39,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Southern Asia",
@@ -6665,7 +7187,10 @@
     "size": {
       "source": 214,
       "output": 165,
-      "compression": 77.1
+      "compression": 77.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0416666666666667
     },
     "elementCount": 2,
     "subregion": "Micronesia",
@@ -6701,7 +7226,10 @@
     "size": {
       "source": 1282,
       "output": 249,
-      "compression": 19.4
+      "compression": 19.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "region": "Asia",
@@ -6737,7 +7265,10 @@
     "size": {
       "source": 331,
       "output": 276,
-      "compression": 83.4
+      "compression": 83.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Central America",
@@ -6772,7 +7303,10 @@
     "size": {
       "source": 4721,
       "output": 1224,
-      "compression": 25.9
+      "compression": 25.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.25
     },
     "elementCount": 4,
     "subregion": "Melanesia",
@@ -6812,7 +7346,10 @@
     "size": {
       "source": 23523,
       "output": 5567,
-      "compression": 23.7
+      "compression": 23.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.9166666666666667
     },
     "elementCount": 6,
     "subregion": "South America",
@@ -6850,7 +7387,10 @@
     "size": {
       "source": 381,
       "output": 161,
-      "compression": 42.3
+      "compression": 42.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "South America",
@@ -6886,7 +7426,10 @@
     "size": {
       "source": 892,
       "output": 654,
-      "compression": 73.3
+      "compression": 73.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 9,
     "subregion": "South-eastern Asia",
@@ -6930,7 +7473,10 @@
     "size": {
       "source": 20227,
       "output": 12924,
-      "compression": 63.9
+      "compression": 63.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 48,
     "region": "Oceania",
@@ -6972,7 +7518,10 @@
     "size": {
       "source": 244,
       "output": 158,
-      "compression": 64.8
+      "compression": 64.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0416666666666667
     },
     "elementCount": 2,
     "subregion": "Eastern Europe",
@@ -7009,7 +7558,10 @@
     "size": {
       "source": 13160,
       "output": 6272,
-      "compression": 47.7
+      "compression": 47.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 19,
     "subregion": "Southern Europe",
@@ -7045,7 +7597,10 @@
     "size": {
       "source": 297,
       "output": 280,
-      "compression": 94.3
+      "compression": 94.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Caribbean",
@@ -7080,7 +7635,10 @@
     "size": {
       "source": 310,
       "output": 285,
-      "compression": 91.9
+      "compression": 91.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.6547619047619048
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -7114,7 +7672,10 @@
     "size": {
       "source": 297,
       "output": 199,
-      "compression": 67
+      "compression": 67,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
@@ -7149,7 +7710,10 @@
     "size": {
       "source": 265,
       "output": 201,
-      "compression": 75.8
+      "compression": 75.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "region": "Europe",
@@ -7184,7 +7748,10 @@
     "size": {
       "source": 939,
       "output": 596,
-      "compression": 63.5
+      "compression": 63.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -7222,7 +7789,10 @@
     "size": {
       "source": 607,
       "output": 286,
-      "compression": 47.1
+      "compression": 47.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Americas",
@@ -7261,7 +7831,10 @@
     "size": {
       "source": 676,
       "output": 324,
-      "compression": 47.9
+      "compression": 47.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "region": "Africa",
@@ -7297,7 +7870,10 @@
     "size": {
       "source": 621,
       "output": 375,
-      "compression": 60.4
+      "compression": 60.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 5,
     "subregion": "Caribbean",
@@ -7334,7 +7910,10 @@
     "size": {
       "source": 309,
       "output": 258,
-      "compression": 83.5
+      "compression": 83.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Caribbean",
@@ -7374,7 +7953,10 @@
     "size": {
       "source": 106016,
       "output": 42201,
-      "compression": 39.8
+      "compression": 39.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 90,
     "region": "Americas",
@@ -7417,7 +7999,10 @@
     "size": {
       "source": 404,
       "output": 314,
-      "compression": 77.7
+      "compression": 77.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -7453,7 +8038,10 @@
     "size": {
       "source": 724,
       "output": 332,
-      "compression": 45.9
+      "compression": 45.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Polynesia",
@@ -7494,7 +8082,10 @@
     "size": {
       "source": 132841,
       "output": 45718,
-      "compression": 34.4
+      "compression": 34.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.25
     },
     "elementCount": 40,
     "subregion": "Southern Europe",
@@ -7538,7 +8129,10 @@
     "size": {
       "source": 784,
       "output": 299,
-      "compression": 38.1
+      "compression": 38.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "region": "Africa",
@@ -7574,7 +8168,10 @@
     "size": {
       "source": 28593,
       "output": 6861,
-      "compression": 24
+      "compression": 24,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -7609,7 +8206,10 @@
     "size": {
       "source": 255,
       "output": 234,
-      "compression": 91.8
+      "compression": 91.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -7647,7 +8247,10 @@
     "size": {
       "source": 153385,
       "output": 43545,
-      "compression": 28.4
+      "compression": 28.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 273,
     "subregion": "Southern Europe",
@@ -7692,7 +8295,10 @@
     "size": {
       "source": 320,
       "output": 307,
-      "compression": 95.9
+      "compression": 95.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Eastern Africa",
@@ -7726,7 +8332,10 @@
     "size": {
       "source": 194,
       "output": 201,
-      "compression": 103.6
+      "compression": 103.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Africa",
@@ -7760,7 +8369,10 @@
     "size": {
       "source": 593,
       "output": 388,
-      "compression": 65.4
+      "compression": 65.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "South-eastern Asia",
@@ -7798,7 +8410,10 @@
     "size": {
       "source": 1374,
       "output": 535,
-      "compression": 38.9
+      "compression": 38.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 5,
     "region": "Americas",
@@ -7843,7 +8458,10 @@
     "size": {
       "source": 26259,
       "output": 6524,
-      "compression": 24.8
+      "compression": 24.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 18,
     "region": "Americas",
@@ -7885,7 +8503,10 @@
     "size": {
       "source": 1103,
       "output": 737,
-      "compression": 66.8
+      "compression": 66.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Eastern Europe",
@@ -7920,7 +8541,10 @@
     "size": {
       "source": 1617,
       "output": 923,
-      "compression": 57.1
+      "compression": 57.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Southern Europe",
@@ -7955,7 +8579,10 @@
     "size": {
       "source": 1013,
       "output": 403,
-      "compression": 39.8
+      "compression": 39.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Melanesia",
@@ -7990,7 +8617,10 @@
     "size": {
       "source": 596,
       "output": 179,
-      "compression": 30
+      "compression": 30,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Eastern Africa",
@@ -8027,7 +8657,10 @@
     "size": {
       "source": 646,
       "output": 406,
-      "compression": 62.8
+      "compression": 62.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 6,
     "subregion": "Southern Africa",
@@ -8078,7 +8711,10 @@
     "size": {
       "source": 52914,
       "output": 31229,
-      "compression": 59
+      "compression": 59,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 108,
     "subregion": "South America",
@@ -8119,7 +8755,10 @@
     "size": {
       "source": 193,
       "output": 201,
-      "compression": 104.1
+      "compression": 104.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "region": "Other",
@@ -8157,7 +8796,10 @@
     "size": {
       "source": 424,
       "output": 360,
-      "compression": 84.9
+      "compression": 84.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -8196,7 +8838,10 @@
     "size": {
       "source": 60255,
       "output": 13720,
-      "compression": 22.8
+      "compression": 22.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 19,
     "subregion": "Southern Europe",
@@ -8237,7 +8882,10 @@
     "size": {
       "source": 15392,
       "output": 4971,
-      "compression": 32.3
+      "compression": 32.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Southern Asia",
@@ -8275,7 +8923,10 @@
     "size": {
       "source": 229,
       "output": 245,
-      "compression": 107
+      "compression": 107,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Northern Africa",
@@ -8312,7 +8963,10 @@
     "size": {
       "source": 393,
       "output": 275,
-      "compression": 70
+      "compression": 70,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "South America",
@@ -8346,7 +9000,10 @@
     "size": {
       "source": 286,
       "output": 196,
-      "compression": 68.5
+      "compression": 68.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.0416666666666667
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -8379,7 +9036,10 @@
     "size": {
       "source": 187,
       "output": 193,
-      "compression": 103.2
+      "compression": 103.2,
+      "width": 720,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 2,
     "subregion": "Western Europe",
@@ -8414,7 +9074,10 @@
     "size": {
       "source": 311,
       "output": 296,
-      "compression": 95.2
+      "compression": 95.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Asia",
@@ -8451,7 +9114,10 @@
     "size": {
       "source": 485,
       "output": 355,
-      "compression": 73.2
+      "compression": 73.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 5,
     "subregion": "Eastern Asia",
@@ -8487,7 +9153,10 @@
     "size": {
       "source": 1866,
       "output": 986,
-      "compression": 52.8
+      "compression": 52.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Central Asia",
@@ -8522,7 +9191,10 @@
     "size": {
       "source": 458,
       "output": 269,
-      "compression": 58.7
+      "compression": 58.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Africa",
@@ -8557,7 +9229,10 @@
     "size": {
       "source": 259,
       "output": 205,
-      "compression": 79.2
+      "compression": 79.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "South-eastern Asia",
@@ -8593,7 +9268,10 @@
     "size": {
       "source": 338,
       "output": 285,
-      "compression": 84.3
+      "compression": 84.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "region": "Asia",
@@ -8629,7 +9307,10 @@
     "size": {
       "source": 772,
       "output": 307,
-      "compression": 39.8
+      "compression": 39.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": null
     },
     "elementCount": 5,
     "subregion": "Western Africa",
@@ -8664,7 +9345,10 @@
     "size": {
       "source": 1459,
       "output": 407,
-      "compression": 27.9
+      "compression": 27.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Polynesia",
@@ -8699,7 +9383,10 @@
     "size": {
       "source": 315,
       "output": 209,
-      "compression": 66.3
+      "compression": 66.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 2,
     "subregion": "Polynesia",
@@ -8729,7 +9416,10 @@
     "size": {
       "source": 2072,
       "output": 570,
-      "compression": 27.5
+      "compression": 27.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "region": "Other",
@@ -8766,7 +9456,10 @@
     "size": {
       "source": 307,
       "output": 212,
-      "compression": 69.1
+      "compression": 69.1,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 3,
     "subregion": "Caribbean",
@@ -8799,7 +9492,10 @@
     "size": {
       "source": 278,
       "output": 283,
-      "compression": 101.8
+      "compression": 101.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Northern Africa",
@@ -8835,7 +9531,10 @@
     "size": {
       "source": 324,
       "output": 225,
-      "compression": 69.4
+      "compression": 69.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Western Asia",
@@ -8870,7 +9569,10 @@
     "size": {
       "source": 75449,
       "output": 24606,
-      "compression": 32.6
+      "compression": 32.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 20,
     "subregion": "Central Asia",
@@ -8916,7 +9618,10 @@
     "size": {
       "source": 6940,
       "output": 6622,
-      "compression": 95.4
+      "compression": 95.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 12,
     "subregion": "Caribbean",
@@ -8956,7 +9661,10 @@
     "size": {
       "source": 1239,
       "output": 803,
-      "compression": 64.8
+      "compression": 64.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 5,
     "subregion": "Polynesia",
@@ -8993,7 +9701,10 @@
     "size": {
       "source": 6572,
       "output": 1438,
-      "compression": 21.9
+      "compression": 21.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 8,
     "subregion": "Eastern Africa",
@@ -9029,7 +9740,10 @@
     "size": {
       "source": 182,
       "output": 158,
-      "compression": 86.8
+      "compression": 86.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "subregion": "Eastern Europe",
@@ -9064,7 +9778,10 @@
     "size": {
       "source": 325,
       "output": 243,
-      "compression": 74.8
+      "compression": 74.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Western Asia",
@@ -9099,7 +9816,10 @@
     "size": {
       "source": 672,
       "output": 458,
-      "compression": 68.2
+      "compression": 68.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 3,
     "subregion": "Northern Europe",
@@ -9129,7 +9849,10 @@
     "size": {
       "source": 218,
       "output": 191,
-      "compression": 87.6
+      "compression": 87.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -9159,7 +9882,10 @@
     "size": {
       "source": 221,
       "output": 235,
-      "compression": 106.3
+      "compression": 106.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 2,
     "subregion": "Northern Europe",
@@ -9191,7 +9917,10 @@
     "size": {
       "source": 15819,
       "output": 8486,
-      "compression": 53.6
+      "compression": 53.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1
     },
     "elementCount": 5,
     "subregion": "Northern Europe",
@@ -9226,7 +9955,10 @@
     "size": {
       "source": 899,
       "output": 723,
-      "compression": 80.4
+      "compression": 80.4,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8771929824561403
     },
     "elementCount": 18,
     "region": "Americas",
@@ -9266,7 +9998,10 @@
     "size": {
       "source": 20210,
       "output": 8491,
-      "compression": 42
+      "compression": 42,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 7,
     "subregion": "Caribbean",
@@ -9307,7 +10042,10 @@
     "size": {
       "source": 9589,
       "output": 1397,
-      "compression": 14.6
+      "compression": 14.6,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 12,
     "subregion": "South America",
@@ -9344,7 +10082,10 @@
     "size": {
       "source": 1243,
       "output": 624,
-      "compression": 50.2
+      "compression": 50.2,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 4,
     "subregion": "Central Asia",
@@ -9381,7 +10122,10 @@
     "size": {
       "source": 2141,
       "output": 1556,
-      "compression": 72.7
+      "compression": 72.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "subregion": "Melanesia",
@@ -9421,7 +10165,10 @@
     "size": {
       "source": 47603,
       "output": 25889,
-      "compression": 54.4
+      "compression": 54.4,
+      "width": 500,
+      "height": 500,
+      "distortion": 1
     },
     "elementCount": 174,
     "region": "Europe",
@@ -9463,7 +10210,10 @@
     "size": {
       "source": 939,
       "output": 469,
-      "compression": 49.9
+      "compression": 49.9,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 4,
     "region": "Americas",
@@ -9497,7 +10247,10 @@
     "size": {
       "source": 281,
       "output": 179,
-      "compression": 63.7
+      "compression": 63.7,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 2,
     "region": "Asia",
@@ -9531,7 +10284,10 @@
     "size": {
       "source": 179,
       "output": 201,
-      "compression": 112.3
+      "compression": 112.3,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 3,
     "subregion": "Western Asia",
@@ -9567,7 +10323,10 @@
     "size": {
       "source": 5360,
       "output": 4798,
-      "compression": 89.5
+      "compression": 89.5,
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 6,
     "subregion": "Eastern Africa",
@@ -9608,7 +10367,10 @@
     "size": {
       "source": 1801,
       "output": 1384,
-      "compression": 76.8
+      "compression": 76.8,
+      "width": 1200,
+      "height": 720,
+      "distortion": 0.8333333333333334
     },
     "elementCount": 8,
     "subregion": "Eastern Africa",

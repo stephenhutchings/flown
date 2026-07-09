@@ -3,7 +3,7 @@ extends /_/layouts/default
 include /_/mixins/color
 
 block body
-  - const ratio = flag.ratio.split(":").reduce((a, b) => a / b)
+  
 
   section.pb3
     .head.fx.fxw.g3.mbe2
@@ -53,17 +53,16 @@ block body
             span(title="Size reduction compared to source SVG").mt
               |  (#{(100 - flag.size.compression).toFixed(1)}% smaller)
 
-
         dt Distortion
         dd(title="Change in size from original ratio")
-          if ratio === 3 / 5
+          if flag.size.distortion === 1
             | 0
             span.mt %
-          else if ratio > 3 / 5
-            = (100 * (ratio / (3 / 5) - 1)).toFixed(1)
+          else if flag.size.distortion > 1
+            = (100 * (flag.size.distortion - 1)).toFixed(1)
             span.mt % wider
           else
-            = (100 * (1 - ratio / (3 / 5))).toFixed(1)
+            = (100 * (1 - flag.size.distortion)).toFixed(1)
             span.mt % narrower
 
           span.mt

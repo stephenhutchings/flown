@@ -67,7 +67,21 @@ const transformFlags = async () => {
       .map((hex) => palette.findIndex((c) => c.hex === hex))
       .sort((a, b) => a - b)
 
+    const width = output.match(/<svg[^>]+width="(\d+)"/)?.[1]
+    const height = output.match(/<svg[^>]+height="(\d+)"/)?.[1]
+
+    const outRatio = height / width
+    const srcRatio = data.ratio
+      .replace("≈", "")
+      .split(":")
+      .reduce((a, b) => a / b)
+
     data.size ??= {}
+
+    data.size.width = +width
+    data.size.height = +height
+    data.size.distortion = srcRatio / outRatio
+
     data.size.source = source.length
     data.size.output = output.length
     data.size.compression = +(
