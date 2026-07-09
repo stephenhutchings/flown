@@ -1425,10 +1425,8 @@
     "ratio": "1:2",
     "colors": [
       0,
-      3,
       4,
       6,
-      9,
       10,
       14,
       15,
@@ -1437,18 +1435,15 @@
     ],
     "size": {
       "source": 21651,
-      "output": 9718,
-      "compression": 44.9
+      "output": 12809,
+      "compression": 59.2
     },
-    "elementCount": 46,
+    "elementCount": 9,
     "subregion": "Caribbean",
     "region": "Americas",
     "isValid": false,
     "errors": [
-      "stroke",
-      "gradient",
-      "elements",
-      "ratio"
+      "size"
     ],
     "tags": [
       "Canton",
@@ -3063,10 +3058,10 @@
     ],
     "size": {
       "source": 131263,
-      "output": 81426,
-      "compression": 62
+      "output": 81298,
+      "compression": 61.9
     },
-    "elementCount": 301,
+    "elementCount": 300,
     "region": "Americas",
     "subregion": "South America",
     "isValid": false,
@@ -5647,7 +5642,6 @@
       0,
       2,
       3,
-      4,
       5,
       6,
       10,
@@ -8930,11 +8924,11 @@
     "colors": [
       0,
       3,
+      4,
       6,
       9,
       10,
       15,
-      17,
       24,
       30
     ],
