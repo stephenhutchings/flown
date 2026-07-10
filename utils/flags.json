@@ -6989,13 +6989,13 @@
     ],
     "size": {
       "source": 164863,
-      "output": 99991,
-      "compression": 60.7,
+      "output": 60519,
+      "compression": 36.7,
       "width": 1200,
       "height": 720,
       "distortion": 0.8333333333333334
     },
-    "elementCount": 13,
+    "elementCount": 88,
     "subregion": "Micronesia",
     "region": "Oceania",
     "isValid": false,
@@ -9982,7 +9982,6 @@
     "ratio": "2:3",
     "colors": [
       0,
-      3,
       10,
       16,
       21,
@@ -9991,13 +9990,13 @@
     ],
     "size": {
       "source": 20210,
-      "output": 8491,
-      "compression": 42,
+      "output": 7567,
+      "compression": 37.4,
       "width": 1200,
       "height": 720,
       "distortion": 1.1111111111111112
     },
-    "elementCount": 7,
+    "elementCount": 8,
     "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
