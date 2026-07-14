@@ -1530,6 +1530,7 @@
     "ratio": "1:2",
     "colors": [
       0,
+      3,
       4,
       6,
       10,
@@ -1540,7 +1541,7 @@
     ],
     "size": {
       "source": 21651,
-      "output": 12809,
+      "output": 12824,
       "compression": 59.2,
       "width": 1200,
       "height": 720,
@@ -3752,14 +3753,15 @@
     "slug": "gh",
     "ratio": "2:3",
     "colors": [
+      3,
       9,
       14,
       29
     ],
     "size": {
       "source": 299,
-      "output": 256,
-      "compression": 85.6,
+      "output": 271,
+      "compression": 90.6,
       "width": 1200,
       "height": 720,
       "distortion": 1.1111111111111112
@@ -6328,6 +6330,7 @@
     "ratio": "1:2",
     "colors": [
       0,
+      3,
       4,
       6,
       9,
@@ -6340,8 +6343,8 @@
     ],
     "size": {
       "source": 12868,
-      "output": 4547,
-      "compression": 35.3,
+      "output": 4562,
+      "compression": 35.5,
       "width": 1200,
       "height": 720,
       "distortion": 0.8333333333333334
@@ -9981,6 +9984,7 @@
     "ratio": "2:3",
     "colors": [
       0,
+      3,
       10,
       16,
       21,
@@ -9989,13 +9993,13 @@
     ],
     "size": {
       "source": 20210,
-      "output": 7567,
-      "compression": 37.4,
+      "output": 7570,
+      "compression": 37.5,
       "width": 1200,
       "height": 720,
       "distortion": 1.1111111111111112
     },
-    "elementCount": 8,
+    "elementCount": 7,
     "subregion": "Caribbean",
     "region": "Americas",
     "isValid": true,
