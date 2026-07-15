@@ -10318,19 +10318,16 @@
     ],
     "size": {
       "source": 5360,
-      "output": 4798,
-      "compression": 89.5,
+      "output": 2856,
+      "compression": 53.3,
       "width": 1200,
       "height": 720,
       "distortion": 1.1111111111111112
     },
-    "elementCount": 6,
+    "elementCount": 4,
     "subregion": "Eastern Africa",
     "region": "Africa",
-    "isValid": false,
-    "errors": [
-      "stroke"
-    ],
+    "isValid": true,
     "tags": [
       "Stripe",
       "Bird",
