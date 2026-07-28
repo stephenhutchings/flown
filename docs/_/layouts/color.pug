@@ -4,7 +4,10 @@ block body
   .pb3
     +color(locals)
       p.pb2
-        | There are #{list.length} flags that use this colour.
+        if list.length === 1
+          | Only one flag uses this colour.
+        else
+          | There are #{list.length} flags that use this colour.
 
   ul.gr2.g3
     each id in list

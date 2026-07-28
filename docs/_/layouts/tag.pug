@@ -4,7 +4,10 @@ block body
   .pb3
     h1= title
     p.pb2
-      | There are #{list.length} flags that match this tag.
+      if list.length === 1
+        | Only one flag uses this colour.
+      else
+        | There are #{list.length} flags that match this tag.
 
   ul.gr2.g3
     each id in list
