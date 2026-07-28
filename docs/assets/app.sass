@@ -131,6 +131,10 @@ img
     z-index: -1
     aspect-ratio: 5 / 3
 
+    &:not([width])
+      width: auto
+      height: stretch
+
 .invalid .flag::before
   content: "!"
   position: absolute

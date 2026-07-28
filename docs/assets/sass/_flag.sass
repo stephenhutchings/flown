@@ -132,6 +132,41 @@ pre
   height: 1rem
   background: linear-gradient(to bottom, #2340, #234)
 
+.option-list
+  label
+    position: relative
+    border: 1px solid #345
+    padding: 0.25rem 0.5rem
+    border-radius: 3px
+    display: flex
+    flex-direction: column
+    align-items: center
+    transition: border-color 300ms, background 300ms
+
+    &:has(input:checked)
+      background: #2345
+      border-color: #678
+
+    &:focus-within,
+    &:hover
+      border-color: #789
+
+  input[type="radio"]
+    appearance: none
+    position: absolute
+    inset: 0
+    z-index: 1
+    cursor: pointer
+
+  svg
+    color: #456
+    fill: currentColor
+    overflow: visible
+    margin-block-start: 0.25rem
+
+  & input:checked ~ svg
+    color: inherit
+
 @media (max-width: 800px)
   .head
     gap: 0.5rem
