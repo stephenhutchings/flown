@@ -1541,8 +1541,8 @@
     ],
     "size": {
       "source": 21651,
-      "output": 12824,
-      "compression": 59.2,
+      "output": 12780,
+      "compression": 59,
       "width": 1200,
       "height": 720,
       "distortion": 0.8333333333333334
