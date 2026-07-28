@@ -18,7 +18,7 @@ const sets = [
   [24, 25],     // darkblue3
   [26, 27],     // turquoise
   [28, 30],     // lightgreen
-  [29, 31],     // darkgreen
+  [28, 29, 31], // darkgreen
 ]
 
 const compareColors = (af, bf, fn) =>
@@ -42,18 +42,18 @@ export default {
     .filter((flag) => flag.slug)
     .map((flag) => {
       const sameColors = data.flags.filter((other) =>
-        compareColors(flag, other, isSame)
+        compareColors(flag, other, isSame),
       )
 
       const similarColors = data.flags.filter(
         (other) =>
-          !sameColors.includes(other) && compareColors(flag, other, isSimilar)
+          !sameColors.includes(other) && compareColors(flag, other, isSimilar),
       )
 
       return {
         title: `Flag of ${(flag.name.official || flag.name.short).replace(
           /^The /,
-          "the "
+          "the ",
         )} – flown`,
         url: `/flags/${flag.slug}/`,
         flag,
