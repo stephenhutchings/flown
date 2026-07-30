@@ -84,6 +84,7 @@ const tags = Object.values(
 export default {
   slugify,
   flags,
+  invalid: flags.filter((f) => !f.isValid),
   regions,
   palette,
   links,

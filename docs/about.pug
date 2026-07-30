@@ -7,16 +7,19 @@ extends /_/layouts/default
 block body
   article.mb3
     :md
-      ## Goals
+      # About `flown` flags
 
-      - High quality artwork
-        - Stylistic uniformity
-        - Limited visual complexity
-        - Improvements to legibility
-      - Minimal distortion and deviation
-      - Smallest possible file sizes
-      - Predictable, consistent markup
+      This library modifies the source artwork of international flags. The changes aim to resolve some issues with those available from other sources. 
+
+      Modifications include:
+      - [A consistent 5:3 aspect ratio](#aspect-ratios)
+      - [A small, pre-defined colour palette](#colours)
+      - [Improvements to artwork](#artwork)
+
+      The library aims to make these modifications while minimising deviation from official designs. 
+      
+      Making these changes has also enabled very small file sizes and the introduction of a limited, predictable subset of SVG tags. Both of these should make the library a good choice for downstream users, who can add their own creative modifications as needed.
 
     include:md /_/notes/aspect-ratios.md
-    include:md /_/notes/simplification.md
     include:md /_/notes/colours.md
+    include:md /_/notes/simplification.md

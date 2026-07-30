@@ -6,6 +6,16 @@ extends /_/layouts/default
 
 block body
   article.intro.mb3
+    p
+      small
+        | This library is a
+        strong  work in progress,
+        |  involving hundreds of hours of methodical work. 
+        a(href="/todo") #{invalid.length} flags
+        |  do not yet meet the criteria for inclusion. Watch this repository on 
+        a(href=links.github) GitHub
+        |  to know when the first release becomes available.
+
     include:md /_/intro.md
 
   .quicklook.mb1
@@ -21,7 +31,7 @@ block body
         | 5
         span.mt :
         | 3
-        
+
         svg(
           viewBox="0 0 120 72"
           fill="none"
@@ -29,7 +39,6 @@ block body
         )
           path(d="M0 0h120v72H0z" fill="#fff3")
           path(d="M0 24h120M0 48h120M24 0v72M48 0v72M72 0v72m24-72v72z")
-
 
       - const source = flags.reduce((m, f) => m + f.size.source, 0)
       - const output = flags.reduce((m, f) => m + f.size.output, 0)

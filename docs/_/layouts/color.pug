@@ -1,7 +1,7 @@
 extends /_/layouts/default
 
 block body
-  .pb3
+  .masthead.pb3
     +color(locals)
       p.pb2
         if list.length === 1
@@ -15,9 +15,21 @@ block body
       if flag
         +flag-list-item(flag)
 
+
+  .colors.fx.mbs3.pb3.g3.bt
+    h2.mbe2.nano Colour Palette
+
+    ul.gr1.fxg.g3
+      each color in palette 
+        li
+          +color(color, (color.hex === locals.hex))
+
 block append head
   style
     :sass
-      .color span
+      .masthead .color span
         font-size: 2em
         margin-block-start: 1rem
+
+      .colors h2
+        flex-basis: 10%

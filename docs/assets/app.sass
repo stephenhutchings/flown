@@ -21,6 +21,7 @@ html, body
 
 h1, h2, h3, h4
   color: #fff
+  font-weight: 600
 
 *
   margin: 0
@@ -45,6 +46,19 @@ a
     color: #fff
     text-decoration-color: #abc
 
+  &[target="_blank"]::after
+    content: ""
+    display: inline-block
+    width: 11px
+    height: 11px
+    margin-inline-start: 0.5em
+    vertical-align: middle
+    background: #789
+    clip-path: path("M11 0V5L6 0ZM4 8 3 7 9 1l1 1Zm7 3H0V0H4V1H1v9h9V7h1Z")
+
+  &[target="_blank"]:hover::after
+    background: #abc
+
 .td0
   text-decoration: none
 
@@ -58,6 +72,9 @@ article
   line-height: 1.5
   max-width: 48rem
   font-size: 1.125rem
+
+  h2
+    margin-block-end: 0.5rem
 
   figure, p, ul, ol
     margin-block-end: 2rem
@@ -79,6 +96,9 @@ article
 
     ul
       list-style: square
+
+  p + ul
+      margin-block-start: -1.5rem
 
   ul
     list-style: disc
@@ -172,6 +192,11 @@ img
 
   &.lt
     color: #121e25cc
+
+  &[aria-current]
+    outline: 1px solid #fff8
+    outline-offset: -1px
+    box-shadow: inset 0 0 0 3px #123
 
 .g3
   gap: 1rem

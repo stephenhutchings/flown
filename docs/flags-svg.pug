@@ -1,0 +1,31 @@
+---
+url: /assets/img/flags.svg
+columns: 13
+flagWidth: 50
+flagHeight: 30
+flagGap: 10
+---
+
+- const list = flags.filter(f => f.a2)
+- const rows = Math.ceil(list.length / columns)
+
+svg(
+  xmlns="http://www.w3.org/2000/svg"
+  width=(columns * flagWidth + (columns - 1) * flagGap)
+  height=(rows * flagHeight + (rows - 1) * flagGap)
+)
+  title flown
+
+  each flag, i in list
+    -
+      const c = i % columns
+      const r = Math.floor(i / columns)
+      const w = flagHeight * (flag.size.width / flag.size.height)
+
+    image(
+      href=`/assets/img/flags/recolored/${flag.slug}.svg`
+      width=w
+      height=flagHeight
+      x=(c * (flagWidth + flagGap) + (flagWidth - w) / 2)
+      y=(r * (flagHeight + flagGap))
+    )
