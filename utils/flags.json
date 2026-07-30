@@ -2867,11 +2867,11 @@
     ],
     "size": {
       "source": 279145,
-      "output": 81026,
+      "output": 81029,
       "compression": 29,
-      "width": null,
-      "height": null,
-      "distortion": null
+      "width": 1200,
+      "height": 720,
+      "distortion": 1.1111111111111112
     },
     "elementCount": 438,
     "subregion": "South America",
@@ -2881,8 +2881,7 @@
       "size",
       "stroke",
       "elements",
-      "attribute",
-      "ratio"
+      "attribute"
     ],
     "tags": [
       "Triband",
